@@ -18,3 +18,49 @@ MC 446 is longer 63/16 than its nominal duration 1/2.
 MC 480 is longer 5/8 than its nominal duration 1/2.
 Done parsing 162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.mscx
 
+The following chords could not be parsed:
+      mc   mn onset           label
+87    76   76   5/8           .bV.I
+106   86   86   5/8           .bV.I
+119   96   96   3/8           .bII6
+127  100  100   3/8           .bII6
+135  104  104   3/8           .bII6
+143  108  108   3/8           .bII6
+159  116  116   3/8           .bII6
+175  124  124   3/8           .bII6
+226  148  148   5/8           .bV.I
+245  158  158   5/8           .bV.I
+270  180  180   3/8           .Ger6
+362  255  255     0         .bIII64
+363  255  255   1/4  .bIII64(+6+b4)
+364  255  255  7/16         .bIII64
+406  278  278   1/4           .Ger6
+408  278  278   3/8           .Ger6
+410  279  279     0           .Ger6
+412  279  279   1/8           .Ger6
+414  279  279   1/4           .Ger6
+416  279  279   3/8           .Ger6
+418  280  280     0           .Ger6
+420  280  280   1/8           .Ger6
+423  280  280   3/8          .bVII6
+497  306  306   3/8           .Ger6
+538  327  327     0         .bVII64
+560  332  332   1/4         .bVII64
+563  333  333   1/8          .bVI43
+565  333  333   3/8          .bVI43
+567  334  334   1/8          .bVI43
+569  334  334   3/8          .bVI43
+577  342  342     0           .Ger6
+589  354  354     0           .Ger6
+705  438  438     0         .bIII64
+706  439  439     0      .bIII64(4)
+707  439  439   1/4         .bIII64
+714  445  445     0         .bII6\\
+730  457  457   1/4            .bVI
+731  458  458     0            .bII
+738  461  461   1/4            .bVI
+739  462  462     0            .bII
+746  466  466     0            .bVI
+747  467  467     0            .bII
+Failed to expand labels due to syntactic errors:
+repl_spec() missing 1 required positional argument: 'special'

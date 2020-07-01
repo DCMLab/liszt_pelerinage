@@ -1,3 +1,13 @@
 Attempting to parse 160.07_Eglogue.mscx
 Done parsing 160.07_Eglogue.mscx
 
+The following chords could not be parsed:
+    mc  mn onset      label
+86  48  47     0   .bVII(9)
+87  48  47   1/4  .bVII(+6)
+89  49  48     0   .bVII(9)
+90  49  48   1/4  .bVII(+6)
+92  50  49     0   .bVII(9)
+93  50  49   1/4  .bVII(+6)
+Failed to expand labels due to syntactic errors:
+repl_spec() missing 1 required positional argument: 'special'

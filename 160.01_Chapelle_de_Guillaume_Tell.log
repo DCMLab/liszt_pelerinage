@@ -1,3 +1,23 @@
 Attempting to parse 160.01_Chapelle_de_Guillaume_Tell.mscx
 Done parsing 160.01_Chapelle_de_Guillaume_Tell.mscx
 
+The following chords could not be parsed:
+     mc  mn onset      label
+43   18  18   3/4      .bVI6
+44   19  19     0      .bIII
+53   23  23     0       .bii
+54   23  23   3/4     .bIV64
+63   26  26   1/4      .bVI+
+68   28  28     0       .bii
+69   28  28   3/4     .bIV64
+87   36  36     0  .bvii.i64
+99   43  43   1/4     .bIII6
+102  45  45   1/4     .bIII6
+142  67  67     0      .bIII
+145  69  69     0        .bV
+146  69  69   1/2      .biii
+147  70  70     0       .bII
+162  76  76   1/2    .bIII.V
+172  82  82   1/2    .bIII.V
+Failed to expand labels due to syntactic errors:
+repl_spec() missing 1 required positional argument: 'special'
