@@ -1,26 +1,10 @@
-Attempting to parse 160.05_Orage.mscx
-MC 7 is longer 3 than its nominal duration 1.
-MC 8 is longer 6 than its nominal duration 1.
-MC 116 is longer 6 than its nominal duration 1.
-MC 117 is longer 3 than its nominal duration 1.
-MC 160 is longer 9/2 than its nominal duration 1.
-MC 161 is longer 7/2 than its nominal duration 1.
-Done parsing 160.05_Orage.mscx
+INFO     160.05_Orage.ms3 -- Attempting to parse 160.05_Orage.mscx
+INFO     160.05_Orage.ms3 -- MC 7 is longer 3 than its nominal duration 1.
+INFO     160.05_Orage.ms3 -- MC 8 is longer 6 than its nominal duration 1.
+INFO     160.05_Orage.ms3 -- MC 116 is longer 6 than its nominal duration 1.
+INFO     160.05_Orage.ms3 -- MC 117 is longer 3 than its nominal duration 1.
+INFO     160.05_Orage.ms3 -- MC 160 is longer 9/2 than its nominal duration 1.
+INFO     160.05_Orage.ms3 -- MC 161 is longer 7/2 than its nominal duration 1.
+INFO     160.05_Orage.ms3 -- Done parsing 160.05_Orage.mscx
 
-The following chords could not be parsed:
-      mc   mn onset      label
-18    13   12   3/4       .bII
-20    14   13   1/4  .bII6(+4)
-23    15   14     0     .bII+6
-24    15   14   1/4      .bII6
-26    15   14   7/8       .bII
-..   ...  ...   ...        ...
-285  134  132   1/4      .bII6
-287  134  132   3/4      .bII]
-291  139  137   7/8     .bII64
-295  142  140     0      .bII6
-297  142  140   7/8      .bII6
-
-[73 rows x 4 columns]
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'
+WARNING  160.05_Orage.expand_labels -- #viio65 in major context is most probably an annotation error.

@@ -1,11 +1,5 @@
-Attempting to parse 160.02_Au_Lac_de_Wallenstadt.mscx
-MC 93 is longer 1/2 than its nominal duration 3/8.
-MC 95 is longer 1/2 than its nominal duration 3/8.
-Done parsing 160.02_Au_Lac_de_Wallenstadt.mscx
+INFO     160.02_Au_Lac_de_Wallenstadt.ms3 -- Attempting to parse 160.02_Au_Lac_de_Wallenstadt.mscx
+INFO     160.02_Au_Lac_de_Wallenstadt.ms3 -- MC 93 is longer 1/2 than its nominal duration 3/8.
+INFO     160.02_Au_Lac_de_Wallenstadt.ms3 -- MC 95 is longer 1/2 than its nominal duration 3/8.
+INFO     160.02_Au_Lac_de_Wallenstadt.ms3 -- Done parsing 160.02_Au_Lac_de_Wallenstadt.mscx
 
-The following chords could not be parsed:
-    mc  mn onset  label
-49  79  79     0  .Ger6
-51  83  83     0  .Ger6
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'
