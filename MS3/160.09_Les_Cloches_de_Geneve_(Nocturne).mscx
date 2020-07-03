@@ -12107,6 +12107,16 @@
               <tpc>25</tpc>
               </Note>
             </Chord>
+          <Spanner type="Ottava">
+            <Ottava>
+              <subtype>8va</subtype>
+              </Ottava>
+            <next>
+              <location>
+                <fractions>3/16</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <BeamMode>mid</BeamMode>
             <small>1</small>
@@ -12212,6 +12222,13 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
+          <Spanner type="Ottava">
+            <prev>
+              <location>
+                <fractions>-3/16</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <BeamMode>mid</BeamMode>
             <small>1</small>
