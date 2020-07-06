@@ -1,7 +1,7 @@
 INFO     160.08_Le_Mal_du_Pays_(Heimweh).ms3 -- Attempting to parse 160.08_Le_Mal_du_Pays_(Heimweh).mscx
 INFO     160.08_Le_Mal_du_Pays_(Heimweh).ms3 -- Done parsing 160.08_Le_Mal_du_Pays_(Heimweh).mscx
 
-WARNING  160.08_Le_Mal_du_Pays_(Heimweh).expand_labels -- MC 2: #viio in major context is most probably an annotation error.
-WARNING  160.08_Le_Mal_du_Pays_(Heimweh).expand_labels -- MC 29: #viio in major context is most probably an annotation error.
 WARNING  160.08_Le_Mal_du_Pays_(Heimweh).expand_labels -- MC 4: #viio in major context is most probably an annotation error.
+WARNING  160.08_Le_Mal_du_Pays_(Heimweh).expand_labels -- MC 29: #viio in major context is most probably an annotation error.
 WARNING  160.08_Le_Mal_du_Pays_(Heimweh).expand_labels -- MC 31: #viio in major context is most probably an annotation error.
+WARNING  160.08_Le_Mal_du_Pays_(Heimweh).expand_labels -- MC 2: #viio in major context is most probably an annotation error.

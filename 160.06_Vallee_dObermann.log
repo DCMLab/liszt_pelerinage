@@ -47,7 +47,7 @@ INFO     160.06_Vallee_dObermann.ms3 -- MC 173 is longer 6 than its nominal dura
 WARNING  160.06_Vallee_dObermann.ms3 -- MC 219 is completing MC 218 but has not been excluded from bar count!
 INFO     160.06_Vallee_dObermann.ms3 -- Done parsing 160.06_Vallee_dObermann.mscx
 
-WARNING  160.06_Vallee_dObermann.expand_labels -- MC 149: #viio7 in major context is most probably an annotation error.
-WARNING  160.06_Vallee_dObermann.expand_labels -- MC 53: The change 7 has no effect in V7
 WARNING  160.06_Vallee_dObermann.expand_labels -- MC 149: #viio65 in major context is most probably an annotation error.
+WARNING  160.06_Vallee_dObermann.expand_labels -- MC 53: The change 7 has no effect in V7
+WARNING  160.06_Vallee_dObermann.expand_labels -- MC 149: #viio7 in major context is most probably an annotation error.
 WARNING  160.06_Vallee_dObermann.expand_labels -- MC 44: #viio in major context is most probably an annotation error.
