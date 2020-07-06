@@ -21,7 +21,7 @@ mc	mn	onset	label	alt_label	globalkey	localkey	pedal	chord	numeral	special	form	
 23	23	1/4	I.viio65		B	I		viio65	vii		o	65				o7	0	0	2, -1, -4, 5		5	2
 24	24	1/4	V7/V		B	I		V7/V	V			7		V		Mm7	0	0	2, 6, 3, 0		2	2
 25	25	0	vii%7		B	I		vii%7	vii		%	7				%7	0	0	5, 4, 11, 3		5	5
-25	25	3/8	V7(9)		B	I		V7(9)	V			7	9			Mm7	0	0	1, 5, 2, -1	3	1	1
+25	25	3/4	V7(9)		B	I		V7(9)	V			7	9			Mm7	0	0	1, 5, 2, -1	3	1	1
 26	26	3/8	V7(9)	ii	B	I		V7(9)	V			7	9			Mm7	0	0	1, 5, 2, -1	3	1	1
 28	28	0	vii%2		B	I		vii%2	vii		%	2				%7	0	0	3, 5, 4, 11		5	3
 29	29	0	vii%7		B	I		vii%7	vii		%	7				%7	0	0	5, 4, 11, 3		5	5
@@ -40,7 +40,7 @@ mc	mn	onset	label	alt_label	globalkey	localkey	pedal	chord	numeral	special	form	
 41	41	0	V7(6)		B	bIII		V7(6)	V			7	6			Mm7	0	0	1, 5, 4, -1		1	1
 41	41	1/8	V7		B	bIII		V7	V			7				Mm7	0	0	1, 5, 2, -1		1	1
 41	41	1/2	V7(9)		B	bIII		V7(9)	V			7	9			Mm7	0	0	1, 5, 2, -1	3	1	1
-41	41	11/16	V7(6)		B	bIII		V7(6)	V			7	6			Mm7	0	0	1, 5, 4, -1		1	1
+41	41	3/4	V7(6)		B	bIII		V7(6)	V			7	6			Mm7	0	0	1, 5, 4, -1		1	1
 42	42	0	I\\		B	bIII		I	I						\\	M	0	0	0, 4, 1		0	0
 42	42	3/8	I6		B	bIII		I6	I			6				M	0	0	4, 1, 0		0	4
 44	44	0	I.I64		B	I		I64	I			64				M	0	0	1, 0, 4		0	1
@@ -138,7 +138,7 @@ mc	mn	onset	label	alt_label	globalkey	localkey	pedal	chord	numeral	special	form	
 130	130	1/4	V43(9)		B	V		V43(9)	V			43	9			Mm7	0	0	2, -1, 1, 5	3	1	2
 132	132	0	.bVII.I		B	bVII		I	I							M	0	0	0, 4, 1		0	0
 133	133	0	I6		B	bVII		I6	I			6				M	0	0	4, 1, 0		0	4
-133	133	41/96	.biii.V65		B	biii		V65	V			65				Mm7	0	1	5, 2, -1, 1		1	5
+133	133	11/24	.biii.V65		B	biii		V65	V			65				Mm7	0	1	5, 2, -1, 1		1	5
 134	134	0	i(4)		B	biii		i(4)	i				4			m	0	1	0, -1, 1		0	0
 134	134	1/4	i		B	biii		i	i							m	0	1	0, -3, 1		0	0
 135	135	0	i6(9)		B	biii		i6(9)	i			6	9			m	0	1	-3, 1, 0	2	0	-3
@@ -198,7 +198,7 @@ mc	mn	onset	label	alt_label	globalkey	localkey	pedal	chord	numeral	special	form	
 179	179	1/4	ii65		B	I		ii65	ii			65				mm7	0	0	-1, 3, 0, 2		2	-1
 180	180	0	V(64)		B	I		V(64)	V				64			M	0	0	1, 0, 4		1	1
 181	181	0	V7(6)		B	I		V7(6)	V			7	6			Mm7	0	0	1, 5, 4, -1		1	1
-181	181	5/32	V7		B	I		V7	V			7				Mm7	0	0	1, 5, 2, -1		1	1
+181	181	1/2	V7		B	I		V7	V			7				Mm7	0	0	1, 5, 2, -1		1	1
 182	182	0	I\\		B	I		I	I						\\	M	0	0	0, 4, 1		0	0
 183	183	0	I64		B	I		I64	I			64				M	0	0	1, 0, 4		0	1
 184	184	0	I		B	I		I	I							M	0	0	0, 4, 1		0	0
