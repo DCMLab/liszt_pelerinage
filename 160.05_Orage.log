@@ -6,5 +6,3 @@ INFO     160.05_Orage.ms3 -- MC 117 is longer 3 than its nominal duration 1.
 INFO     160.05_Orage.ms3 -- MC 160 is longer 9/2 than its nominal duration 1.
 INFO     160.05_Orage.ms3 -- MC 161 is longer 7/2 than its nominal duration 1.
 INFO     160.05_Orage.ms3 -- Done parsing 160.05_Orage.mscx
-
-WARNING  160.05_Orage.expand_labels -- MC 55: #viio65 in major context is most probably an annotation error.

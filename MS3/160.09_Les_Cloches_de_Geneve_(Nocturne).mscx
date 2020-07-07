@@ -7956,7 +7956,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>#viio7(+4)/bVII</name>
+            <name>viio7(+4)/bVII</name>
             </Harmony>
           <Rest>
             <offset x="0" y="3"/>
@@ -15182,7 +15182,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>#viio2(#2)/V</name>
+            <name>viio2(#2)/V</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15214,8 +15214,8 @@
               </NoteDot>
             </Rest>
           <Harmony>
-            <name>#viio2/V</name>
-            <offset x="0" y="-11"/>
+            <name>viio2/V</name>
+            <offset x="-4.13148" y="-8.93426"/>
             </Harmony>
           <Chord>
             <durationType>32nd</durationType>
@@ -15341,7 +15341,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>#viio2(#2)/V</name>
+            <name>viio2(#2)/V</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15373,8 +15373,8 @@
               </NoteDot>
             </Rest>
           <Harmony>
-            <name>#viio2/V</name>
-            <offset x="0" y="-11"/>
+            <name>viio2/V</name>
+            <offset x="-2.41003" y="-6.69637"/>
             </Harmony>
           <Chord>
             <durationType>32nd</durationType>

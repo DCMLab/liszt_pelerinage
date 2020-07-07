@@ -7,9 +7,3 @@ INFO     160.09_Les_Cloches_de_Geneve_(Nocturne).ms3 -- MC 154 is longer 3/2 tha
 INFO     160.09_Les_Cloches_de_Geneve_(Nocturne).ms3 -- MC 157 is longer 2 than its nominal duration 1/2.
 INFO     160.09_Les_Cloches_de_Geneve_(Nocturne).ms3 -- MC 161 is longer 5/2 than its nominal duration 1/2.
 INFO     160.09_Les_Cloches_de_Geneve_(Nocturne).ms3 -- Done parsing 160.09_Les_Cloches_de_Geneve_(Nocturne).mscx
-
-WARNING  160.09_Les_Cloches_de_Geneve_(Nocturne).expand_labels -- MC 160: #viio2(#2) in major context is most probably an annotation error.
-WARNING  160.09_Les_Cloches_de_Geneve_(Nocturne).expand_labels -- MC 156: #viio2(#2) in major context is most probably an annotation error.
-WARNING  160.09_Les_Cloches_de_Geneve_(Nocturne).expand_labels -- MC 92: #viio7(+4) in major context is most probably an annotation error.
-WARNING  160.09_Les_Cloches_de_Geneve_(Nocturne).expand_labels -- MC 156: #viio2 in major context is most probably an annotation error.
-WARNING  160.09_Les_Cloches_de_Geneve_(Nocturne).expand_labels -- MC 160: #viio2 in major context is most probably an annotation error.
