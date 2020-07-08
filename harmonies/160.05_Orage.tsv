@@ -137,7 +137,7 @@ mc	mn	onset	label	alt_label	globalkey	localkey	pedal	chord	numeral	special	form	
 53	52	0	#I6		c	VII		#I6	#I			6				M	1	0	11, 8, 7		7	11
 53	52	1/4	#VII[#I6]		c	VII	#VII	#I6	#I			6				M	1	0	11, 8, 7		7	11
 53	52	3/4	#III.V2		c	#III		V2	V			2				Mm7	1	0	-1, 1, 5, 2		1	-1
-55	54	0	#IV.#viio65		c	#IV		#viio65	#vii		o	65				o7	1	0	9, 6, 3, 12		12	9
+55	54	0	#IV.viio65		c	#IV		viio65	vii		o	65				o7	1	0	2, -1, -4, 5		5	2
 55	54	1/2	#VII.Fr6		c	#VII		Fr6	V	Fr		7	b5	V		M	1	0	2, 6, -4, 0		2	2
 57	56	0	#IV.I[I\\		c	#IV	I	I	I						\\	M	1	0	0, 4, 1		0	0
 57	56	1/8	I		c	#IV	I	I	I							M	1	0	0, 4, 1		0	0
