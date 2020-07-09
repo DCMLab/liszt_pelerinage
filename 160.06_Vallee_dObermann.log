@@ -45,5 +45,3 @@ INFO     160.06_Vallee_dObermann.ms3 -- MC 134 is longer 9/8 than its nominal du
 INFO     160.06_Vallee_dObermann.ms3 -- MC 152 is longer 23/8 than its nominal duration 1.
 INFO     160.06_Vallee_dObermann.ms3 -- MC 173 is longer 6 than its nominal duration 1.
 INFO     160.06_Vallee_dObermann.ms3 -- Done parsing 160.06_Vallee_dObermann.mscx
-
-WARNING  160.06_Vallee_dObermann.expand_labels -- MC 53: The change 7 has no effect in V7
