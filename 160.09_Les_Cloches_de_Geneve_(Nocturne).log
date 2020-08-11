@@ -8,3 +8,19 @@ INFO     160.09_Les_Cloches_de_Geneve_(Nocturne).ms3 -- MC 157 is longer 2 than 
 INFO     160.09_Les_Cloches_de_Geneve_(Nocturne).ms3 -- MC 161 is longer 5/2 than its nominal duration 1/2.
 INFO     160.09_Les_Cloches_de_Geneve_(Nocturne).ms3 -- Done parsing 160.09_Les_Cloches_de_Geneve_(Nocturne).mscx
 
+WARNING  160.09_Les_Cloches_de_Geneve_(Nocturne).expand_labels -- The following chords could not be parsed:
+      mc   mn  onset        label
+15    17   17      0  .bII.V(964)
+37    40   40      0     .bIII.I6
+77    73   73      0   .bI.iv6(9)
+84    78   78      0       .bvi.i
+98    94   94      0     .bv.Ger6
+99    94   94    1/4    .Ger6(+2)
+100   95   95      0        .Ger6
+101   95   95    1/4    .Ger6(+4)
+137  132  132      0      .bVII.I
+139  133  133  11/24    .biii.V65
+157  146  146      0   .bi64(b13)
+158  147  147      0      .bii%43
+159  148  148      0       .bii64
+191  171  171      0        .bVI6
