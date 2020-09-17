@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
-  <programVersion>3.4.2</programVersion>
-  <programRevision>148e43f</programRevision>
+  <programVersion>3.0.5</programVersion>
+  <programRevision>58dd23d</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
+    <Synthesizer>
+      </Synthesizer>
     <Division>480</Division>
     <Style>
-      <pageWidth>8.26771</pageWidth>
-      <pageHeight>11.6929</pageHeight>
-      <pagePrintableWidth>7.87401</pagePrintableWidth>
-      <pageEvenLeftMargin>0.196851</pageEvenLeftMargin>
-      <pageOddLeftMargin>0.196851</pageOddLeftMargin>
-      <pageEvenTopMargin>0.393701</pageEvenTopMargin>
+      <pageWidth>8.27</pageWidth>
+      <pageHeight>11.69</pageHeight>
+      <pagePrintableWidth>7.87402</pagePrintableWidth>
+      <pageEvenLeftMargin>0.19685</pageEvenLeftMargin>
+      <pageOddLeftMargin>0.19685</pageOddLeftMargin>
       <pageEvenBottomMargin>0.393701</pageEvenBottomMargin>
-      <pageOddTopMargin>0.393701</pageOddTopMargin>
       <pageOddBottomMargin>0.393701</pageOddBottomMargin>
       <minSystemDistance>20</minSystemDistance>
       <maxSystemDistance>30.5</maxSystemDistance>
@@ -24,7 +24,6 @@
       <clefLeftMargin>0.64</clefLeftMargin>
       <clefKeyRightMargin>1.75</clefKeyRightMargin>
       <barNoteDistance>1.2</barNoteDistance>
-      <harmonyFretDist>0.5</harmonyFretDist>
       <chordSymbolPosBelow x="0" y="-8"/>
       <textLineFramePadding>0</textLineFramePadding>
       <textLineFrameWidth>0</textLineFrameWidth>
@@ -102,7 +101,7 @@
       <instrumentChangeAlign>left,bottom</instrumentChangeAlign>
       <instrumentChangeFramePadding>0</instrumentChangeFramePadding>
       <instrumentChangeFrameWidth>0</instrumentChangeFrameWidth>
-      <Spatium>1.3</Spatium>
+      <Spatium>1.1</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -210,16 +209,20 @@ And living as if earth contain'd no tomb, - ...
           <Dynamic>
             <subtype>p</subtype>
             <velocity>70</velocity>
-            <offset x="0.658281" y="3.45726"/>
+            <offset x="0.777968" y="4.08585"/>
             </Dynamic>
           <StaffText>
             <placement>below</placement>
-            <offset x="0" y="2.26923"/>
+            <offset x="0" y="2.68182"/>
             <text><font size="12"></font>dolce</text>
             </StaffText>
           <Harmony>
             <name>.Ab.V</name>
             </Harmony>
+          <StaffText>
+            <style>Tempo</style>
+            <text>Allegretto con moto</text>
+            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -270,6 +273,7 @@ And living as if earth contain'd no tomb, - ...
                   </Tie>
                 <next>
                   <location>
+                    <voices>1</voices>
                     <measures>1</measures>
                     <fractions>-3/4</fractions>
                     </location>
@@ -290,6 +294,27 @@ And living as if earth contain'd no tomb, - ...
             <name>I[I</name>
             </Harmony>
           <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1/2</fractions>
+            </location>
+          <Harmony>
+            <name>IV(9)</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Harmony>
+            <name>V64</name>
+            </Harmony>
+          </voice>
+        <voice>
+          <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -305,6 +330,7 @@ And living as if earth contain'd no tomb, - ...
               <Spanner type="Tie">
                 <prev>
                   <location>
+                    <voices>-1</voices>
                     <measures>-1</measures>
                     <fractions>3/4</fractions>
                     </location>
@@ -314,9 +340,6 @@ And living as if earth contain'd no tomb, - ...
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>IV(9)</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -325,9 +348,6 @@ And living as if earth contain'd no tomb, - ...
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V64</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -354,7 +374,12 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
+          <Harmony>
+            <name>I</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -362,13 +387,20 @@ And living as if earth contain'd no tomb, - ...
               <tpc>11</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
+          <location>
+            <fractions>-1/2</fractions>
+            </location>
           <Harmony>
-            <name>I</name>
+            <name>IV6(9)</name>
             </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Harmony>
+            <name>V6</name>
+            </Harmony>
+          </voice>
+        <voice>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
@@ -386,9 +418,6 @@ And living as if earth contain'd no tomb, - ...
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>IV6(9)</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -397,9 +426,6 @@ And living as if earth contain'd no tomb, - ...
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V6</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -423,15 +449,6 @@ And living as if earth contain'd no tomb, - ...
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
               </Note>
             </Chord>
           </voice>
@@ -464,6 +481,27 @@ And living as if earth contain'd no tomb, - ...
             <name>I</name>
             </Harmony>
           <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1/2</fractions>
+            </location>
+          <Harmony>
+            <name>IV(9)</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Harmony>
+            <name>V64</name>
+            </Harmony>
+          </voice>
+        <voice>
+          <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -480,9 +518,6 @@ And living as if earth contain'd no tomb, - ...
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>IV(9)</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -491,9 +526,6 @@ And living as if earth contain'd no tomb, - ...
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V64</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -517,15 +549,6 @@ And living as if earth contain'd no tomb, - ...
             <Note>
               <pitch>70</pitch>
               <tpc>12</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
               </Note>
             </Chord>
           </voice>
@@ -536,6 +559,27 @@ And living as if earth contain'd no tomb, - ...
             <name>I</name>
             </Harmony>
           <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1/2</fractions>
+            </location>
+          <Harmony>
+            <name>IV6(9)</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Harmony>
+            <name>V6</name>
+            </Harmony>
+          </voice>
+        <voice>
+          <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -552,9 +596,6 @@ And living as if earth contain'd no tomb, - ...
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>IV6(9)</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -563,9 +604,6 @@ And living as if earth contain'd no tomb, - ...
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V6</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -589,15 +627,6 @@ And living as if earth contain'd no tomb, - ...
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
               </Note>
             </Chord>
           </voice>
@@ -625,12 +654,36 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>I]</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <name>vi</name>
+            </Harmony>
+          <Chord>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>half</durationType>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>63</pitch>
@@ -641,9 +694,6 @@ And living as if earth contain'd no tomb, - ...
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>vi</name>
-            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -654,24 +704,6 @@ And living as if earth contain'd no tomb, - ...
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
-          <Chord>
-            <durationType>half</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>half</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
               </Note>
             </Chord>
           </voice>
@@ -1213,6 +1245,9 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -1300,12 +1335,33 @@ And living as if earth contain'd no tomb, - ...
           <Dynamic>
             <subtype>p</subtype>
             <velocity>70</velocity>
-            <offset x="0.329141" y="3.45726"/>
+            <offset x="0.388985" y="4.08585"/>
             </Dynamic>
           <Harmony>
             <name>I[I</name>
             </Harmony>
           <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1/2</fractions>
+            </location>
+          <Harmony>
+            <name>IV(9)</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Harmony>
+            <name>V64</name>
+            </Harmony>
+          </voice>
+        <voice>
+          <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -1322,9 +1378,6 @@ And living as if earth contain'd no tomb, - ...
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>IV(9)</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -1333,9 +1386,6 @@ And living as if earth contain'd no tomb, - ...
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V64</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -1362,15 +1412,6 @@ And living as if earth contain'd no tomb, - ...
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
               </Note>
             </Chord>
           </voice>
@@ -1381,6 +1422,27 @@ And living as if earth contain'd no tomb, - ...
             <name>I</name>
             </Harmony>
           <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1/2</fractions>
+            </location>
+          <Harmony>
+            <name>IV6(9)</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Harmony>
+            <name>V6</name>
+            </Harmony>
+          </voice>
+        <voice>
+          <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -1397,9 +1459,6 @@ And living as if earth contain'd no tomb, - ...
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>IV6(9)</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -1408,9 +1467,6 @@ And living as if earth contain'd no tomb, - ...
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V6</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -1437,15 +1493,6 @@ And living as if earth contain'd no tomb, - ...
                 </Accidental>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
               </Note>
             </Chord>
           </voice>
@@ -1478,6 +1525,27 @@ And living as if earth contain'd no tomb, - ...
             <name>I</name>
             </Harmony>
           <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1/2</fractions>
+            </location>
+          <Harmony>
+            <name>IV(9)</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Harmony>
+            <name>V64</name>
+            </Harmony>
+          </voice>
+        <voice>
+          <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -1494,9 +1562,6 @@ And living as if earth contain'd no tomb, - ...
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>IV(9)</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -1505,9 +1570,6 @@ And living as if earth contain'd no tomb, - ...
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V64</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -1534,15 +1596,6 @@ And living as if earth contain'd no tomb, - ...
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
               </Note>
             </Chord>
           </voice>
@@ -1553,6 +1606,27 @@ And living as if earth contain'd no tomb, - ...
             <name>I</name>
             </Harmony>
           <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1/2</fractions>
+            </location>
+          <Harmony>
+            <name>IV6(9)</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Harmony>
+            <name>V6</name>
+            </Harmony>
+          </voice>
+        <voice>
+          <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -1569,9 +1643,6 @@ And living as if earth contain'd no tomb, - ...
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>IV6(9)</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -1580,9 +1651,6 @@ And living as if earth contain'd no tomb, - ...
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V6</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -1609,15 +1677,6 @@ And living as if earth contain'd no tomb, - ...
                 </Accidental>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
               </Note>
             </Chord>
           </voice>
@@ -1649,27 +1708,6 @@ And living as if earth contain'd no tomb, - ...
           <Harmony>
             <name>I</name>
             </Harmony>
-          <Chord>
-            <durationType>half</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Harmony>
-            <name>vi6]</name>
-            </Harmony>
-          <Chord>
-            <durationType>half</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
@@ -1687,6 +1725,9 @@ And living as if earth contain'd no tomb, - ...
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <name>vi6]</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
@@ -1700,6 +1741,24 @@ And living as if earth contain'd no tomb, - ...
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
               </Note>
             </Chord>
           </voice>
@@ -1798,27 +1857,6 @@ And living as if earth contain'd no tomb, - ...
             </Harmony>
           <Chord>
             <durationType>half</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Harmony>
-            <name>iii6</name>
-            </Harmony>
-          <Chord>
-            <durationType>half</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
-          <Chord>
-            <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
                 </Slur>
@@ -1834,6 +1872,9 @@ And living as if earth contain'd no tomb, - ...
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <name>iii6</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
@@ -1850,8 +1891,29 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           </voice>
+        <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>ii</name>
@@ -2188,11 +2250,6 @@ And living as if earth contain'd no tomb, - ...
               <tpc>9</tpc>
               </Note>
             </Chord>
-          <Dynamic>
-            <subtype>pp</subtype>
-            <velocity>60</velocity>
-            <offset x="0.658281" y="3.45726"/>
-            </Dynamic>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -2268,14 +2325,9 @@ And living as if earth contain'd no tomb, - ...
             </Rest>
           <StaffText>
             <placement>below</placement>
-            <offset x="0" y="2.26923"/>
+            <offset x="0" y="2.68182"/>
             <text><font size="12"></font>sempre dolce</text>
             </StaffText>
-          <Dynamic>
-            <subtype>p</subtype>
-            <velocity>70</velocity>
-            <offset x="0.329141" y="3.45726"/>
-            </Dynamic>
           <Harmony>
             <name>I[I(+6)</name>
             </Harmony>
@@ -2301,6 +2353,9 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>ii64(+6)</name>
@@ -2701,6 +2756,9 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>IV6(+4)</name>
@@ -2811,7 +2869,7 @@ And living as if earth contain'd no tomb, - ...
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <offset x="0.658281" y="3.45726"/>
+            <offset x="0.777968" y="4.08585"/>
             </Dynamic>
           <Harmony>
             <name>vi</name>
@@ -2914,7 +2972,7 @@ And living as if earth contain'd no tomb, - ...
           <Dynamic>
             <subtype>p</subtype>
             <velocity>70</velocity>
-            <offset x="0.658281" y="3.45726"/>
+            <offset x="0.777968" y="4.08585"/>
             </Dynamic>
           <Harmony>
             <name>ii7</name>
@@ -2941,7 +2999,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>2</dots>
             <durationType>quarter</durationType>
@@ -3080,7 +3138,7 @@ And living as if earth contain'd no tomb, - ...
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <offset x="0.658281" y="3.45726"/>
+            <offset x="0.777968" y="4.08585"/>
             </Dynamic>
           <Harmony>
             <name>ii</name>
@@ -3107,7 +3165,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>2</dots>
             <durationType>quarter</durationType>
@@ -3249,7 +3307,7 @@ And living as if earth contain'd no tomb, - ...
           <Dynamic>
             <subtype>p</subtype>
             <velocity>70</velocity>
-            <offset x="0.658281" y="3.45726"/>
+            <offset x="0.777968" y="4.08585"/>
             </Dynamic>
           <Harmony>
             <name>ii7</name>
@@ -3276,7 +3334,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>2</dots>
             <durationType>quarter</durationType>
@@ -3342,6 +3400,9 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>V7/V</name>
@@ -3415,7 +3476,7 @@ And living as if earth contain'd no tomb, - ...
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <offset x="0.658281" y="3.45726"/>
+            <offset x="0.777968" y="4.08585"/>
             </Dynamic>
           <Harmony>
             <name>ii</name>
@@ -3445,7 +3506,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>2</dots>
             <durationType>quarter</durationType>
@@ -3584,7 +3645,7 @@ And living as if earth contain'd no tomb, - ...
           <Dynamic>
             <subtype>p</subtype>
             <velocity>70</velocity>
-            <offset x="0.658281" y="3.45726"/>
+            <offset x="0.777968" y="4.08585"/>
             </Dynamic>
           <Harmony>
             <name>ii7</name>
@@ -3611,7 +3672,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>2</dots>
             <durationType>quarter</durationType>
@@ -3747,7 +3808,7 @@ And living as if earth contain'd no tomb, - ...
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <offset x="0.658281" y="3.45726"/>
+            <offset x="0.777968" y="4.08585"/>
             </Dynamic>
           <Harmony>
             <name>ii</name>
@@ -3774,7 +3835,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>2</dots>
             <durationType>quarter</durationType>
@@ -3913,7 +3974,7 @@ And living as if earth contain'd no tomb, - ...
           <Dynamic>
             <subtype>p</subtype>
             <velocity>70</velocity>
-            <offset x="0.658281" y="3.45726"/>
+            <offset x="0.777968" y="4.08585"/>
             </Dynamic>
           <Harmony>
             <name>ii7</name>
@@ -3940,7 +4001,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>2</dots>
             <durationType>quarter</durationType>
@@ -4006,6 +4067,9 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>V7\\</name>
@@ -4022,9 +4086,6 @@ And living as if earth contain'd no tomb, - ...
                   </location>
                 </next>
               </Spanner>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>79</pitch>
@@ -4078,12 +4139,12 @@ And living as if earth contain'd no tomb, - ...
             </Rest>
           <StaffText>
             <placement>below</placement>
-            <offset x="0" y="2.26923"/>
+            <offset x="0" y="2.68182"/>
             <text><font size="12"></font>dolce</text>
             </StaffText>
           <StaffText>
             <placement>below</placement>
-            <offset x="0" y="2.26923"/>
+            <offset x="0" y="2.68182"/>
             <text><font size="12"></font>grazioso</text>
             </StaffText>
           <Harmony>
@@ -4092,7 +4153,7 @@ And living as if earth contain'd no tomb, - ...
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
+              <subtype>articTenutoAbove</subtype>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -4103,7 +4164,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>2</dots>
             <durationType>quarter</durationType>
@@ -4163,13 +4224,14 @@ And living as if earth contain'd no tomb, - ...
             <durationType>eighth</durationType>
             </Rest>
           <Tuplet>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -4240,13 +4302,14 @@ And living as if earth contain'd no tomb, - ...
             <name>IV(+6)</name>
             </Harmony>
           <Tuplet>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4256,6 +4319,12 @@ And living as if earth contain'd no tomb, - ...
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o2 x="1.51748" y="-2.44483"/>
+                  <o3 x="1.51748" y="-2.44483"/>
+                  <o4 x="0.252913" y="10.7067"/>
+                  <autoplace>0</autoplace>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -4318,13 +4387,14 @@ And living as if earth contain'd no tomb, - ...
             <durationType>quarter</durationType>
             </Rest>
           <Tuplet>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -4395,13 +4465,14 @@ And living as if earth contain'd no tomb, - ...
             <name>IV(+6)</name>
             </Harmony>
           <Tuplet>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4411,6 +4482,12 @@ And living as if earth contain'd no tomb, - ...
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o2 x="1.34887" y="-2.36052"/>
+                  <o3 x="1.34887" y="-2.36052"/>
+                  <o4 x="-0.0843044" y="10.4537"/>
+                  <autoplace>0</autoplace>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -4473,13 +4550,14 @@ And living as if earth contain'd no tomb, - ...
             <durationType>quarter</durationType>
             </Rest>
           <Tuplet>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -4550,11 +4628,11 @@ And living as if earth contain'd no tomb, - ...
             <name>ii(+b6)</name>
             </Harmony>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4564,6 +4642,12 @@ And living as if earth contain'd no tomb, - ...
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o2 x="2.69774" y="-1.77039"/>
+                  <o3 x="2.69774" y="-1.77039"/>
+                  <o4 x="0" y="10.4537"/>
+                  <autoplace>0</autoplace>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -4629,11 +4713,11 @@ And living as if earth contain'd no tomb, - ...
             <durationType>quarter</durationType>
             </Rest>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -4685,6 +4769,9 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>ii(9)</name>
@@ -4704,11 +4791,11 @@ And living as if earth contain'd no tomb, - ...
             <name>ii(+b6)</name>
             </Harmony>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4718,6 +4805,12 @@ And living as if earth contain'd no tomb, - ...
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o2 x="0.674435" y="-2.44483"/>
+                  <o3 x="0.674435" y="-2.44483"/>
+                  <o4 x="0" y="10.3694"/>
+                  <autoplace>0</autoplace>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -4756,7 +4849,7 @@ And living as if earth contain'd no tomb, - ...
             </Rest>
           <Harmony>
             <name>V7(6)/bVII</name>
-            <offset x="-1" y="-8"/>
+            <offset x="-1.18182" y="-9.45455"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4781,11 +4874,11 @@ And living as if earth contain'd no tomb, - ...
             <durationType>quarter</durationType>
             </Rest>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -4860,14 +4953,14 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <Harmony>
             <name>.bVII(+6)</name>
-            <offset x="-1" y="-8"/>
+            <offset x="-1.18182" y="-9.45455"/>
             </Harmony>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4908,8 +5001,25 @@ And living as if earth contain'd no tomb, - ...
           <endTuplet/>
           <Harmony>
             <name>V7(6)/bVII</name>
-            <offset x="-1" y="-8"/>
+            <offset x="-1.18182" y="-9.45455"/>
             </Harmony>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <pitch>85</pitch>
+              <tpc>9</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -4921,7 +5031,6 @@ And living as if earth contain'd no tomb, - ...
                   </location>
                 </next>
               </Spanner>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>82</pitch>
               <tpc>12</tpc>
@@ -4931,14 +5040,12 @@ And living as if earth contain'd no tomb, - ...
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
-          <Beam>
-            <StemDirection>down</StemDirection>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>80</pitch>
@@ -4946,7 +5053,6 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>75</pitch>
@@ -4968,24 +5074,6 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <endTuplet/>
-          </voice>
-        <voice>
-          <Chord>
-            <durationType>half</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>half</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>85</pitch>
-              <tpc>9</tpc>
-              </Note>
-            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -5012,14 +5100,14 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <Harmony>
             <name>.bVII(+6)</name>
-            <offset x="-1" y="-8"/>
+            <offset x="-1.18182" y="-9.45455"/>
             </Harmony>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -5062,6 +5150,23 @@ And living as if earth contain'd no tomb, - ...
             <name>V7(6)/bVII</name>
             </Harmony>
           <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <pitch>85</pitch>
+              <tpc>9</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -5072,7 +5177,6 @@ And living as if earth contain'd no tomb, - ...
                   </location>
                 </next>
               </Spanner>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>82</pitch>
               <tpc>12</tpc>
@@ -5082,14 +5186,12 @@ And living as if earth contain'd no tomb, - ...
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
-          <Beam>
-            <StemDirection>down</StemDirection>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>80</pitch>
@@ -5097,7 +5199,6 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>75</pitch>
@@ -5120,30 +5221,12 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           </voice>
-        <voice>
-          <Chord>
-            <durationType>half</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>half</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>85</pitch>
-              <tpc>9</tpc>
-              </Note>
-            </Chord>
-          </voice>
         </Measure>
       <Measure>
         <voice>
           <Harmony>
             <name>.bVII(9)</name>
-            <offset x="-1" y="-8"/>
+            <offset x="-1.18182" y="-9.45455"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -5164,14 +5247,14 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <Harmony>
             <name>.bVII(+6)</name>
-            <offset x="-1" y="-8"/>
+            <offset x="-1.18182" y="-9.45455"/>
             </Harmony>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -5214,6 +5297,29 @@ And living as if earth contain'd no tomb, - ...
             <name>ii</name>
             </Harmony>
           <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <pitch>85</pitch>
+              <tpc>9</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <name>ii7</name>
+            </Harmony>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -5224,27 +5330,21 @@ And living as if earth contain'd no tomb, - ...
                   </location>
                 </next>
               </Spanner>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>82</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>ii7</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
-          <Beam>
-            <StemDirection>down</StemDirection>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>80</pitch>
@@ -5252,7 +5352,6 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>75</pitch>
@@ -5275,26 +5374,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           </voice>
-        <voice>
-          <Chord>
-            <durationType>half</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>half</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>85</pitch>
-              <tpc>9</tpc>
-              </Note>
-            </Chord>
-          </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>V7(4)</name>
@@ -5320,11 +5404,11 @@ And living as if earth contain'd no tomb, - ...
             <name>V7</name>
             </Harmony>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -5368,6 +5452,29 @@ And living as if earth contain'd no tomb, - ...
             <name>ii</name>
             </Harmony>
           <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <pitch>85</pitch>
+              <tpc>9</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <name>ii7</name>
+            </Harmony>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -5378,43 +5485,26 @@ And living as if earth contain'd no tomb, - ...
                   </location>
                 </next>
               </Spanner>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>82</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>ii7</name>
-            </Harmony>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>2</measures>
-                <fractions>-3/4</fractions>
-                </location>
-              </next>
-            </Spanner>
+          <StaffText>
+            <placement>below</placement>
+            <offset x="0" y="-4"/>
+            <text>cresc.</text>
+            </StaffText>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
-          <Beam>
-            <StemDirection>down</StemDirection>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>80</pitch>
@@ -5422,7 +5512,6 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>75</pitch>
@@ -5444,24 +5533,6 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <endTuplet/>
-          </voice>
-        <voice>
-          <Chord>
-            <durationType>half</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>half</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>85</pitch>
-              <tpc>9</tpc>
-              </Note>
-            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -5490,11 +5561,11 @@ And living as if earth contain'd no tomb, - ...
             <name>V7</name>
             </Harmony>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -5503,10 +5574,6 @@ And living as if earth contain'd no tomb, - ...
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
@@ -5538,6 +5605,29 @@ And living as if earth contain'd no tomb, - ...
             <name>ii</name>
             </Harmony>
           <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <pitch>85</pitch>
+              <tpc>9</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <name>ii7</name>
+            </Harmony>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -5548,27 +5638,21 @@ And living as if earth contain'd no tomb, - ...
                   </location>
                 </next>
               </Spanner>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>82</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>ii7</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
-          <Beam>
-            <StemDirection>down</StemDirection>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>80</pitch>
@@ -5576,7 +5660,6 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>75</pitch>
@@ -5599,43 +5682,12 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           </voice>
-        <voice>
-          <Chord>
-            <durationType>half</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>half</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>85</pitch>
-              <tpc>9</tpc>
-              </Note>
-            </Chord>
-          </voice>
         </Measure>
       <Measure>
         <voice>
-          <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            <offset x="0.658281" y="3.45726"/>
-            </Dynamic>
           <Harmony>
             <name>V7(9)\\</name>
             </Harmony>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                <fractions>3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Spanner type="Ottava">
             <Ottava>
               <subtype>8va</subtype>
@@ -5647,11 +5699,11 @@ And living as if earth contain'd no tomb, - ...
               </next>
             </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -5690,11 +5742,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -5731,11 +5783,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -5774,11 +5826,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -5843,11 +5895,11 @@ And living as if earth contain'd no tomb, - ...
       <Measure>
         <voice>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -5886,11 +5938,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -5927,11 +5979,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -5969,27 +6021,16 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <endTuplet/>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>3</measures>
-                </location>
-              </next>
-            </Spanner>
+          <StaffText>
+            <placement>below</placement>
+            <text>dim.</text>
+            </StaffText>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -6045,10 +6086,13 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <StaffText>
             <placement>below</placement>
-            <offset x="0" y="2.26923"/>
+            <offset x="0" y="2.68182"/>
             <text><font size="12"></font><i>legato</i></text>
             </StaffText>
           <Spanner type="Ottava">
@@ -6059,11 +6103,11 @@ And living as if earth contain'd no tomb, - ...
               </prev>
             </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -6093,11 +6137,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -6127,11 +6171,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -6161,11 +6205,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -6199,11 +6243,11 @@ And living as if earth contain'd no tomb, - ...
       <Measure>
         <voice>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -6233,11 +6277,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -6282,18 +6326,11 @@ And living as if earth contain'd no tomb, - ...
           <Dynamic>
             <subtype>p</subtype>
             <velocity>70</velocity>
-            <offset x="0.329141" y="3.45726"/>
+            <offset x="0.388985" y="4.08585"/>
             </Dynamic>
           <Harmony>
             <name>I[I(+6)</name>
             </Harmony>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-3</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -6454,6 +6491,9 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>IV(+4)</name>
@@ -6810,6 +6850,9 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>IM7(+6)]\\</name>
@@ -6841,13 +6884,14 @@ And living as if earth contain'd no tomb, - ...
               </next>
             </Spanner>
           <Tuplet>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -6884,11 +6928,11 @@ And living as if earth contain'd no tomb, - ...
             <name>V2</name>
             </Harmony>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -6945,11 +6989,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7013,11 +7057,11 @@ And living as if earth contain'd no tomb, - ...
             <name>I6</name>
             </Harmony>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7034,8 +7078,8 @@ And living as if earth contain'd no tomb, - ...
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7050,8 +7094,8 @@ And living as if earth contain'd no tomb, - ...
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7074,11 +7118,11 @@ And living as if earth contain'd no tomb, - ...
             <name>I</name>
             </Harmony>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7095,8 +7139,8 @@ And living as if earth contain'd no tomb, - ...
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7109,14 +7153,14 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <Harmony>
             <name>vi65(+4)</name>
-            <offset x="-1" y="-8"/>
+            <offset x="-1.18182" y="-9.45455"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7143,11 +7187,11 @@ And living as if earth contain'd no tomb, - ...
             <name>ii64(+4)</name>
             </Harmony>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7164,8 +7208,8 @@ And living as if earth contain'd no tomb, - ...
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7180,8 +7224,8 @@ And living as if earth contain'd no tomb, - ...
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7204,11 +7248,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7272,12 +7316,14 @@ And living as if earth contain'd no tomb, - ...
             <name>I64</name>
             </Harmony>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -7290,8 +7336,8 @@ And living as if earth contain'd no tomb, - ...
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7306,8 +7352,8 @@ And living as if earth contain'd no tomb, - ...
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7330,12 +7376,14 @@ And living as if earth contain'd no tomb, - ...
             <name>I</name>
             </Harmony>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -7348,8 +7396,8 @@ And living as if earth contain'd no tomb, - ...
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7367,8 +7415,8 @@ And living as if earth contain'd no tomb, - ...
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7390,17 +7438,22 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>V2</name>
             </Harmony>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -7454,12 +7507,8 @@ And living as if earth contain'd no tomb, - ...
           <endTuplet/>
           <Spanner type="HairPin">
             <HairPin>
-              <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
+              <subtype>2</subtype>
+              <endText></endText>
               </HairPin>
             <next>
               <location>
@@ -7469,12 +7518,14 @@ And living as if earth contain'd no tomb, - ...
               </next>
             </Spanner>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
+          <Beam>
+            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -7534,11 +7585,11 @@ And living as if earth contain'd no tomb, - ...
             <name>I6</name>
             </Harmony>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7555,8 +7606,8 @@ And living as if earth contain'd no tomb, - ...
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7571,8 +7622,8 @@ And living as if earth contain'd no tomb, - ...
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7595,11 +7646,11 @@ And living as if earth contain'd no tomb, - ...
             <name>I</name>
             </Harmony>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7616,8 +7667,8 @@ And living as if earth contain'd no tomb, - ...
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7630,14 +7681,14 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <Harmony>
             <name>vi65(+4)</name>
-            <offset x="-1" y="-8"/>
+            <offset x="-1.18182" y="-9.45455"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7664,11 +7715,11 @@ And living as if earth contain'd no tomb, - ...
             <name>ii64(+4)</name>
             </Harmony>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7685,8 +7736,8 @@ And living as if earth contain'd no tomb, - ...
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7701,8 +7752,8 @@ And living as if earth contain'd no tomb, - ...
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7725,11 +7776,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7793,11 +7844,11 @@ And living as if earth contain'd no tomb, - ...
             <name>I64</name>
             </Harmony>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7814,8 +7865,8 @@ And living as if earth contain'd no tomb, - ...
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7830,8 +7881,8 @@ And living as if earth contain'd no tomb, - ...
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7906,7 +7957,7 @@ And living as if earth contain'd no tomb, - ...
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <offset x="0.658281" y="3.45726"/>
+            <offset x="0.777968" y="4.08585"/>
             </Dynamic>
           <Harmony>
             <name>V7</name>
@@ -7991,7 +8042,7 @@ And living as if earth contain'd no tomb, - ...
           <Dynamic>
             <subtype>p</subtype>
             <velocity>70</velocity>
-            <offset x="0.658281" y="3.45726"/>
+            <offset x="0.777968" y="4.08585"/>
             </Dynamic>
           <Harmony>
             <name>ii7</name>
@@ -8021,7 +8072,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>2</dots>
             <durationType>quarter</durationType>
@@ -8160,7 +8211,7 @@ And living as if earth contain'd no tomb, - ...
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <offset x="0.658281" y="3.45726"/>
+            <offset x="0.777968" y="4.08585"/>
             </Dynamic>
           <Harmony>
             <name>ii</name>
@@ -8187,7 +8238,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>2</dots>
             <durationType>quarter</durationType>
@@ -8247,13 +8298,16 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="2"/>
+            <offset x="0" y="2.36364"/>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>V7</name>
@@ -8330,7 +8384,7 @@ And living as if earth contain'd no tomb, - ...
           <Dynamic>
             <subtype>p</subtype>
             <velocity>70</velocity>
-            <offset x="0.658281" y="3.45726"/>
+            <offset x="0.777968" y="4.08585"/>
             </Dynamic>
           <Harmony>
             <name>ii7</name>
@@ -8360,7 +8414,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>2</dots>
             <durationType>quarter</durationType>
@@ -8512,11 +8566,10 @@ And living as if earth contain'd no tomb, - ...
           <Dynamic>
             <subtype>p</subtype>
             <velocity>70</velocity>
-            <offset x="0.329141" y="3.45726"/>
+            <offset x="0.388985" y="4.08585"/>
             </Dynamic>
           <Harmony>
             <name>III.Ger6</name>
-            <offset x="0" y="-11"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8550,7 +8603,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>2</dots>
             <durationType>quarter</durationType>
@@ -8610,7 +8663,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="3"/>
+            <offset x="0" y="3.54545"/>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
@@ -8997,10 +9050,14 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Spanner type="TextLine">
             <TextLine>
               <beginText>poco rall.</beginText>
+              <lineWidth>0.177273</lineWidth>
               </TextLine>
             <next>
               <location>
@@ -9151,7 +9208,7 @@ And living as if earth contain'd no tomb, - ...
         <voice>
           <Harmony>
             <name>I.V7(9)</name>
-            <offset x="0" y="-10"/>
+            <offset x="0" y="-11.8182"/>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -9233,7 +9290,7 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <Harmony>
             <name>iii6</name>
-            <offset x="0" y="-10"/>
+            <offset x="0" y="-11.8182"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -9282,7 +9339,7 @@ And living as if earth contain'd no tomb, - ...
         <voice>
           <Harmony>
             <name>I\\</name>
-            <offset x="0" y="-10"/>
+            <offset x="0" y="-11.8182"/>
             </Harmony>
           <Spanner type="TextLine">
             <prev>
@@ -9312,6 +9369,25 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Chord>
+            <durationType>16th</durationType>
+            <grace16/>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>86</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <grace16/>
+            <Note>
+              <pitch>87</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <prev>
@@ -9330,13 +9406,13 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1"/>
+            <offset x="0" y="-1.18182"/>
             <durationType>eighth</durationType>
             </Rest>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <offset x="0.658281" y="3.45726"/>
+            <offset x="0.777968" y="4.08585"/>
             </Dynamic>
           <Harmony>
             <name>IV.ii</name>
@@ -9381,45 +9457,6 @@ And living as if earth contain'd no tomb, - ...
             <durationType>half</durationType>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <offset x="0" y="5"/>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <offset x="0" y="5"/>
-            <visible>0</visible>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <small>1</small>
-            <durationType>16th</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>86</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <small>1</small>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>87</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
@@ -9498,7 +9535,7 @@ And living as if earth contain'd no tomb, - ...
           <Dynamic>
             <subtype>p</subtype>
             <velocity>70</velocity>
-            <offset x="0.658281" y="3.45726"/>
+            <offset x="0.777968" y="4.08585"/>
             </Dynamic>
           <Harmony>
             <name>ii7</name>
@@ -9528,7 +9565,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>2</dots>
             <durationType>quarter</durationType>
@@ -9667,7 +9704,7 @@ And living as if earth contain'd no tomb, - ...
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <offset x="0.658281" y="3.45726"/>
+            <offset x="0.777968" y="4.08585"/>
             </Dynamic>
           <Harmony>
             <name>ii</name>
@@ -9694,7 +9731,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>2</dots>
             <durationType>quarter</durationType>
@@ -9839,7 +9876,7 @@ And living as if earth contain'd no tomb, - ...
           <Dynamic>
             <subtype>p</subtype>
             <velocity>70</velocity>
-            <offset x="0.658281" y="3.45726"/>
+            <offset x="0.777968" y="4.08585"/>
             </Dynamic>
           <Harmony>
             <name>ii7</name>
@@ -9869,7 +9906,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>2</dots>
             <durationType>quarter</durationType>
@@ -10008,11 +10045,11 @@ And living as if earth contain'd no tomb, - ...
           <Dynamic>
             <subtype>p</subtype>
             <velocity>70</velocity>
-            <offset x="0.658281" y="3.45726"/>
+            <offset x="0.777968" y="4.08585"/>
             </Dynamic>
           <Harmony>
             <name>III.Ger6</name>
-            <offset x="-1" y="-8"/>
+            <offset x="-1.18182" y="-9.45455"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -10045,7 +10082,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>2</dots>
             <durationType>quarter</durationType>
@@ -10114,6 +10151,9 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>V[I6</name>
@@ -10148,6 +10188,8 @@ And living as if earth contain'd no tomb, - ...
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -10485,6 +10527,7 @@ And living as if earth contain'd no tomb, - ...
           <Spanner type="TextLine">
             <TextLine>
               <beginText>poco rall.</beginText>
+              <lineWidth>0.177273</lineWidth>
               </TextLine>
             <next>
               <location>
@@ -10638,14 +10681,14 @@ And living as if earth contain'd no tomb, - ...
         <voice>
           <Harmony>
             <name>I.V7(9)</name>
-            <offset x="0" y="-10"/>
+            <offset x="0" y="-11.8182"/>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
+                <offset x="0" y="2.95455"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
@@ -10735,7 +10778,7 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <Harmony>
             <name>iii6</name>
-            <offset x="0" y="-10"/>
+            <offset x="0" y="-11.8182"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -10793,17 +10836,15 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <StaffText>
             <placement>below</placement>
-            <offset x="0" y="2.26923"/>
+            <offset x="0" y="2.68182"/>
             <text><font size="12"></font>sempre dolce</text>
             </StaffText>
-          <Dynamic>
-            <subtype>pp</subtype>
-            <velocity>65</velocity>
-            <offset x="0.658281" y="3.45726"/>
-            </Dynamic>
           <Harmony>
             <name>I[I\\</name>
             </Harmony>
@@ -11263,6 +11304,9 @@ And living as if earth contain'd no tomb, - ...
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o4 x="-0.0843044" y="0"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -11661,25 +11705,17 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <name>I(+6)</name>
             </Harmony>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>2</measures>
-                </location>
-              </next>
-            </Spanner>
+          <StaffText>
+            <placement>below</placement>
+            <text>dim.</text>
+            </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -11948,18 +11984,11 @@ And living as if earth contain'd no tomb, - ...
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>60</velocity>
-            <offset x="0.658281" y="3.45726"/>
+            <offset x="0.777968" y="4.08585"/>
             </Dynamic>
           <Harmony>
             <name>I]</name>
             </Harmony>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
@@ -12326,6 +12355,9 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -12415,7 +12447,7 @@ And living as if earth contain'd no tomb, - ...
             </Rest>
           <StaffText>
             <placement>below</placement>
-            <offset x="0" y="2.26923"/>
+            <offset x="0" y="2.68182"/>
             <text><font size="12"></font>dolce</text>
             </StaffText>
           <Harmony>
@@ -12575,6 +12607,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             <Arpeggio>
               <subtype>0</subtype>
+              <userLen2>-0.590131</userLen2>
               </Arpeggio>
             </Chord>
           </voice>
@@ -12597,6 +12630,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             <Arpeggio>
               <subtype>0</subtype>
+              <userLen2>-0.843044</userLen2>
               </Arpeggio>
             </Chord>
           </voice>
@@ -12681,11 +12715,6 @@ And living as if earth contain'd no tomb, - ...
         </Measure>
       <Measure>
         <voice>
-          <Dynamic>
-            <subtype>ppp</subtype>
-            <velocity>30</velocity>
-            <offset x="0.658281" y="3.45726"/>
-            </Dynamic>
           <Harmony>
             <name>I\\</name>
             </Harmony>
@@ -12716,6 +12745,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             <Arpeggio>
               <subtype>0</subtype>
+              <userLen2>-0.674435</userLen2>
               </Arpeggio>
             </Chord>
           <BarLine>
@@ -12803,6 +12833,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             <Arpeggio>
               <subtype>0</subtype>
+              <userLen1>4.79439</userLen1>
               </Arpeggio>
             </Chord>
           </voice>
@@ -12869,6 +12900,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             <Arpeggio>
               <subtype>0</subtype>
+              <userLen1>4.69238</userLen1>
               </Arpeggio>
             </Chord>
           </voice>
@@ -12925,6 +12957,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             <Arpeggio>
               <subtype>0</subtype>
+              <userLen1>4.99841</userLen1>
               </Arpeggio>
             </Chord>
           </voice>
@@ -12991,6 +13024,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             <Arpeggio>
               <subtype>0</subtype>
+              <userLen1>4.59037</userLen1>
               </Arpeggio>
             </Chord>
           </voice>
@@ -13009,7 +13043,9 @@ And living as if earth contain'd no tomb, - ...
               <tpc>14</tpc>
               </Note>
             <Arpeggio>
+              <autoplace>0</autoplace>
               <subtype>0</subtype>
+              <userLen1>12.6562</userLen1>
               </Arpeggio>
             </Chord>
           <Chord>
@@ -13607,11 +13643,6 @@ And living as if earth contain'd no tomb, - ...
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
-          <Dynamic>
-            <subtype>pp</subtype>
-            <velocity>50</velocity>
-            <offset x="0.658281" y="3.45726"/>
-            </Dynamic>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -13787,7 +13818,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -13894,7 +13925,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -14001,7 +14032,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -14108,7 +14139,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -14215,7 +14246,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -14322,7 +14353,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -14429,7 +14460,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -14536,7 +14567,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -14975,13 +15006,14 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Tuplet>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -15061,13 +15093,14 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Tuplet>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -15150,11 +15183,11 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -15240,11 +15273,11 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -15319,11 +15352,11 @@ And living as if earth contain'd no tomb, - ...
       <Measure>
         <voice>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -15396,11 +15429,11 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -15514,7 +15547,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="2"/>
+            <offset x="0" y="2.36364"/>
             <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
@@ -15523,11 +15556,11 @@ And living as if earth contain'd no tomb, - ...
       <Measure>
         <voice>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -15600,11 +15633,11 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -15718,7 +15751,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="2"/>
+            <offset x="0" y="2.36364"/>
             <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
@@ -15727,11 +15760,11 @@ And living as if earth contain'd no tomb, - ...
       <Measure>
         <voice>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -15804,11 +15837,11 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -15903,14 +15936,14 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Rest>
-            <offset x="0" y="2"/>
+            <offset x="0" y="2.36364"/>
             <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
@@ -15956,11 +15989,11 @@ And living as if earth contain'd no tomb, - ...
             <transposingClefType>F</transposingClefType>
             </Clef>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -16034,11 +16067,11 @@ And living as if earth contain'd no tomb, - ...
             <transposingClefType>G</transposingClefType>
             </Clef>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -16134,11 +16167,11 @@ And living as if earth contain'd no tomb, - ...
             <transposingClefType>F</transposingClefType>
             </Clef>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -16212,11 +16245,11 @@ And living as if earth contain'd no tomb, - ...
             <transposingClefType>G</transposingClefType>
             </Clef>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -16398,11 +16431,11 @@ And living as if earth contain'd no tomb, - ...
             <transposingClefType>G</transposingClefType>
             </Clef>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -16432,11 +16465,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -16470,11 +16503,11 @@ And living as if earth contain'd no tomb, - ...
       <Measure>
         <voice>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -16504,11 +16537,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -16538,11 +16571,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -16577,17 +16610,12 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <endTuplet/>
-          <Dynamic>
-            <subtype>pp</subtype>
-            <velocity>50</velocity>
-            <offset x="0.658281" y="3.45726"/>
-            </Dynamic>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -16625,7 +16653,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="1"/>
+            <offset x="0" y="1.18182"/>
             <visible>0</visible>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -16642,7 +16670,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="2"/>
+            <offset x="0" y="2.36364"/>
             <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
@@ -16651,11 +16679,11 @@ And living as if earth contain'd no tomb, - ...
       <Measure>
         <voice>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -16685,11 +16713,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -16719,11 +16747,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -16753,11 +16781,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -16789,7 +16817,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="2"/>
+            <offset x="0" y="2.36364"/>
             <visible>0</visible>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -16806,7 +16834,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="2"/>
+            <offset x="0" y="2.36364"/>
             <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
@@ -16815,11 +16843,11 @@ And living as if earth contain'd no tomb, - ...
       <Measure>
         <voice>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -16849,11 +16877,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -16883,11 +16911,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -16917,11 +16945,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -16953,7 +16981,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="2"/>
+            <offset x="0" y="2.36364"/>
             <visible>0</visible>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -16970,7 +16998,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="2"/>
+            <offset x="0" y="2.36364"/>
             <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
@@ -16979,11 +17007,11 @@ And living as if earth contain'd no tomb, - ...
       <Measure>
         <voice>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17013,11 +17041,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17047,11 +17075,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17081,11 +17109,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17117,7 +17145,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="2"/>
+            <offset x="0" y="2.36364"/>
             <visible>0</visible>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -17134,7 +17162,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="2"/>
+            <offset x="0" y="2.36364"/>
             <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
@@ -17143,11 +17171,11 @@ And living as if earth contain'd no tomb, - ...
       <Measure>
         <voice>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17177,11 +17205,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17211,11 +17239,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17245,11 +17273,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17281,7 +17309,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="2"/>
+            <offset x="0" y="2.36364"/>
             <visible>0</visible>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -17298,7 +17326,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="2"/>
+            <offset x="0" y="2.36364"/>
             <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
@@ -17307,11 +17335,11 @@ And living as if earth contain'd no tomb, - ...
       <Measure>
         <voice>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17341,11 +17369,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17375,11 +17403,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17409,11 +17437,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17445,7 +17473,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="2"/>
+            <offset x="0" y="2.36364"/>
             <visible>0</visible>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -17462,7 +17490,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="2"/>
+            <offset x="0" y="2.36364"/>
             <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
@@ -17471,11 +17499,11 @@ And living as if earth contain'd no tomb, - ...
       <Measure>
         <voice>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17505,11 +17533,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17539,11 +17567,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17573,11 +17601,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17609,7 +17637,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="2"/>
+            <offset x="0" y="2.36364"/>
             <visible>0</visible>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -17626,7 +17654,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="2"/>
+            <offset x="0" y="2.36364"/>
             <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
@@ -17635,11 +17663,11 @@ And living as if earth contain'd no tomb, - ...
       <Measure>
         <voice>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17669,11 +17697,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17703,11 +17731,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17737,11 +17765,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17773,7 +17801,7 @@ And living as if earth contain'd no tomb, - ...
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="2"/>
+            <offset x="0" y="2.36364"/>
             <visible>0</visible>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -17790,7 +17818,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="2"/>
+            <offset x="0" y="2.36364"/>
             <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
@@ -17799,11 +17827,11 @@ And living as if earth contain'd no tomb, - ...
       <Measure>
         <voice>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17833,11 +17861,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17867,11 +17895,11 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             </Tuplet>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -18206,7 +18234,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="3"/>
+            <offset x="0" y="3.54545"/>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
@@ -18230,6 +18258,10 @@ And living as if earth contain'd no tomb, - ...
             <Note>
               <pitch>61</pitch>
               <tpc>9</tpc>
+              </Note>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
               </Note>
             <Note>
               <pitch>70</pitch>
@@ -18836,7 +18868,9 @@ And living as if earth contain'd no tomb, - ...
               <tpc>17</tpc>
               </Note>
             <Arpeggio>
+              <autoplace>0</autoplace>
               <subtype>0</subtype>
+              <userLen1>11.0975</userLen1>
               </Arpeggio>
             </Chord>
           <Chord>
@@ -18880,7 +18914,9 @@ And living as if earth contain'd no tomb, - ...
               <tpc>12</tpc>
               </Note>
             <Arpeggio>
+              <autoplace>0</autoplace>
               <subtype>0</subtype>
+              <userLen1>9.84146</userLen1>
               </Arpeggio>
             </Chord>
           <Chord>
@@ -19134,6 +19170,8 @@ And living as if earth contain'd no tomb, - ...
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -19166,6 +19204,15 @@ And living as if earth contain'd no tomb, - ...
         <voice>
           <Chord>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>43</pitch>
@@ -19197,6 +19244,13 @@ And living as if earth contain'd no tomb, - ...
         <voice>
           <Chord>
             <durationType>whole</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -19310,7 +19364,9 @@ And living as if earth contain'd no tomb, - ...
               <tpc>14</tpc>
               </Note>
             <Arpeggio>
+              <autoplace>0</autoplace>
               <subtype>0</subtype>
+              <userLen1>11.6035</userLen1>
               </Arpeggio>
             </Chord>
           </voice>
@@ -19336,7 +19392,9 @@ And living as if earth contain'd no tomb, - ...
               <tpc>9</tpc>
               </Note>
             <Arpeggio>
+              <autoplace>0</autoplace>
               <subtype>0</subtype>
+              <userLen1>11.815</userLen1>
               </Arpeggio>
             </Chord>
           </voice>
@@ -19362,7 +19420,9 @@ And living as if earth contain'd no tomb, - ...
               <tpc>14</tpc>
               </Note>
             <Arpeggio>
+              <autoplace>0</autoplace>
               <subtype>0</subtype>
+              <userLen1>9.39727</userLen1>
               </Arpeggio>
             </Chord>
           </voice>
@@ -19388,7 +19448,9 @@ And living as if earth contain'd no tomb, - ...
               <tpc>9</tpc>
               </Note>
             <Arpeggio>
+              <autoplace>0</autoplace>
               <subtype>0</subtype>
+              <userLen1>11.3711</userLen1>
               </Arpeggio>
             </Chord>
           </voice>
@@ -19433,6 +19495,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             <Arpeggio>
               <subtype>0</subtype>
+              <userLen1>2.52913</userLen1>
               </Arpeggio>
             </Chord>
           </voice>
@@ -19815,6 +19878,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             <Arpeggio>
               <subtype>0</subtype>
+              <userLen1>5.05826</userLen1>
               </Arpeggio>
             </Chord>
           </voice>
@@ -19840,23 +19904,9 @@ And living as if earth contain'd no tomb, - ...
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>4</measures>
-                <fractions>-3/8</fractions>
-                </location>
-              </next>
-            </Spanner>
+          <StaffText>
+            <text>smorzando</text>
+            </StaffText>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -19914,6 +19964,7 @@ And living as if earth contain'd no tomb, - ...
               </Note>
             <Arpeggio>
               <subtype>0</subtype>
+              <userLen1>1.62928</userLen1>
               </Arpeggio>
             </Chord>
           <Rest>
@@ -20029,14 +20080,6 @@ And living as if earth contain'd no tomb, - ...
           <Fermata>
             <subtype>fermataAbove</subtype>
             </Fermata>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-4</measures>
-                <fractions>3/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <durationType>whole</durationType>
             <Note>
