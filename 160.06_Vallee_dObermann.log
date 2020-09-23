@@ -5,44 +5,50 @@ WARNING  160.06_Vallee_dObermann.ms3 -- Event 123 in MC 125 has has duration 1/2
 WARNING  160.06_Vallee_dObermann.ms3 -- Event 249 in MC 127 has has duration 1/2 and starts on 3/2, surpassing the measure length of 3/2
 WARNING  160.06_Vallee_dObermann.ms3 -- Event 250 in MC 127 has has duration 1/2 and starts on 3/2, surpassing the measure length of 3/2
 WARNING  160.06_Vallee_dObermann.ms3 -- Event 251 in MC 127 has has duration 1/2 and starts on 2, surpassing the measure length of 3/2
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 650 in MC 134 has has duration 1/2 and starts on 1, surpassing the measure length of 9/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 657 in MC 134 has has duration 1/32 and starts on 3/2, surpassing the measure length of 9/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 658 in MC 134 has has duration 1/32 and starts on 3/2, surpassing the measure length of 9/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 659 in MC 134 has has duration 1/32 and starts on 49/32, surpassing the measure length of 9/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 660 in MC 134 has has duration 1/32 and starts on 25/16, surpassing the measure length of 9/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 661 in MC 134 has has duration 1/32 and starts on 25/16, surpassing the measure length of 9/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 662 in MC 134 has has duration 1/32 and starts on 51/32, surpassing the measure length of 9/8
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 648 in MC 134 has has duration 1/2 and starts on 1, surpassing the measure length of 9/8
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 649 in MC 134 has has duration 1/2 and starts on 1, surpassing the measure length of 9/8
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 656 in MC 134 has has duration 1/2 and starts on 3/2, surpassing the measure length of 9/8
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 657 in MC 134 has has duration 1/32 and starts on 2, surpassing the measure length of 9/8
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 658 in MC 134 has has duration 1/32 and starts on 2, surpassing the measure length of 9/8
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 659 in MC 134 has has duration 1/32 and starts on 65/32, surpassing the measure length of 9/8
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 660 in MC 134 has has duration 1/32 and starts on 33/16, surpassing the measure length of 9/8
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 661 in MC 134 has has duration 1/32 and starts on 33/16, surpassing the measure length of 9/8
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 662 in MC 134 has has duration 1/32 and starts on 67/32, surpassing the measure length of 9/8
 WARNING  160.06_Vallee_dObermann.ms3 -- Event 876 in MC 138 has has duration 1/2 and starts on 1, surpassing the measure length of 1
 WARNING  160.06_Vallee_dObermann.ms3 -- Event 877 in MC 138 has has duration 1/2 and starts on 1, surpassing the measure length of 1
 WARNING  160.06_Vallee_dObermann.ms3 -- Event 878 in MC 138 has has duration 1/2 and starts on 3/2, surpassing the measure length of 1
 WARNING  160.06_Vallee_dObermann.ms3 -- Event 948 in MC 140 has has duration 1/2 and starts on 1, surpassing the measure length of 1
 WARNING  160.06_Vallee_dObermann.ms3 -- Event 949 in MC 140 has has duration 1/2 and starts on 1, surpassing the measure length of 1
 WARNING  160.06_Vallee_dObermann.ms3 -- Event 950 in MC 140 has has duration 1/2 and starts on 3/2, surpassing the measure length of 1
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 1401 in MC 152 has has duration 1.0 and starts on 2, surpassing the measure length of 23/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 1402 in MC 152 has has duration 1.0 and starts on 2, surpassing the measure length of 23/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 1403 in MC 152 has has duration 1.0 and starts on 2, surpassing the measure length of 23/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 1422 in MC 152 has has duration 1.0 and starts on 3, surpassing the measure length of 23/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 1423 in MC 152 has has duration 1/2 and starts on 4, surpassing the measure length of 23/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 1424 in MC 152 has has duration 1/2 and starts on 4, surpassing the measure length of 23/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 1425 in MC 152 has has duration 1/2 and starts on 4, surpassing the measure length of 23/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 1426 in MC 152 has has duration 1/2 and starts on 9/2, surpassing the measure length of 23/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 1427 in MC 152 has has duration 1/4 and starts on 5, surpassing the measure length of 23/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 1428 in MC 152 has has duration 1/4 and starts on 5, surpassing the measure length of 23/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 1429 in MC 152 has has duration 1/4 and starts on 5, surpassing the measure length of 23/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 1430 in MC 152 has has duration 1/4 and starts on 21/4, surpassing the measure length of 23/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 1431 in MC 152 has has duration 1/32 and starts on 11/2, surpassing the measure length of 23/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 1432 in MC 152 has has duration 1/32 and starts on 11/2, surpassing the measure length of 23/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 1433 in MC 152 has has duration 1/32 and starts on 11/2, surpassing the measure length of 23/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 1434 in MC 152 has has duration 1/32 and starts on 177/32, surpassing the measure length of 23/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 1435 in MC 152 has has duration 1/32 and starts on 89/16, surpassing the measure length of 23/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 1436 in MC 152 has has duration 1/32 and starts on 89/16, surpassing the measure length of 23/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 1437 in MC 152 has has duration 1/32 and starts on 89/16, surpassing the measure length of 23/8
-WARNING  160.06_Vallee_dObermann.ms3 -- Event 1438 in MC 152 has has duration 1/32 and starts on 179/32, surpassing the measure length of 23/8
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1385 in MC 152 has has duration 1.0 and starts on 2, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1386 in MC 152 has has duration 1.0 and starts on 2, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1387 in MC 152 has has duration 1.0 and starts on 2, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1408 in MC 152 has has duration 1.0 and starts on 3, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1409 in MC 152 has has duration 1/2 and starts on 4, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1410 in MC 152 has has duration 1/2 and starts on 4, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1411 in MC 152 has has duration 1/2 and starts on 4, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1412 in MC 152 has has duration 1/2 and starts on 9/2, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1413 in MC 152 has has duration 1/4 and starts on 5, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1414 in MC 152 has has duration 1/4 and starts on 5, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1415 in MC 152 has has duration 1/4 and starts on 5, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1416 in MC 152 has has duration 1/4 and starts on 21/4, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1417 in MC 152 has has duration 1/32 and starts on 11/2, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1418 in MC 152 has has duration 1/32 and starts on 11/2, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1419 in MC 152 has has duration 1/32 and starts on 11/2, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1420 in MC 152 has has duration 1/32 and starts on 177/32, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1421 in MC 152 has has duration 1/32 and starts on 89/16, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1422 in MC 152 has has duration 1/32 and starts on 89/16, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1423 in MC 152 has has duration 1/32 and starts on 89/16, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1424 in MC 152 has has duration 1/32 and starts on 179/32, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1425 in MC 152 has has duration 1/32 and starts on 45/8, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1426 in MC 152 has has duration 1/32 and starts on 45/8, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1427 in MC 152 has has duration 1/32 and starts on 45/8, surpassing the measure length of 47/16
+WARNING  160.06_Vallee_dObermann.ms3 -- Event 1428 in MC 152 has has duration 1/32 and starts on 181/32, surpassing the measure length of 47/16
 WARNING  160.06_Vallee_dObermann.ms3 -- MC 9 (1/4) and MC 10 (1) don't add up to 1.
 INFO     160.06_Vallee_dObermann.ms3 -- MC 122 is longer 2 than its nominal duration 1.
 INFO     160.06_Vallee_dObermann.ms3 -- MC 127 is longer 3/2 than its nominal duration 1.
 INFO     160.06_Vallee_dObermann.ms3 -- MC 134 is longer 9/8 than its nominal duration 1.
-INFO     160.06_Vallee_dObermann.ms3 -- MC 152 is longer 23/8 than its nominal duration 1.
+INFO     160.06_Vallee_dObermann.ms3 -- MC 152 is longer 47/16 than its nominal duration 1.
 INFO     160.06_Vallee_dObermann.ms3 -- MC 173 is longer 6 than its nominal duration 1.
 INFO     160.06_Vallee_dObermann.ms3 -- Done parsing 160.06_Vallee_dObermann.mscx
 

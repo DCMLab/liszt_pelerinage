@@ -1,23 +1,6 @@
 INFO     162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- Attempting to parse 162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.mscx
-WARNING  162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- Event 1 in MC 1 has has duration 9/32 and starts on 1/2, surpassing the measure length of 3/4
-WARNING  162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- Event 2 in MC 1 has has duration 9/32 and starts on 5/8, surpassing the measure length of 3/4
-WARNING  162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- Event 205 in MC 212 has has duration 3/8 and starts on 1/2, surpassing the measure length of 5/8
-WARNING  162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- Event 771 in MC 239 has has duration 1/32 and starts on 31/64, surpassing the measure length of 1/2
-INFO     162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- MC 202 is longer 5/8 than its nominal duration 1/2.
-INFO     162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- MC 207 is longer 5/8 than its nominal duration 1/2.
-INFO     162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- MC 212 is longer 5/8 than its nominal duration 1/2.
-INFO     162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- MC 218 is longer 7/8 than its nominal duration 1/2.
-INFO     162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- MC 263 is longer 33/64 than its nominal duration 1/2.
-INFO     162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- MC 267 is longer 7/8 than its nominal duration 1/2.
-INFO     162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- MC 286 is longer 11/4 than its nominal duration 1/2.
-INFO     162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- MC 297 is longer 33/64 than its nominal duration 1/2.
-INFO     162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- MC 298 is longer 33/64 than its nominal duration 1/2.
-INFO     162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- MC 299 is longer 33/64 than its nominal duration 1/2.
-INFO     162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- MC 300 is longer 33/64 than its nominal duration 1/2.
-INFO     162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- MC 301 is longer 33/64 than its nominal duration 1/2.
-INFO     162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- MC 302 is longer 33/64 than its nominal duration 1/2.
-INFO     162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- MC 303 is longer 33/64 than its nominal duration 1/2.
-INFO     162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- MC 446 is longer 63/16 than its nominal duration 1/2.
-INFO     162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- MC 480 is longer 5/8 than its nominal duration 1/2.
+INFO     162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- MC 219 is longer 7/8 than its nominal duration 1/2.
+INFO     162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- MC 268 is longer 27/32 than its nominal duration 1/2.
+INFO     162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- MC 447 is longer 4 than its nominal duration 1/2.
 INFO     162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.ms3 -- Done parsing 162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.mscx
 

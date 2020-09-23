@@ -1,0 +1,5 @@
+INFO     160.08_Le_Mal_du_Pays_(Heimweh).ms3 -- Attempting to parse 160.08_Le_Mal_du_Pays_(Heimweh).mscx
+WARNING  160.08_Le_Mal_du_Pays_(Heimweh).ms3 -- Event 231 in MC 19 has has duration 1/8 and starts on 7/8, surpassing the measure length of 3/4
+WARNING  160.08_Le_Mal_du_Pays_(Heimweh).ms3 -- Event 288 in MC 46 has has duration 1/8 and starts on 7/8, surpassing the measure length of 3/4
+INFO     160.08_Le_Mal_du_Pays_(Heimweh).ms3 -- Done parsing 160.08_Le_Mal_du_Pays_(Heimweh).mscx
+

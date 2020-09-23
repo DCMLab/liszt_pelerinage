@@ -340,9 +340,9 @@ mc	mn	onset	label	alt_label	globalkey	localkey	pedal	chord	numeral	special	form	
 133	129	1/2	.bIIM43		e	V		bIIM43	bII		M	43				MM7	1	0	-4, 0, -5, -1		-5	-4
 133	129	3/4	viio2		e	V		viio2	vii		o	2				o7	1	0	-4, 5, 2, -1		5	-4
 134	130	0	I64		e	V		I64	I			64				M	1	0	1, 0, 4		0	1
-134	130	5/12	I6		e	V		I6	I			6				M	1	0	4, 1, 0		0	4
-134	130	1/2	I		e	V		I	I							M	1	0	0, 4, 1		0	0
-134	130	1	I64		e	V		I64	I			64				M	1	0	1, 0, 4		0	1
+134	130	11/12	I6		e	V		I6	I			6				M	1	0	4, 1, 0		0	4
+134	130	1	I		e	V		I	I							M	1	0	0, 4, 1		0	0
+134	130	3/2	I64		e	V		I64	I			64				M	1	0	1, 0, 4		0	1
 135	131	0	iv6		e	V		iv6	iv			6				m	1	0	-4, 0, -1		-1	-4
 135	131	1/2	.bIIM43		e	V		bIIM43	bII		M	43				MM7	1	0	-4, 0, -5, -1		-5	-4
 135	131	3/4	ii%43		e	V		ii%43	ii		%	43				%7	1	0	8, 0, 2, 1		2	8
