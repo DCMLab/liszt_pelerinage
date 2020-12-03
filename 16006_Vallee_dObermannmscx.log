@@ -1,3 +1,0 @@
-2020-11-06 16:11:10 WARNING  16006_Vallee_dObermann:MeasureList -- bs4_measures.py (line 674) make_offset_col():
-	The incomplete MC 9 (timesig 1, act_dur 1/4) is completed by 1 incorrect duration (expected: 3/4):
-	{10: Fraction(1, 1)}

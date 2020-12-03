@@ -4,7 +4,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 1	1	3/8	3/8	4/4	1	1	iv43		e	i		iv43		iv		43				mm7	1	1	0, -3, -1, -4		-1	0
 1	1	5/8	5/8	4/4	1	1	iv65		e	i		iv65		iv		65				mm7	1	1	-4, 0, -3, -1		-1	-4
 1	1	7/8	7/8	4/4	1	1	iv7		e	i		iv7		iv		7				mm7	1	1	-1, -4, 0, -3		-1	-1
-2	2	0	0	4/4	1	1	.Ger6		e	i		Ger6	Ger	vii	o	65	b3	V		M	1	1	-4, 0, -3, 6		6	-4
+2	2	0	0	4/4	1	1	.Ger6		e	i		Ger6	Ger	vii	o	65	b3	V		Ger	1	1	-4, 0, -3, 6		6	-4
 2	2	1/4	1/4	4/4	1	1	V(#764)		e	i		V(#764)		V			#764			M	1	1	1, 0, -3	6	1	1
 2	2	3/8	3/8	4/4	1	1	V(64)		e	i		V(64)		V			64			M	1	1	1, 0, -3		1	1
 3	3	0	0	4/4	1	1	iii.iv6		e	iii		iv6		iv		6				m	1	1	-4, 0, -1		-1	-4
@@ -18,7 +18,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 5	5	3/8	3/8	4/4	1	1	iv43		e	iii		iv43		iv		43				mm7	1	1	0, -3, -1, -4		-1	0
 5	5	5/8	5/8	4/4	1	1	iv65		e	iii		iv65		iv		65				mm7	1	1	-4, 0, -3, -1		-1	-4
 5	5	7/8	7/8	4/4	1	1	iv7		e	iii		iv7		iv		7				mm7	1	1	-1, -4, 0, -3		-1	-1
-6	6	0	0	4/4	1	1	.Ger6		e	iii		Ger6	Ger	vii	o	65	b3	V		M	1	1	-4, 0, -3, 6		6	-4
+6	6	0	0	4/4	1	1	.Ger6		e	iii		Ger6	Ger	vii	o	65	b3	V		Ger	1	1	-4, 0, -3, 6		6	-4
 6	6	1/4	1/4	4/4	1	1	V(#764)		e	iii		V(#764)		V			#764			M	1	1	1, 0, -3	6	1	1
 6	6	3/8	3/8	4/4	1	1	V(64)		e	iii		V(64)		V			64			M	1	1	1, 0, -3		1	1
 7	7	0	0	4/4	1	1	.bv.iv6		e	bv		iv6		iv		6				m	1	1	-4, 0, -1		-1	-4
@@ -60,13 +60,13 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 20	19	5/8	5/8	4/4	1	1	ii%7		e	i		ii%7		ii	%	7				%7	1	1	2, -1, -4, 0		2	2
 21	20	0	0	4/4	1	1	V7(9+6)		e	i		V7(9+6)		V		7	9+6			Mm7	1	1	1, 5, 2, -1	-4, -3	1	1
 25	24	0	0	4/4	1	1	#viio7\\		e	i		#viio7		#vii	o	7			\\	o7	1	1	5, 2, -1, -4		5	5
-27	25	0	3/4	4/4	1	1	.bi.Ger6		e	bi		Ger6	Ger	vii	o	65	b3	V		M	1	1	-4, 0, -3, 6		6	-4
+27	25	0	3/4	4/4	1	1	.bi.Ger6		e	bi		Ger6	Ger	vii	o	65	b3	V		Ger	1	1	-4, 0, -3, 6		6	-4
 28	26	0	0	4/4	1	1	V(64)		e	bi		V(64)		V			64			M	1	1	1, 0, -3		1	1
 28	26	1/2	1/2	4/4	1	1	#viio43(4)		e	bi		#viio43(4)		#vii	o	43	4			o7	1	1	-1, -4, 5, -3		5	-1
 28	26	3/4	3/4	4/4	1	1	#viio43		e	bi		#viio43		#vii	o	43				o7	1	1	-1, -4, 5, 2		5	-1
 29	27	0	0	4/4	1	1	i6(9#7)		e	bi		i6(9#7)		i		6	9#7			m	1	1	-3, 1, 5	2	0	-3
 30	28	0	0	4/4	1	1	i6\\		e	bi		i6		i		6			\\	m	1	1	-3, 1, 0		0	-3
-30	28	3/4	3/4	4/4	1	1	iv.Ger6		e	iv		Ger6	Ger	vii	o	65	b3	V		M	1	1	-4, 0, -3, 6		6	-4
+30	28	3/4	3/4	4/4	1	1	iv.Ger6		e	iv		Ger6	Ger	vii	o	65	b3	V		Ger	1	1	-4, 0, -3, 6		6	-4
 31	29	0	0	4/4	1	1	V(64)		e	iv		V(64)		V			64			M	1	1	1, 0, -3		1	1
 31	29	1/2	1/2	4/4	1	1	#viio43(4)		e	iv		#viio43(4)		#vii	o	43	4			o7	1	1	-1, -4, 5, -3		5	-1
 31	29	3/4	3/4	4/4	1	1	#viio43		e	iv		#viio43		#vii	o	43				o7	1	1	-1, -4, 5, 2		5	-1
@@ -80,7 +80,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 36	34	3/8	3/8	4/4	1	1	iv43		e	i		iv43		iv		43				mm7	1	1	0, -3, -1, -4		-1	0
 36	34	5/8	5/8	4/4	1	1	iv65		e	i		iv65		iv		65				mm7	1	1	-4, 0, -3, -1		-1	-4
 36	34	7/8	7/8	4/4	1	1	iv7		e	i		iv7		iv		7				mm7	1	1	-1, -4, 0, -3		-1	-1
-37	35	0	0	4/4	1	1	.Ger6		e	i		Ger6	Ger	vii	o	65	b3	V		M	1	1	-4, 0, -3, 6		6	-4
+37	35	0	0	4/4	1	1	.Ger6		e	i		Ger6	Ger	vii	o	65	b3	V		Ger	1	1	-4, 0, -3, 6		6	-4
 37	35	1/4	1/4	4/4	1	1	V(#764)		e	i		V(#764)		V			#764			M	1	1	1, 0, -3	6	1	1
 37	35	3/8	3/8	4/4	1	1	V(64)		e	i		V(64)		V			64			M	1	1	1, 0, -3		1	1
 38	36	0	0	4/4	1	1	iii.iv6		e	iii		iv6		iv		6				m	1	1	-4, 0, -1		-1	-4
@@ -94,7 +94,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 40	38	3/8	3/8	4/4	1	1	iv43		e	iii		iv43		iv		43				mm7	1	1	0, -3, -1, -4		-1	0
 40	38	5/8	5/8	4/4	1	1	iv65		e	iii		iv65		iv		65				mm7	1	1	-4, 0, -3, -1		-1	-4
 40	38	7/8	7/8	4/4	1	1	iv7		e	iii		iv7		iv		7				mm7	1	1	-1, -4, 0, -3		-1	-1
-41	39	0	0	4/4	1	1	.Ger6		e	iii		Ger6	Ger	vii	o	65	b3	V		M	1	1	-4, 0, -3, 6		6	-4
+41	39	0	0	4/4	1	1	.Ger6		e	iii		Ger6	Ger	vii	o	65	b3	V		Ger	1	1	-4, 0, -3, 6		6	-4
 41	39	1/4	1/4	4/4	1	1	V(#764)		e	iii		V(#764)		V			#764			M	1	1	1, 0, -3	6	1	1
 41	39	3/8	3/8	4/4	1	1	V(64)		e	iii		V(64)		V			64			M	1	1	1, 0, -3		1	1
 42	40	0	0	4/4	1	1	.bv.iv6		e	bv		iv6		iv		6				m	1	1	-4, 0, -1		-1	-4
@@ -126,8 +126,8 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 52	49	0	0	4/4	1	1	ii%7(6)		e	i		ii%7(6)		ii	%	7	6			%7	1	1	2, -1, -2, 0		2	2
 52	49	1/2	1/2	4/4	1	1	ii7		e	i		ii7		ii		7				mm7	1	1	2, -1, 3, 0		2	2
 52	49	3/4	3/4	4/4	1	1	ii%7		e	i		ii%7		ii	%	7				%7	1	1	2, -1, -4, 0		2	2
-53	50	0	0	4/4	1	1	.Fr6(2)		e	i		Fr6(2)	Fr	V		7	b52	V		M	1	1	4, 6, -4, 0		2	4
-53	50	1/4	1/4	4/4	1	1	.Fr6		e	i		Fr6	Fr	V		7	b5	V		M	1	1	2, 6, -4, 0		2	2
+53	50	0	0	4/4	1	1	.Fr6(2)		e	i		Fr6(2)	Fr	V		7	b52	V		Fr	1	1	4, 6, -4, 0		2	4
+53	50	1/4	1/4	4/4	1	1	.Fr6		e	i		Fr6	Fr	V		7	b5	V		Fr	1	1	2, 6, -4, 0		2	2
 53	50	1/2	1/2	4/4	1	1	ii%43		e	i		ii%43		ii	%	43				%7	1	1	-4, 0, 2, -1		2	-4
 54	51	0	0	4/4	1	1	.bV.I64		e	bV		I64		I		64				M	1	0	1, 0, 4		0	1
 55	52	0	0	4/4	1	1	IV		e	bV		IV		IV						M	1	0	-1, 3, 0		-1	-1
@@ -145,13 +145,13 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 61	58	0	0	4/4	1	1	viio65(#74)		e	V		viio65(#74)		vii	o	65	#74			o7	1	0	4, -1, -4, 5	3	5	4
 61	58	1/4	1/4	4/4	1	1	viio65		e	V		viio65		vii	o	65				o7	1	0	2, -1, -4, 5		5	2
 61	58	1/2	1/2	4/4	1	1	V7\\		e	V		V7		V		7			\\	Mm7	1	0	1, 5, 2, -1		1	1
-62	59	3/4	3/4	4/4	1	1	.bv.Ger6		e	bv		Ger6	Ger	vii	o	65	b3	V		M	1	1	-4, 0, -3, 6		6	-4
+62	59	3/4	3/4	4/4	1	1	.bv.Ger6		e	bv		Ger6	Ger	vii	o	65	b3	V		Ger	1	1	-4, 0, -3, 6		6	-4
 63	60	0	0	4/4	1	1	V(64)		e	bv		V(64)		V			64			M	1	1	1, 0, -3		1	1
 63	60	1/2	1/2	4/4	1	1	#viio43(4)		e	bv		#viio43(4)		#vii	o	43	4			o7	1	1	-1, -4, 5, -3		5	-1
 63	60	3/4	3/4	4/4	1	1	#viio43		e	bv		#viio43		#vii	o	43				o7	1	1	-1, -4, 5, 2		5	-1
 64	61	0	0	4/4	1	1	i6(9#7)		e	bv		i6(9#7)		i		6	9#7			m	1	1	-3, 1, 5	2	0	-3
 65	62	0	0	4/4	1	1	i6\\		e	bv		i6		i		6			\\	m	1	1	-3, 1, 0		0	-3
-65	62	3/4	3/4	4/4	1	1	.bii.Ger6		e	bii		Ger6	Ger	vii	o	65	b3	V		M	1	1	-4, 0, -3, 6		6	-4
+65	62	3/4	3/4	4/4	1	1	.bii.Ger6		e	bii		Ger6	Ger	vii	o	65	b3	V		Ger	1	1	-4, 0, -3, 6		6	-4
 66	63	0	0	4/4	1	1	V(64)		e	bii		V(64)		V			64			M	1	1	1, 0, -3		1	1
 66	63	1/2	1/2	4/4	1	1	#viio43(4)		e	bii		#viio43(4)		#vii	o	43	4			o7	1	1	-1, -4, 5, -3		5	-1
 66	63	3/4	3/4	4/4	1	1	#viio43		e	bii		#viio43		#vii	o	43				o7	1	1	-1, -4, 5, 2		5	-1
@@ -171,7 +171,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 73	70	0	0	4/4	1	1	.bII64(4)		e	i	i	bII64(4)		bII		64	4			M	1	1	-4, -5, 1		-5	-4
 73	70	1/8	1/8	4/4	1	1	.bII64		e	i	i	bII64		bII		64				M	1	1	-4, -5, -1		-5	-4
 73	70	1/2	1/2	4/4	1	1	#viio43(b3)]		e	i	i	#viio43(b3)		#vii	o	43	b3			o7	1	1	-1, -4, 5, -5		5	-1
-74	71	0	0	4/4	1	1	.Ger6		e	i		Ger6	Ger	vii	o	65	b3	V		M	1	1	-4, 0, -3, 6		6	-4
+74	71	0	0	4/4	1	1	.Ger6		e	i		Ger6	Ger	vii	o	65	b3	V		Ger	1	1	-4, 0, -3, 6		6	-4
 74	71	1/2	1/2	4/4	1	1	#viio2		e	i		#viio2		#vii	o	2				o7	1	1	-4, 5, 2, -1		5	-4
 74	71	3/4	3/4	4/4	1	1	iv		e	i		iv		iv						m	1	1	-1, -4, 0		-1	-1
 75	72	0	0	4/4	1	1	i(6+4)		e	i		i(6+4)		i			6+4			m	1	1	0, -3, -4	-1	0	0
@@ -196,7 +196,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 84	80	1/4	1/4	4/4	1	1	vi(9)		e	VI		vi(9)		vi			9			m	1	0	3, 0, 4	5	3	3
 84	80	3/4	3/4	4/4	1	1	vi		e	VI		vi		vi						m	1	0	3, 0, 4		3	3
 85	81	0	0	4/4	1	1	iv.V43/V		e	iv		V43/V		V		43		V		Mm7	1	1	3, 0, 2, 6		2	3
-85	81	1/2	1/2	4/4	1	1	.Fr6		e	iv		Fr6	Fr	V		7	b5	V		M	1	1	2, 6, -4, 0		2	2
+85	81	1/2	1/2	4/4	1	1	.Fr6		e	iv		Fr6	Fr	V		7	b5	V		Fr	1	1	2, 6, -4, 0		2	2
 86	82	0	0	4/4	1	1	V(4)		e	iv		V(4)		V			4			M	1	1	1, 0, 2		1	1
 87	83	0	0	4/4	1	1	V65(b5)/V		e	iv		V65(b5)/V		V		65	b5	V		Mm7	1	1	6, -4, 0, 2		2	6
 87	83	1/2	1/2	4/4	1	1	ii65		e	iv		ii65		ii		65				mm7	1	1	-1, 3, 0, 2		2	-1
@@ -224,7 +224,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 94	90	1/4	1/4	4/4	1	1	vi(9)		e	I		vi(9)		vi			9			m	1	0	3, 0, 4	5	3	3
 94	90	3/4	3/4	4/4	1	1	vi		e	I		vi		vi						m	1	0	3, 0, 4		3	3
 95	91	0	0	4/4	1	1	IV.V43/V		e	IV		V43/V		V		43		V		Mm7	1	0	3, 0, 2, 6		2	3
-95	91	1/2	1/2	4/4	1	1	.Fr6		e	IV		Fr6	Fr	V		7	b5	V		M	1	0	2, 6, -4, 0		2	2
+95	91	1/2	1/2	4/4	1	1	.Fr6		e	IV		Fr6	Fr	V		7	b5	V		Fr	1	0	2, 6, -4, 0		2	2
 96	92	0	0	4/4	1	1	V(64)		e	IV		V(64)		V			64			M	1	0	1, 0, 4		1	1
 97	93	0	0	4/4	1	1	V7(6)		e	IV		V7(6)		V		7	6			Mm7	1	0	1, 5, 4, -1		1	1
 97	93	1/4	1/4	4/4	1	1	V7		e	IV		V7		V		7				Mm7	1	0	1, 5, 2, -1		1	1
@@ -258,7 +258,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 106	102	5/8	5/8	4/4	1	1	i6(9)		e	#vi		i6(9)		i		6	9			m	1	1	-3, 1, 0	2	0	-3
 106	102	3/4	3/4	4/4	1	1	i64		e	#vi		i64		i		64				m	1	1	1, 0, -3		0	1
 107	103	0	0	4/4	1	1	VIM7		e	#vi		VIM7		VI	M	7				MM7	1	1	-4, 0, -3, 1		-4	-4
-107	103	1/4	1/4	4/4	1	1	.It6		e	#vi		It6	It	vii	o	6	b3	V		M	1	1	-4, 0, 6		6	-4
+107	103	1/4	1/4	4/4	1	1	.It6		e	#vi		It6	It	vii	o	6	b3	V		It	1	1	-4, 0, 6		6	-4
 107	103	3/4	3/4	4/4	1	1	iv6		e	#vi		iv6		iv		6				m	1	1	-4, 0, -1		-1	-4
 108	104	0	0	4/4	1	1	i64(4)		e	#vi		i64(4)		i		64	4			m	1	1	1, 0, -1		0	1
 108	104	1/4	1/4	4/4	1	1	I64		e	#vi		I64		I		64				M	1	1	1, 0, 4		0	1
@@ -270,7 +270,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 110	106	0	0	4/4	1	1	i6		e	#vi		i6		i		6				m	1	1	-3, 1, 0		0	-3
 110	106	3/4	3/4	4/4	1	1	i		e	#vi		i		i						m	1	1	0, -3, 1		0	0
 111	107	0	0	4/4	1	1	VIM7		e	#vi		VIM7		VI	M	7				MM7	1	1	-4, 0, -3, 1		-4	-4
-111	107	1/4	1/4	4/4	1	1	.It6		e	#vi		It6	It	vii	o	6	b3	V		M	1	1	-4, 0, 6		6	-4
+111	107	1/4	1/4	4/4	1	1	.It6		e	#vi		It6	It	vii	o	6	b3	V		It	1	1	-4, 0, 6		6	-4
 111	107	3/4	3/4	4/4	1	1	iv6		e	#vi		iv6		iv		6				m	1	1	-4, 0, -1		-1	-4
 112	108	0	0	4/4	1	1	i64(4)		e	#vi		i64(4)		i		64	4			m	1	1	1, 0, -1		0	1
 112	108	1/4	1/4	4/4	1	1	I64		e	#vi		I64		I		64				M	1	1	1, 0, 4		0	1
@@ -421,7 +421,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 176	172	1/8	1/8	4/4	1	1	IM7		e	I		IM7		I	M	7				MM7	1	0	0, 4, 1, 5		0	0
 176	172	1/2	1/2	4/4	1	1	vi		e	I		vi		vi						m	1	0	3, 0, 4		3	3
 176	172	5/8	5/8	4/4	1	1	vi7		e	I		vi7		vi		7				mm7	1	0	3, 0, 4, 1		3	3
-177	173	0	0	4/4	1	1	#vi.Fr6		e	#vi		Fr6	Fr	V		7	b5	V		M	1	1	2, 6, -4, 0		2	2
+177	173	0	0	4/4	1	1	#vi.Fr6		e	#vi		Fr6	Fr	V		7	b5	V		Fr	1	1	2, 6, -4, 0		2	2
 177	173	1/2	1/2	4/4	1	1	V		e	#vi		V		V						M	1	1	1, 5, 2		1	1
 178	174	0	0	4/4	1	1	V65/V		e	#vi		V65/V		V		65		V		Mm7	1	1	6, 3, 0, 2		2	6
 178	174	1/4	1/4	4/4	1	1	I.V7(+6)/V		e	I		V7(+6)/V		V		7	+6	V		Mm7	1	0	2, 6, 3, 0	5	2	2
@@ -448,11 +448,11 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 181	177	1/2	1/2	4/4	1	1	vi		e	I		vi		vi						m	1	0	3, 0, 4		3	3
 181	177	5/8	5/8	4/4	1	1	vi(9)		e	I		vi(9)		vi			9			m	1	0	3, 0, 4	5	3	3
 181	177	7/8	7/8	4/4	1	1	vi		e	I		vi		vi						m	1	0	3, 0, 4		3	3
-182	178	0	0	4/4	1	1	#vi.Fr6		e	#vi		Fr6	Fr	V		7	b5	V		M	1	1	2, 6, -4, 0		2	2
+182	178	0	0	4/4	1	1	#vi.Fr6		e	#vi		Fr6	Fr	V		7	b5	V		Fr	1	1	2, 6, -4, 0		2	2
 182	178	1/2	1/2	4/4	1	1	V		e	#vi		V		V						M	1	1	1, 5, 2		1	1
-183	179	0	0	4/4	1	1	.Fr6		e	#vi		Fr6	Fr	V		7	b5	V		M	1	1	2, 6, -4, 0		2	2
-183	179	1/4	1/4	4/4	1	1	.Ger6		e	#vi		Ger6	Ger	vii	o	65	b3	V		M	1	1	-4, 0, -3, 6		6	-4
-183	179	15/32	15/32	4/4	1	1	.Fr6		e	#vi		Fr6	Fr	V		7	b5	V		M	1	1	2, 6, -4, 0		2	2
+183	179	0	0	4/4	1	1	.Fr6		e	#vi		Fr6	Fr	V		7	b5	V		Fr	1	1	2, 6, -4, 0		2	2
+183	179	1/4	1/4	4/4	1	1	.Ger6		e	#vi		Ger6	Ger	vii	o	65	b3	V		Ger	1	1	-4, 0, -3, 6		6	-4
+183	179	15/32	15/32	4/4	1	1	.Fr6		e	#vi		Fr6	Fr	V		7	b5	V		Fr	1	1	2, 6, -4, 0		2	2
 183	179	1/2	1/2	4/4	1	1	V\\		e	#vi		V		V					\\	M	1	1	1, 5, 2		1	1
 184	180	0	0	4/4	1	1	I.ii		e	I		ii		ii						m	1	0	2, -1, 3		2	2
 184	180	1/8	1/8	4/4	1	1	ii(+4)		e	I		ii(+4)		ii			+4			m	1	0	2, -1, 3	1	2	2
@@ -529,7 +529,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 198	194	5/8	5/8	4/4	1	1	vi(9)		e	I		vi(9)		vi			9			m	1	0	3, 0, 4	5	3	3
 198	194	7/8	7/8	4/4	1	1	vi		e	I		vi		vi						m	1	0	3, 0, 4		3	3
 199	195	0	0	4/4	1	1	#vi.V43/V		e	#vi		V43/V		V		43		V		Mm7	1	1	3, 0, 2, 6		2	3
-199	195	1/4	1/4	4/4	1	1	.Fr6		e	#vi		Fr6	Fr	V		7	b5	V		M	1	1	2, 6, -4, 0		2	2
+199	195	1/4	1/4	4/4	1	1	.Fr6		e	#vi		Fr6	Fr	V		7	b5	V		Fr	1	1	2, 6, -4, 0		2	2
 199	195	1/2	1/2	4/4	1	1	V		e	#vi		V		V						M	1	1	1, 5, 2		1	1
 200	196	0	0	4/4	1	1	I.ii		e	I		ii		ii						m	1	0	2, -1, 3		2	2
 200	196	1/8	1/8	4/4	1	1	ii(+4)		e	I		ii(+4)		ii			+4			m	1	0	2, -1, 3	1	2	2
@@ -581,9 +581,9 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 210	206	1/4	1/4	4/4	1	1	viio7/V		e	I		viio7/V		vii	o	7		V		o7	1	0	6, 3, 0, -3		6	6
 210	206	1/2	1/2	4/4	1	1	viio43		e	I		viio43		vii	o	43				o7	1	0	-1, -4, 5, 2		5	-1
 210	206	3/4	3/4	4/4	1	1	I6		e	I		I6		I		6				M	1	0	4, 1, 0		0	4
-211	207	0	0	4/4	1	1	V.Fr6		e	V		Fr6	Fr	V		7	b5	V		M	1	0	2, 6, -4, 0		2	2
+211	207	0	0	4/4	1	1	V.Fr6		e	V		Fr6	Fr	V		7	b5	V		Fr	1	0	2, 6, -4, 0		2	2
 211	207	1/4	1/4	4/4	1	1	V7		e	V		V7		V		7				Mm7	1	0	1, 5, 2, -1		1	1
-211	207	1/2	1/2	4/4	1	1	I.Fr6		e	I		Fr6	Fr	V		7	b5	V		M	1	0	2, 6, -4, 0		2	2
+211	207	1/2	1/2	4/4	1	1	I.Fr6		e	I		Fr6	Fr	V		7	b5	V		Fr	1	0	2, 6, -4, 0		2	2
 211	207	3/4	3/4	4/4	1	1	V7		e	I		V7		V		7				Mm7	1	0	1, 5, 2, -1		1	1
 211	207	7/8	7/8	4/4	1	1	V+		e	I		V+		V	+					+	1	0	1, 5, 9		1	1
 212	208	0	0	4/4	1	1	I		e	I		I		I						M	1	0	0, 4, 1		0	0
@@ -608,20 +608,20 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 215	211	7/8	7/8	4/4	1	1	V65		e	I		V65		V		65				Mm7	1	0	5, 2, -1, 1		1	5
 216	212	0	0	4/4	1	1	I		e	I		I		I						M	1	0	0, 4, 1		0	0
 216	212	1/8	1/8	4/4	1	1	V2/IV		e	I		V2/IV		V		2		IV		Mm7	1	0	-2, 0, 4, 1		0	-2
-216	212	1/4	1/4	4/4	1	1	.Ger6(2)		e	I		Ger6(2)	Ger	vii	o	65	b32	V		M	1	0	-4, 0, -3, 1		6	-4
-216	212	3/8	3/8	4/4	1	1	.Ger6		e	I		Ger6	Ger	vii	o	65	b3	V		M	1	0	-4, 0, -3, 6		6	-4
+216	212	1/4	1/4	4/4	1	1	.Ger6(2)		e	I		Ger6(2)	Ger	vii	o	65	b32	V		Ger	1	0	-4, 0, -3, 1		6	-4
+216	212	3/8	3/8	4/4	1	1	.Ger6		e	I		Ger6	Ger	vii	o	65	b3	V		Ger	1	0	-4, 0, -3, 6		6	-4
 216	212	1/2	1/2	4/4	1	1	I		e	I		I		I						M	1	0	0, 4, 1		0	0
 216	212	5/8	5/8	4/4	1	1	V2/IV		e	I		V2/IV		V		2		IV		Mm7	1	0	-2, 0, 4, 1		0	-2
-216	212	3/4	3/4	4/4	1	1	.Ger6(2)		e	I		Ger6(2)	Ger	vii	o	65	b32	V		M	1	0	-4, 0, -3, 1		6	-4
-216	212	7/8	7/8	4/4	1	1	.Ger6		e	I		Ger6	Ger	vii	o	65	b3	V		M	1	0	-4, 0, -3, 6		6	-4
+216	212	3/4	3/4	4/4	1	1	.Ger6(2)		e	I		Ger6(2)	Ger	vii	o	65	b32	V		Ger	1	0	-4, 0, -3, 1		6	-4
+216	212	7/8	7/8	4/4	1	1	.Ger6		e	I		Ger6	Ger	vii	o	65	b3	V		Ger	1	0	-4, 0, -3, 6		6	-4
 217	213	0	0	4/4	1	1	I		e	I		I		I						M	1	0	0, 4, 1		0	0
 217	213	1/8	1/8	4/4	1	1	V2/IV		e	I		V2/IV		V		2		IV		Mm7	1	0	-2, 0, 4, 1		0	-2
-217	213	1/4	1/4	4/4	1	1	.Ger6(2)		e	I		Ger6(2)	Ger	vii	o	65	b32	V		M	1	0	-4, 0, -3, 1		6	-4
-217	213	3/8	3/8	4/4	1	1	.Ger6		e	I		Ger6	Ger	vii	o	65	b3	V		M	1	0	-4, 0, -3, 6		6	-4
+217	213	1/4	1/4	4/4	1	1	.Ger6(2)		e	I		Ger6(2)	Ger	vii	o	65	b32	V		Ger	1	0	-4, 0, -3, 1		6	-4
+217	213	3/8	3/8	4/4	1	1	.Ger6		e	I		Ger6	Ger	vii	o	65	b3	V		Ger	1	0	-4, 0, -3, 6		6	-4
 217	213	1/2	1/2	4/4	1	1	I		e	I		I		I						M	1	0	0, 4, 1		0	0
 217	213	5/8	5/8	4/4	1	1	V2		e	I		V2		V		2				Mm7	1	0	-1, 1, 5, 2		1	-1
-217	213	3/4	3/4	4/4	1	1	.Ger6(2)		e	I		Ger6(2)	Ger	vii	o	65	b32	V		M	1	0	-4, 0, -3, 1		6	-4
-217	213	7/8	7/8	4/4	1	1	.Ger6		e	I		Ger6	Ger	vii	o	65	b3	V		M	1	0	-4, 0, -3, 6		6	-4
+217	213	3/4	3/4	4/4	1	1	.Ger6(2)		e	I		Ger6(2)	Ger	vii	o	65	b32	V		Ger	1	0	-4, 0, -3, 1		6	-4
+217	213	7/8	7/8	4/4	1	1	.Ger6		e	I		Ger6	Ger	vii	o	65	b3	V		Ger	1	0	-4, 0, -3, 6		6	-4
 218	214	0	0	4/4	1	1	I\\		e	I		I		I					\\	M	1	0	0, 4, 1		0	0
 219	214	0	15/16	4/4	1	1	I		e	I		I		I						M	1	0	0, 4, 1		0	0
 220	215	0	0	4/4	1	1	.bII(7)		e	I		bII(7)		bII			7			M	1	0	-5, -1, -4	0	-5	-5
