@@ -98,27 +98,16 @@ based on a tarantella by Guillaume Louis Cottrau (1797–1847)
 
 
 # Overview
-|file_name|measures|labels|standard|annotators|reviewers|
-|---------|-------:|-----:|--------|----------|---------|
-|         |      97|   191|        |          |         |
-|         |     112|    91|        |          |         |
-|         |      48|   196|        |          |         |
-|         |      66|   465|        |          |         |
-|         |     160|   313|        |          |         |
-|         |     216|   630|        |          |         |
-|         |     117|   215|        |          |         |
-|         |      70|   206|        |          |         |
-|         |     188|   205|        |          |         |
-|         |     133|   237|        |          |         |
-|         |     479|   762|        |          |         |
-|         |        |   191|        |          |         |
-|         |        |    91|        |          |         |
-|         |        |   196|        |          |         |
-|         |        |   465|        |          |         |
-|         |        |   313|        |          |         |
-|         |        |   630|        |          |         |
-|         |        |   215|        |          |         |
-|         |        |   206|        |          |         |
-|         |        |   205|        |          |         |
-|         |        |   237|        |          |         |
-|         |        |   764|        |          |         |
+|                                file_name                                |measures|labels|standard| annotators |                       reviewers                       |
+|-------------------------------------------------------------------------|-------:|-----:|--------|------------|-------------------------------------------------------|
+|160.01_Chapelle_de_Guillaume_Tell                                        |      97|   191|2.1.1   |Adrian Nagel|Johannes Hentschel (1-33 & 82-97)                      |
+|160.02_Au_Lac_de_Wallenstadt                                             |     112|    91|2.1.1   |Adrian Nagel|Johannes Hentschel (1-70 & 106-112)                    |
+|160.03_Pastorale                                                         |      48|   196|2.1.1   |Adrian Nagel|Johannes Hentschel                                     |
+|160.04_Au_Bord_dUne_Source                                               |      66|   465|2.1.1   |Adrian Nagel|Johannes Hentschel (1-13 & 34-43 & 57-66)              |
+|160.05_Orage                                                             |     160|   313|2.1.1   |Adrian Nagel|Johannes Hentschel (1-50)                              |
+|160.06_Vallee_dObermann                                                  |     216|   630|2.1.1   |Adrian Nagel|Johannes Hentschel (1-55 & 75-100 & 175-200)           |
+|160.07_Eglogue                                                           |     117|   215|2.1.1   |Adrian Nagel|Johannes Hentschel (1-57 & 100-117)                    |
+|160.08_Le_Mal_du_Pays_(Heimweh)                                          |      70|   206|2.1.1   |Adrian Nagel|Johannes Hentschel (1-34 & 61-70)                      |
+|160.09_Les_Cloches_de_Geneve_(Nocturne)                                  |     188|   205|2.1.1   |Adrian Nagel|Johannes Hentschel (1-76 & 140-188)                    |
+|161.01_Sposalizio                                                        |     133|   237|2.1.1   |Adrian Nagel|Johannes Hentschel                                     |
+|162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana|     479|   762|2.1.1   |Adrian Nagel|Johannes Hentschel (1-76 & 200-220 & 300-320 & 447-479)|
