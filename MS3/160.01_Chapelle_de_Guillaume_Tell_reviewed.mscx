@@ -13418,36 +13418,8 @@
               </Note>
             </Chord>
           <Rest>
-            <dots>2</dots>
-            <durationType>eighth</durationType>
+            <durationType>half</durationType>
             </Rest>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>32nd</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <dots>2</dots>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -13461,6 +13433,10 @@
             <dots>1</dots>
             <durationType>eighth</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>up</StemDirection>
@@ -13520,6 +13496,10 @@
             <dots>2</dots>
             <durationType>eighth</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
@@ -25799,30 +25779,49 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>{</name>
-            <color r="0" g="85" b="0" a="255"/>
-            </Harmony>
           <Rest>
-            <durationType>half</durationType>
+            <dots>2</dots>
+            <durationType>eighth</durationType>
             </Rest>
-          <location>
-            <fractions>-9/32</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V</name>
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <dots>2</dots>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I6</name>
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
