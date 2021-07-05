@@ -16407,7 +16407,7 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III.#viio7/iv</name>
+            <name>III.#viio7/iv{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -17964,7 +17964,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|IAC}</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
