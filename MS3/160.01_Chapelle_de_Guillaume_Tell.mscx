@@ -18628,7 +18628,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I|IAC}</name>
+            <name>I|IAC}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -18818,7 +18818,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I64\\</name>
+            <name>I64</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -19044,7 +19044,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -21133,7 +21133,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
