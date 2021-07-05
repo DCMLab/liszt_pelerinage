@@ -18820,7 +18820,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#I.I64</name>
+            <name>I.bII64</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -18892,10 +18892,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Articulation>
@@ -18942,10 +18938,6 @@
             <offset x="0" y="2.31643"/>
             <text><font size="12"></font>(eco)</text>
             </StaffText>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I64</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <dots>2</dots>
@@ -18969,10 +18961,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -19004,10 +18992,6 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I64</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
