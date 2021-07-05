@@ -24402,7 +24402,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>biii</name>
+            <name>vi/bV</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -24439,7 +24439,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bII</name>
+            <name>V/bV</name>
             </Harmony>
           <Chord>
             <durationType>whole</durationType>
