@@ -18504,7 +18504,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bIV64</name>
+            <name>bii2</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -18530,7 +18530,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65/VI</name>
+            <name>V65/vi</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -18549,14 +18549,14 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio2</name>
+            <name>V65(9)/vi</name>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(+6)</name>
+            <name>V7(+9)/vi</name>
             </Harmony>
           <Chord>
             <dots>2</dots>
@@ -18582,11 +18582,15 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio2(+4)</name>
+            <name>V7/vi</name>
             </Harmony>
           <location>
             <fractions>3/16</fractions>
             </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
