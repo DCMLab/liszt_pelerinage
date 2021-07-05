@@ -17432,7 +17432,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65/VI</name>
+            <name>V65/vi</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -17527,7 +17527,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio2</name>
+            <name>V65(9)/vi</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -17613,7 +17613,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(+6)</name>
+            <name>V7(+9)/vi</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -17699,7 +17699,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2(+6)</name>
+            <name>V7/vi</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
