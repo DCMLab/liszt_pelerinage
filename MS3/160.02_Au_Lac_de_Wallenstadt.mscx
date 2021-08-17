@@ -10387,7 +10387,7 @@ il tempo
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV</name>
+            <name>IV{</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -11000,7 +11000,7 @@ il tempo
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv\\</name>
+            <name>iv</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -13002,7 +13002,7 @@ il tempo
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7\\</name>
+            <name>V7|HC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
