@@ -15016,10 +15016,6 @@ il tempo
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -15048,7 +15044,7 @@ il tempo
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>Ger6</name>
+            <name>Ger6{</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -17215,10 +17211,6 @@ il tempo
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
           <Spanner type="Pedal">
             <prev>
               <location>
