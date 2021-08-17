@@ -13392,10 +13392,6 @@ il tempo
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -13432,7 +13428,7 @@ il tempo
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I[V7</name>
+            <name>I[V7{</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -14847,7 +14843,7 @@ il tempo
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
