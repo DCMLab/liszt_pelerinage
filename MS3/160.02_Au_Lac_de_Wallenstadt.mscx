@@ -6642,7 +6642,7 @@ il tempo
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>Ab.I[I</name>
+            <name>Ab.I[I{</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -8526,7 +8526,7 @@ il tempo
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
