@@ -25446,7 +25446,7 @@ Der jungen Natur.
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[V7(4)</name>
+            <name>V[V7(4){</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -25767,7 +25767,7 @@ Der jungen Natur.
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(#764)</name>
+            <name>V(#764)|HC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
