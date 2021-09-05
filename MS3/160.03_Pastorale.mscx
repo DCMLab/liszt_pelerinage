@@ -9896,7 +9896,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V.I6</name>
+            <name>V.I6{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -10638,7 +10638,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV\\</name>
+            <name>IV</name>
             </Harmony>
           </voice>
         </Measure>
@@ -10710,7 +10710,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
