@@ -31470,7 +31470,7 @@ Der jungen Natur.
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -32446,7 +32446,7 @@ Der jungen Natur.
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|IAC}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
