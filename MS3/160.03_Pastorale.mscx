@@ -11920,7 +11920,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V.I6</name>
+            <name>V.I6{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -12606,7 +12606,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/IV</name>
+            <name>V7/IV-I.V7</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -12639,7 +12639,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV(9)</name>
+            <name>I(9)|IAC}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -12662,7 +12662,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV</name>
+            <name>I</name>
             </Harmony>
           </voice>
         </Measure>
@@ -12670,7 +12670,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I.I(9)</name>
+            <name>I(9)</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -12796,7 +12796,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I</name>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
