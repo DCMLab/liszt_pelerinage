@@ -28522,7 +28522,7 @@ Der jungen Natur.
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I.V65(b5)/V</name>
+            <name>I.V65(b5)/V{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -29632,7 +29632,7 @@ Der jungen Natur.
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I[I</name>
+            <name>I[I|IAC}{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
