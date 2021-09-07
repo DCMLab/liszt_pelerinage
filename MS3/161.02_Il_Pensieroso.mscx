@@ -5085,7 +5085,7 @@
             </Symbol>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi6</name>
+            <name>iv6/iii</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -6871,7 +6871,7 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bIV</name>
+            <name>I/bIV</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -6965,7 +6965,7 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bIV</name>
+            <name>I/bIV|PC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -7180,7 +7180,7 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6</name>
+            <name>i6{</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -8057,13 +8057,13 @@
         </Measure>
       <Measure>
         <voice>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>vi</name>
             </Harmony>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
