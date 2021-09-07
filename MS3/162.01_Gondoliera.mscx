@@ -110,7 +110,10 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/177126</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="composed_end">1859</metaTag>
+    <metaTag name="composed_start">1859</metaTag>
     <metaTag name="composer">Gabriel Fauré</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2018-01-13</metaTag>
@@ -120,7 +123,7 @@
     <metaTag name="mscVersion">3.02</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source">https://musescore.com/score/4907975</metaTag>
+    <metaTag name="source">https://musescore.com/user/2749876/scores/5193583</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">Nocturne No. 1</metaTag>

@@ -196,7 +196,10 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/177126</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="composed_end">1859</metaTag>
+    <metaTag name="composed_start">1859</metaTag>
     <metaTag name="composer"></metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-12-05</metaTag>
@@ -209,6 +212,7 @@
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="typesetter">https://www.custommusictranscription.com/</metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">162.02_Canzone</metaTag>
     <Part>

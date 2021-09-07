@@ -161,7 +161,7 @@
     <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/177125</metaTag>
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="composed_end">1882</metaTag>
+    <metaTag name="composed_end">1849</metaTag>
     <metaTag name="composed_start">1846</metaTag>
     <metaTag name="composer">Gabriel Fauré</metaTag>
     <metaTag name="copyright"></metaTag>
@@ -176,8 +176,9 @@
     <metaTag name="poet"></metaTag>
     <metaTag name="reviewers">Johannes Hentschel</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
-    <metaTag name="source">https://musescore.com/score/4907975</metaTag>
+    <metaTag name="source">https://musescore.com/user/2749876/scores/5137056</metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="typesetter">https://musescore.com/user/2749876</metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">Nocturne No. 1</metaTag>
     <Part>

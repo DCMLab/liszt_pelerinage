@@ -108,7 +108,10 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/177125</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="composed_end">1849</metaTag>
+    <metaTag name="composed_start">1846</metaTag>
     <metaTag name="composer">Liszt - Annees de peleriange No.4</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-07-08</metaTag>
@@ -121,6 +124,7 @@
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="typesetter">Tom Schreyer</metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">Sonetto 47 del Petrarca</metaTag>
     <Part>
