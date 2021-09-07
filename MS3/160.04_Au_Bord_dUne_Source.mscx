@@ -171,11 +171,11 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/176827</metaTag>
+    <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/176824</metaTag>
     <metaTag name="annotators">Adrian Nagel (2.1.1), Amelia Brey (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="composed_end">1882</metaTag>
-    <metaTag name="composed_start">1846</metaTag>
+    <metaTag name="composed_end">1855</metaTag>
+    <metaTag name="composed_start">1848</metaTag>
     <metaTag name="composer">Franz Liszt</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-01-26</metaTag>
@@ -191,6 +191,7 @@
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">http://musescore.com/user/2749876/scores/4078941</metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="typesetter">https://musescore.com/user/2749876</metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">Au bord d'une source</metaTag>
     <Part>
