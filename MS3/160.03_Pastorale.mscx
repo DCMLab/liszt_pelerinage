@@ -12607,7 +12607,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/IV-I.V7</name>
+            <name>I.V7</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
