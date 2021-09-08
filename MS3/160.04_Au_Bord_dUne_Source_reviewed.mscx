@@ -187,7 +187,7 @@
     <metaTag name="originalFormat">mxl</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">JH (1-13 &amp; 34-43 &amp; 57-66), AB</metaTag>
+    <metaTag name="reviewers">JH (1-13 &amp; 34-43 &amp; 57-66), AB, AN</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">http://musescore.com/user/2749876/scores/4078941</metaTag>
     <metaTag name="translator"></metaTag>
@@ -21219,6 +21219,7 @@ Der jungen Natur.
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7</name>
+            <offset x="-0.382019" y="3.69101"/>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
