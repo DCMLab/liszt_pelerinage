@@ -19851,7 +19851,9 @@
               <tpc>13</tpc>
               </Note>
             <Arpeggio>
+              <offset x="0" y="-4.74451"/>
               <subtype>0</subtype>
+              <userLen2>4.61628</userLen2>
               </Arpeggio>
             </Chord>
           <Rest>
@@ -19873,7 +19875,9 @@
               <tpc>18</tpc>
               </Note>
             <Arpeggio>
+              <offset x="-0.12823" y="-6.0268"/>
               <subtype>0</subtype>
+              <userLen2>5.77034</userLen2>
               </Arpeggio>
             </Chord>
           <Rest>
@@ -19964,7 +19968,9 @@
               <tpc>17</tpc>
               </Note>
             <Arpeggio>
+              <offset x="0" y="-4.10336"/>
               <subtype>0</subtype>
+              <userLen2>4.23159</userLen2>
               </Arpeggio>
             </Chord>
           <Rest>
