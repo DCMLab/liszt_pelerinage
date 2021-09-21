@@ -18782,7 +18782,9 @@
               <tpc>13</tpc>
               </Note>
             <Arpeggio>
+              <offset x="-0.384586" y="-4.74323"/>
               <subtype>0</subtype>
+              <userLen2>4.35864</userLen2>
               </Arpeggio>
             </Chord>
           <Rest>
