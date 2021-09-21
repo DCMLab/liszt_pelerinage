@@ -7940,7 +7940,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I/V|PAC}</name>
+            <name>I/V|PAC}-V|HC}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
