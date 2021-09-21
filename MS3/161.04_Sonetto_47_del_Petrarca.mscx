@@ -16440,6 +16440,7 @@
               <tpc>14</tpc>
               </Note>
             <Arpeggio>
+              <offset x="-0.384586" y="0.128195"/>
               <subtype>0</subtype>
               </Arpeggio>
             </Chord>
