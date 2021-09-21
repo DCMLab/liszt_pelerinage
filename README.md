@@ -111,7 +111,7 @@ based on a tarantella by Guillaume Louis Cottrau (1797–1847)
 |160.09_Les_Cloches_de_Geneve_(Nocturne)                                  |     188|   205|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-76 & 140-188)                    |
 |161.01_Sposalizio                                                        |     133|   237|2.1.1   |Adrian Nagel                             |Johannes Hentschel                                     |
 |161.02_Il_Pensieroso                                                     |      48|    88|2.3.0   |Adrian Nagel                             |AB                                                     |
-|161.03_Canzonetta_del_Salvator_Rosa                                      |      75|     0|        |                                         |                                                       |
+|161.03_Canzonetta_del_Salvator_Rosa                                      |      75|   273|        |                                         |                                                       |
 |161.04_Sonetto_47_del_Petrarca                                           |      95|     0|        |                                         |                                                       |
 |161.05_Sonetto_104_del_Petrarca                                          |      79|     0|        |                                         |                                                       |
 |161.06_Sonetto_123_del_Petrarca                                          |      84|     0|        |                                         |                                                       |
