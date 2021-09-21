@@ -8573,7 +8573,9 @@
               <tpc>26</tpc>
               </Note>
             <Arpeggio>
+              <offset x="0" y="-2.6921"/>
               <subtype>0</subtype>
+              <userLen2>2.30752</userLen2>
               </Arpeggio>
             </Chord>
           <Rest>
@@ -18603,6 +18605,11 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V65</name>
+            <offset x="7.69172" y="2.98722"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
