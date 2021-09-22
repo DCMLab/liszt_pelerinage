@@ -123,6 +123,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">AB</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="typesetter">Tom Schreyer</metaTag>
@@ -197,7 +198,7 @@
           <style>Composer</style>
           <family>FreeSerif</family>
           <size>12</size>
-          <text><font size="9.1196"></font><font face="Plantin MT Std"></font>Liszt - Annees de peleriange No.6</text>
+          <text><font size="9.1196"/><font face="Plantin MT Std"/>Liszt - Annees de pelerinage No.6</text>
           </Text>
         <Text>
           <style>Title</style>
@@ -22162,13 +22163,13 @@
             <family>FreeSerif</family>
             <text><font size="9.8903"></font><font face="Plantin MT Std"></font>una corda</text>
             </StaffText>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>viio7|HC}</name>
             </Harmony>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Chord>
             <durationType>half</durationType>
             <Articulation>
