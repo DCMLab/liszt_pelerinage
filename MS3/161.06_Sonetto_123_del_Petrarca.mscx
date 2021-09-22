@@ -17027,7 +17027,8 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/V</name>
+            <name>V7(b9)/V</name>
+            <offset x="4.52413" y="6.33525"/>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -17072,10 +17073,6 @@
               </Arpeggio>
             </Chord>
           <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio65/V</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
