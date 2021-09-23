@@ -199,7 +199,7 @@
           <style>Composer</style>
           <family>FreeSerif</family>
           <size>12</size>
-          <text><font size="10.063"/><font face="Plantin MT Std"/>Liszt - Annees de pelerinage No.3</text>
+          <text><font size="10.063"></font><font face="Plantin MT Std"></font>Liszt - Annees de pelerinage No.3</text>
           </Text>
         <Text>
           <style>Title</style>
@@ -7940,7 +7940,13 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I/V|PAC}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I/V|PAC}-V|HC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -11187,7 +11193,13 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>iv}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>iv</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <durationType>half</durationType>
@@ -11197,7 +11209,13 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V{</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -11217,7 +11235,13 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>i</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>i|PAC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -11642,7 +11666,13 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I|PAC}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I|PAC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -11657,7 +11687,13 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V{</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -13846,6 +13882,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -13869,7 +13906,13 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V{</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -14122,7 +14165,13 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I|PAC}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I|PAC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -14134,7 +14183,13 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V{</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
