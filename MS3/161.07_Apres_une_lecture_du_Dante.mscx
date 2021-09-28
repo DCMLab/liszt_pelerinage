@@ -110312,16 +110312,12 @@
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii(11)</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
+              <pitch>63</pitch>
+              <tpc>23</tpc>
               </Note>
             <Note>
               <pitch>69</pitch>
@@ -110339,8 +110335,8 @@
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
+              <pitch>63</pitch>
+              <tpc>23</tpc>
               </Note>
             <Note>
               <pitch>69</pitch>
