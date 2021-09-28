@@ -88780,7 +88780,7 @@
             </Symbol>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="9.2082"></font><font face="Plantin MT Std"></font>una chorda</text>
+            <text><font size="9.2082"/><font face="Plantin MT Std"/>una corda</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -101775,7 +101775,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I}{</name>
+            <name>I|PC}{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
