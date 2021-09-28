@@ -24099,6 +24099,7 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -86982,7 +86983,9 @@
               <tpc>12</tpc>
               </Note>
             <Arpeggio>
+              <offset x="0.147226" y="-4.71123"/>
               <subtype>0</subtype>
+              <userLen2>4.71123</userLen2>
               </Arpeggio>
             </Chord>
           <Rest>
@@ -87269,7 +87272,9 @@
               <tpc>16</tpc>
               </Note>
             <Arpeggio>
+              <offset x="0" y="-4.41678"/>
               <subtype>0</subtype>
+              <userLen2>4.26956</userLen2>
               </Arpeggio>
             </Chord>
           <Rest>
