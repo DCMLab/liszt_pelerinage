@@ -64065,7 +64065,7 @@
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>D.I/V(#4){</name>
+            <name>D.V(#4){</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -88780,7 +88780,7 @@
             </Symbol>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="9.2082"/><font face="Plantin MT Std"/>una corda</text>
+            <text><font size="9.2082"></font><font face="Plantin MT Std"></font>una corda</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
