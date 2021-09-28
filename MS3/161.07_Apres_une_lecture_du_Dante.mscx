@@ -110216,7 +110216,7 @@
             </Symbol>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio7/V/V</name>
+            <name>viio7/ii</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -110312,6 +110312,10 @@
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii(11)</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -110433,8 +110437,8 @@
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           <Rest>
