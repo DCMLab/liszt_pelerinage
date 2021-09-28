@@ -112,12 +112,14 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/177125</metaTag>
+    <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1849</metaTag>
     <metaTag name="composed_start">1846</metaTag>
     <metaTag name="composer">Liszt - Annees de peleriange No.7</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-07-08</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -125,6 +127,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">AB</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="typesetter">Tom Schreyer</metaTag>
@@ -15172,6 +15175,12 @@
               <subtype>8va</subtype>
               <visible>0</visible>
               <Segment>
+                <subtype>1</subtype>
+                <offset x="0" y="-3"/>
+                <off2 x="0" y="0"/>
+                <visible>0</visible>
+                </Segment>
+              <Segment>
                 <subtype>2</subtype>
                 <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
@@ -15185,12 +15194,6 @@
                 </Segment>
               <Segment>
                 <subtype>3</subtype>
-                <offset x="0" y="-3"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              <Segment>
-                <subtype>1</subtype>
                 <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
@@ -19561,13 +19564,13 @@
               <subtype>8va</subtype>
               <visible>0</visible>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
@@ -50757,13 +50760,13 @@
               <subtype>8va</subtype>
               <visible>0</visible>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
@@ -52503,13 +52506,13 @@
               <subtype>8va</subtype>
               <visible>0</visible>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
@@ -55424,6 +55427,12 @@
               <subtype>8va</subtype>
               <visible>0</visible>
               <Segment>
+                <subtype>1</subtype>
+                <offset x="0" y="-3"/>
+                <off2 x="0" y="0"/>
+                <visible>0</visible>
+                </Segment>
+              <Segment>
                 <subtype>2</subtype>
                 <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
@@ -55431,12 +55440,6 @@
                 </Segment>
               <Segment>
                 <subtype>3</subtype>
-                <offset x="0" y="-3"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              <Segment>
-                <subtype>1</subtype>
                 <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
@@ -56504,6 +56507,12 @@
               <subtype>8va</subtype>
               <visible>0</visible>
               <Segment>
+                <subtype>1</subtype>
+                <offset x="0" y="-3"/>
+                <off2 x="0" y="0"/>
+                <visible>0</visible>
+                </Segment>
+              <Segment>
                 <subtype>2</subtype>
                 <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
@@ -56541,12 +56550,6 @@
                 </Segment>
               <Segment>
                 <subtype>3</subtype>
-                <offset x="0" y="-3"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              <Segment>
-                <subtype>1</subtype>
                 <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
@@ -62172,13 +62175,13 @@
               <subtype>8va</subtype>
               <visible>0</visible>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
@@ -63522,13 +63525,13 @@
               <subtype>8va</subtype>
               <visible>0</visible>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
@@ -80096,13 +80099,13 @@
               <beginHookType>1</beginHookType>
               <visible>0</visible>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
@@ -86561,13 +86564,13 @@
             <family>FreeSerif</family>
             <text><font size="9.2082"></font><font face="Plantin MT Std"></font>lunga<font size="9.2082"></font><font face="Plantin MT Std"></font>pausa</text>
             </StaffText>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7|HC}</name>
             </Harmony>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Spanner type="Pedal">
             <prev>
               <location>
@@ -103681,13 +103684,13 @@
               <beginHookType>1</beginHookType>
               <visible>0</visible>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
@@ -104202,13 +104205,13 @@
               <beginHookType>1</beginHookType>
               <visible>0</visible>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
@@ -106106,13 +106109,13 @@
               <beginHookType>1</beginHookType>
               <visible>0</visible>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
@@ -107196,13 +107199,13 @@
               <beginHookType>1</beginHookType>
               <visible>0</visible>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
@@ -114478,13 +114481,13 @@
               <beginHookType>1</beginHookType>
               <visible>0</visible>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
@@ -123996,13 +123999,13 @@
               <beginHookType>1</beginHookType>
               <visible>0</visible>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
                 </Segment>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
