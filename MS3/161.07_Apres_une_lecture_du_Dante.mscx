@@ -64064,7 +64064,7 @@
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>D.bV.V(#4){</name>
+            <name>D.I/V(#4){</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -64269,7 +64269,7 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(6#4#2)</name>
+            <name>vio6/V</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -64300,6 +64300,10 @@
             </Chord>
           </voice>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V/V[V/V</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -64335,7 +64339,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>bV.viio6</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -64358,7 +64362,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(b64)</name>
+            <name>i6</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -64438,7 +64442,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(4)</name>
+            <name>V(4)]</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -64478,10 +64482,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(4b2)</name>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
