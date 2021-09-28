@@ -109657,7 +109657,9 @@
               <tpc>18</tpc>
               </Note>
             <Arpeggio>
+              <offset x="0" y="2.20839"/>
               <subtype>0</subtype>
+              <userLen1>2.06116</userLen1>
               </Arpeggio>
             </Chord>
           <location>
@@ -109715,7 +109717,9 @@
               <tpc>16</tpc>
               </Note>
             <Arpeggio>
+              <offset x="0" y="1.17781"/>
               <subtype>0</subtype>
+              <userLen1>1.32503</userLen1>
               </Arpeggio>
             </Chord>
           <StaffText>
@@ -110370,7 +110374,9 @@
               <tpc>21</tpc>
               </Note>
             <Arpeggio>
+              <offset x="0" y="1.17781"/>
               <subtype>0</subtype>
+              <userLen1>1.61949</userLen1>
               </Arpeggio>
             </Chord>
           <Chord>
@@ -110386,6 +110392,7 @@
               </Note>
             <Arpeggio>
               <subtype>0</subtype>
+              <userLen2>1.17781</userLen2>
               </Arpeggio>
             </Chord>
           <Chord>
@@ -110401,6 +110408,7 @@
               </Note>
             <Arpeggio>
               <subtype>0</subtype>
+              <userLen2>1.17781</userLen2>
               </Arpeggio>
             </Chord>
           <Chord>
@@ -110416,6 +110424,7 @@
               </Note>
             <Arpeggio>
               <subtype>0</subtype>
+              <userLen2>1.61949</userLen2>
               </Arpeggio>
             </Chord>
           </voice>
