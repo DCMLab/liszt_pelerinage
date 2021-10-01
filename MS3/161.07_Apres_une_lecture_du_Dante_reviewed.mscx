@@ -64054,11 +64054,6 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>D.bV.V(#4){</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
           <Symbol>
             <name>keyboardPedalPed</name>
             <offset x="1.1436" y="8.89469"/>
@@ -64070,8 +64065,7 @@
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>D.V(#4){</name>
-            <color r="0" g="85" b="0" a="255"/>
+            <name>D.bV.V(#4){</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -64277,12 +64271,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(6#4#2)</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vio6/V</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -64313,11 +64301,6 @@
             </Chord>
           </voice>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V/V[V/V</name>
-            <color r="0" g="85" b="0" a="255"/>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -64354,12 +64337,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>bV.viio6</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -64383,12 +64360,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(b64)</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i6</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -64469,12 +64440,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(4)</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(4)]</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
