@@ -116,6 +116,7 @@
     <metaTag name="composer">Liszt - Annees de peleriange No.3</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-07-08</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -199,7 +200,7 @@
           <style>Composer</style>
           <family>FreeSerif</family>
           <size>12</size>
-          <text><font size="10.063"/><font face="Plantin MT Std"/>Liszt - Annees de pelerinage No.3</text>
+          <text><font size="10.063"></font><font face="Plantin MT Std"></font>Liszt - Annees de pelerinage No.3</text>
           </Text>
         <Text>
           <style>Title</style>
