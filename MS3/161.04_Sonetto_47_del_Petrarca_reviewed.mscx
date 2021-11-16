@@ -118,7 +118,6 @@
     <metaTag name="composer">Liszt - Annees de peleriange No.4</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-07-08</metaTag>
-    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -13811,6 +13810,11 @@
               <tpc>8</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V+M7</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
             </Fermata>
@@ -15241,7 +15245,13 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I6}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -15269,7 +15279,13 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>bV.V[I6{</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>bV.V[I6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15845,7 +15861,13 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V65</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>ii6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15858,6 +15880,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V65</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0.128192" y="3.5"/>
             </Harmony>
           <Chord>
@@ -16129,7 +16152,13 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V65</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>ii6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16142,6 +16171,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V65</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -18319,7 +18349,13 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V65</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>ii6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -18332,6 +18368,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V65</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -18611,6 +18648,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -18814,7 +18852,13 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>vii%43</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V2(9)</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -18956,7 +19000,13 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>vii%43</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V2(9)</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -19538,7 +19588,13 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>vii%43</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V2(9)</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -19710,7 +19766,13 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>vii%43</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V2(9)</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
