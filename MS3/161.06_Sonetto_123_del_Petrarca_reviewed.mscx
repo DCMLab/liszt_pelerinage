@@ -116,7 +116,6 @@
     <metaTag name="composer">Liszt - Annees de peleriange No.6</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-07-08</metaTag>
-    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -17028,7 +17027,13 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V7(b9)/V</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="4.52413" y="6.33525"/>
             </Harmony>
           <Tuplet>
@@ -17074,6 +17079,11 @@
               </Arpeggio>
             </Chord>
           <endTuplet/>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio65/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -21753,7 +21763,13 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>IV64(96#4#2)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>IV64(6#4#2)</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
