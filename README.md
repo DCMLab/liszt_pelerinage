@@ -102,7 +102,7 @@ based on a tarantella by Guillaume Louis Cottrau (1797–1847)
 |-------------------------------------------------------------------------|-------:|-----:|--------|-----------------------------------------|-------------------------------------------------------|
 |160.01_Chapelle_de_Guillaume_Tell                                        |      97|   174|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|Johannes Hentschel (1-33 & 82-97), AB, AN              |
 |160.02_Au_Lac_de_Wallenstadt                                             |     112|    84|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|JH (1-70 & 106-112); AB; AN                            |
-|160.03_Pastorale                                                         |      48|   200|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|JH, AB                                                 |
+|160.03_Pastorale                                                         |      48|   200|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|JH, AB, AN                                             |
 |160.04_Au_Bord_dUne_Source                                               |      66|   465|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|JH (1-13 & 34-43 & 57-66), AB, AN                      |
 |160.05_Orage                                                             |     160|   313|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-50)                              |
 |160.06_Vallee_dObermann                                                  |     216|   630|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-55 & 75-100 & 175-200)           |
