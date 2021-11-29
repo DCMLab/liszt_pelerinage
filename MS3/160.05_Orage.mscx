@@ -41119,7 +41119,7 @@ Or do ye find, at length, like eagles, some high nest?
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i[i</name>
+            <name>i[i{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -41959,7 +41959,7 @@ Or do ye find, at length, like eagles, some high nest?
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio65\\</name>
+            <name>#viio65|HC}</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
