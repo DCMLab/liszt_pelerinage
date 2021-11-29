@@ -116,6 +116,6 @@ based on a tarantella by Guillaume Louis Cottrau (1797–1847)
 |161.05_Sonetto_104_del_Petrarca                                          |      79|     0|        |                                         |                                                       |
 |161.06_Sonetto_123_del_Petrarca                                          |      84|   149|2.3.0   |Adrian Nagel                             |AB                                                     |
 |161.07_Apres_une_lecture_du_Dante                                        |     374|   632|2.3.0   |                                         |                                                       |
-|162.01_Gondoliera                                                        |     125|     0|        |                                         |                                                       |
+|162.01_Gondoliera                                                        |     125|   121|        |                                         |                                                       |
 |162.02_Canzone                                                           |      60|     0|        |                                         |                                                       |
 |162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana|     479|   762|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-76 & 200-220 & 300-320 & 447-479)|
