@@ -23699,7 +23699,7 @@ Or do ye find, at length, like eagles, some high nest?
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio7\\</name>
+            <name>#viio7</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -25548,7 +25548,7 @@ Or do ye find, at length, like eagles, some high nest?
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio65\\</name>
+            <name>#viio65|HC}</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
