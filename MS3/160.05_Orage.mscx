@@ -33213,7 +33213,7 @@ Or do ye find, at length, like eagles, some high nest?
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I[I|PAC}</name>
+            <name>I[I|PAC}{</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -33270,16 +33270,6 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>23</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/24</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
-          <location>
-            <fractions>1/24</fractions>
-            </location>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -35080,7 +35070,7 @@ Or do ye find, at length, like eagles, some high nest?
             </KeySig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -35100,10 +35090,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
