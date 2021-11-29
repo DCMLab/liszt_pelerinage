@@ -164,7 +164,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>0.9</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -4895,9 +4894,6 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>0</fractions>
-            </location>
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
@@ -23638,7 +23634,7 @@ Or do ye find, at length, like eagles, some high nest?
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio2</name>
+            <name>#viio2|HC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -30276,14 +30272,14 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>8</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I[bII6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I[bII6</name>
+            </Harmony>
           <Spanner type="Pedal">
             <Pedal>
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
@@ -31693,6 +31689,7 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <endTuplet/>
           <location>
             <fractions>-1/16</fractions>
             </location>
@@ -31700,10 +31697,6 @@ Or do ye find, at length, like eagles, some high nest?
             <harmonyType>1</harmonyType>
             <name>iii64</name>
             </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
-          <endTuplet/>
           </voice>
         </Measure>
       <Measure>
@@ -31949,6 +31942,7 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <endTuplet/>
           <location>
             <fractions>-1/16</fractions>
             </location>
@@ -31956,10 +31950,6 @@ Or do ye find, at length, like eagles, some high nest?
             <harmonyType>1</harmonyType>
             <name>I(#2)</name>
             </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
-          <endTuplet/>
           </voice>
         </Measure>
       <Measure>
@@ -32205,6 +32195,7 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <endTuplet/>
           <location>
             <fractions>-1/16</fractions>
             </location>
@@ -32212,10 +32203,6 @@ Or do ye find, at length, like eagles, some high nest?
             <harmonyType>1</harmonyType>
             <name>I(#4)</name>
             </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
-          <endTuplet/>
           </voice>
         </Measure>
       <Measure>
@@ -32339,6 +32326,7 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <endTuplet/>
           <location>
             <fractions>-1/16</fractions>
             </location>
@@ -32349,7 +32337,6 @@ Or do ye find, at length, like eagles, some high nest?
           <location>
             <fractions>1/16</fractions>
             </location>
-          <endTuplet/>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -32481,6 +32468,7 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <endTuplet/>
           <location>
             <fractions>-1/16</fractions>
             </location>
@@ -32488,10 +32476,6 @@ Or do ye find, at length, like eagles, some high nest?
             <harmonyType>1</harmonyType>
             <name>I(#2)</name>
             </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
-          <endTuplet/>
           </voice>
         </Measure>
       <Measure>
@@ -32615,6 +32599,7 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <endTuplet/>
           <location>
             <fractions>-1/16</fractions>
             </location>
@@ -32625,7 +32610,6 @@ Or do ye find, at length, like eagles, some high nest?
           <location>
             <fractions>1/16</fractions>
             </location>
-          <endTuplet/>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -33009,14 +32993,14 @@ Or do ye find, at length, like eagles, some high nest?
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#III.V43(b9+b5)</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#III.V43(b9+b5)</name>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -33500,6 +33484,7 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <endTuplet/>
           <location>
             <fractions>-1/16</fractions>
             </location>
@@ -33507,10 +33492,6 @@ Or do ye find, at length, like eagles, some high nest?
             <harmonyType>1</harmonyType>
             <name>iii64</name>
             </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
-          <endTuplet/>
           </voice>
         </Measure>
       <Measure>
@@ -33762,6 +33743,7 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <endTuplet/>
           <location>
             <fractions>-1/16</fractions>
             </location>
@@ -33769,10 +33751,6 @@ Or do ye find, at length, like eagles, some high nest?
             <harmonyType>1</harmonyType>
             <name>I(#2)</name>
             </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
-          <endTuplet/>
           </voice>
         </Measure>
       <Measure>
@@ -34024,6 +34002,7 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <endTuplet/>
           <location>
             <fractions>-1/16</fractions>
             </location>
@@ -34031,10 +34010,6 @@ Or do ye find, at length, like eagles, some high nest?
             <harmonyType>1</harmonyType>
             <name>I(#4)</name>
             </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
-          <endTuplet/>
           </voice>
         </Measure>
       <Measure>
@@ -34164,6 +34139,7 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <endTuplet/>
           <location>
             <fractions>-1/16</fractions>
             </location>
@@ -34174,7 +34150,6 @@ Or do ye find, at length, like eagles, some high nest?
           <location>
             <fractions>1/16</fractions>
             </location>
-          <endTuplet/>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -34306,6 +34281,7 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <endTuplet/>
           <location>
             <fractions>-1/16</fractions>
             </location>
@@ -34313,10 +34289,6 @@ Or do ye find, at length, like eagles, some high nest?
             <harmonyType>1</harmonyType>
             <name>I(#2)</name>
             </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
-          <endTuplet/>
           </voice>
         </Measure>
       <Measure>
@@ -34446,6 +34418,7 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <endTuplet/>
           <location>
             <fractions>-1/16</fractions>
             </location>
@@ -34456,7 +34429,6 @@ Or do ye find, at length, like eagles, some high nest?
           <location>
             <fractions>1/16</fractions>
             </location>
-          <endTuplet/>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -35598,14 +35570,14 @@ Or do ye find, at length, like eagles, some high nest?
           <Rest>
             <durationType>16th</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i.V</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i.V</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
