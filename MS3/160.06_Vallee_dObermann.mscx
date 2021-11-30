@@ -44600,7 +44600,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I{</name>
             </Harmony>
           <StaffText>
             <text><font size="12"></font>dolcissimo</text>
@@ -45874,7 +45874,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|IAC}{</name>
             </Harmony>
           <Rest>
             <offset x="0" y="-1.18182"/>
