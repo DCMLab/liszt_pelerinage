@@ -41036,7 +41036,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(9)|IAC}</name>
+            <name>V7(9)|HC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -41079,7 +41079,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i{</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -41409,7 +41409,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC}</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -41484,7 +41484,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6</name>
+            <name>i6{</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -41783,7 +41783,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|IAC}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
@@ -41857,7 +41857,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6</name>
+            <name>i6{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -43635,7 +43635,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7\\</name>
+            <name>V7|HC}</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
