@@ -31685,17 +31685,14 @@ Or do ye find, at length, like eagles, some high nest?
               </Note>
             </Chord>
           <endTuplet/>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iii64</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I(7)</name>
+            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -31739,6 +31736,7 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
+            <offset x="0" y="7.31648"/>
             </Harmony>
           <location>
             <fractions>1/24</fractions>
