@@ -43843,7 +43843,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6\\</name>
+            <name>i6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -44001,7 +44001,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6\\</name>
+            <name>i6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -44212,7 +44212,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio7(b3)</name>
+            <name>Ger7</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
