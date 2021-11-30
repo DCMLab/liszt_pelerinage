@@ -51935,7 +51935,7 @@
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV64(+6)</name>
+            <name>IV64(+6){</name>
             </Harmony>
           <Rest>
             <offset x="0" y="3.54545"/>
@@ -53275,7 +53275,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -53301,7 +53301,7 @@
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6</name>
+            <name>I6{</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
