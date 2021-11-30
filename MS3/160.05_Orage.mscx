@@ -43327,7 +43327,7 @@ Or do ye find, at length, like eagles, some high nest?
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bII64</name>
+            <name>bII64{</name>
             </Harmony>
           </voice>
         </Measure>
@@ -43557,7 +43557,7 @@ Or do ye find, at length, like eagles, some high nest?
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>iv</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
