@@ -29006,7 +29006,7 @@ Or do ye find, at length, like eagles, some high nest?
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I[bII6</name>
+            <name>bII6(+0)</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -29280,7 +29280,7 @@ Or do ye find, at length, like eagles, some high nest?
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I]}</name>
+            <name>I}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
