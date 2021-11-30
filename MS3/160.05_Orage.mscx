@@ -38402,7 +38402,7 @@ Or do ye find, at length, like eagles, some high nest?
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio2</name>
+            <name>#viio2{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -38441,10 +38441,6 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio43(#2)</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>up</StemDirection>
@@ -38460,6 +38456,12 @@ Or do ye find, at length, like eagles, some high nest?
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio43(#2)</name>
+            <minDistance>0.222607</minDistance>
+            <offset x="-1.11006" y="6.58507"/>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -38508,10 +38510,6 @@ Or do ye find, at length, like eagles, some high nest?
             <dots>1</dots>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio2</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
@@ -38528,6 +38526,10 @@ Or do ye find, at length, like eagles, some high nest?
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio2</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
@@ -38576,10 +38578,6 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio43(#2)</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>up</StemDirection>
@@ -38602,6 +38600,10 @@ Or do ye find, at length, like eagles, some high nest?
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio43(#2)</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -38661,11 +38663,6 @@ Or do ye find, at length, like eagles, some high nest?
             <dots>1</dots>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio7</name>
-            <offset x="-5.77778" y="-11.5556"/>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
@@ -38728,10 +38725,6 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio7(#7)/V</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>up</StemDirection>
@@ -38747,6 +38740,10 @@ Or do ye find, at length, like eagles, some high nest?
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio7(#7)/V</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -38878,10 +38875,6 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio7(#7)/V</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>up</StemDirection>
@@ -38904,6 +38897,12 @@ Or do ye find, at length, like eagles, some high nest?
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio7(#7)/V</name>
+            <minDistance>0.277988</minDistance>
+            <offset x="-1.22106" y="9.19269"/>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -38969,10 +38968,6 @@ Or do ye find, at length, like eagles, some high nest?
             <dots>1</dots>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio43/V</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
@@ -38992,6 +38987,7 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio2/iv</name>
+            <offset x="-0.555029" y="7.34186"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -39047,10 +39043,6 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio65(#2)/iv</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>up</StemDirection>
@@ -39073,6 +39065,10 @@ Or do ye find, at length, like eagles, some high nest?
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio65(#2)/iv</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -39132,11 +39128,6 @@ Or do ye find, at length, like eagles, some high nest?
             <dots>1</dots>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio2/iv</name>
-            <offset x="-8.66667" y="-11.5556"/>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
