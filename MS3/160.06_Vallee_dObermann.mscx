@@ -51296,7 +51296,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VII.V7</name>
+            <name>VII.V7{</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -51863,7 +51863,7 @@
             </Fermata>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43/vi</name>
+            <name>V43/vi|HC}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
