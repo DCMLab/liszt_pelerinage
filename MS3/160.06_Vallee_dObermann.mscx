@@ -50575,7 +50575,7 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio2</name>
+            <name>#viio2{</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -51257,7 +51257,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43\\</name>
+            <name>V43|HC}</name>
             </Harmony>
           <location>
             <fractions>1/32</fractions>
