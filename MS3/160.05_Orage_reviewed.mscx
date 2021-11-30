@@ -3,6 +3,7 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
+    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -170,14 +171,14 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/176824</metaTag>
-    <metaTag name="annotators">Adrian Nagel (2.1.1), Amelia Brey (2.3.0)</metaTag>
+    <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1855</metaTag>
     <metaTag name="composed_start">1848</metaTag>
     <metaTag name="composer">Franz Liszt</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-01-26</metaTag>
-    <metaTag name="harmony_version">2.3.0</metaTag>
+    <metaTag name="harmony_version">2.1.1</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -185,7 +186,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">Johannes Hentschel (1-50), AB</metaTag>
+    <metaTag name="reviewers">Johannes Hentschel (1-50)</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
@@ -24650,6 +24651,12 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -24661,12 +24668,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i[i</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i[i{</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -24885,6 +24886,11 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -24899,6 +24905,7 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -25342,6 +25349,12 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>bII6(+4)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>bII6(b11)</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -25439,6 +25452,12 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>bII+6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>bII6(#5)</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -25997,6 +26016,12 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           </voice>
         </Measure>
@@ -26005,12 +26030,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i{</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -26229,6 +26248,11 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -26243,6 +26267,7 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -26686,6 +26711,12 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>bII6(+4)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>bII6(b11)</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -26921,7 +26952,7 @@ Or do ye find, at length, like eagles, some high nest?
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio7(b3)-V2/bV|HC}</name>
+            <name>#viio7(b3)|HC}-V2/bV|HC}</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
@@ -27246,7 +27277,7 @@ Or do ye find, at length, like eagles, some high nest?
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bII.VI6(+6){</name>
+            <name>bII.VI6(13){</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           </voice>
@@ -27463,6 +27494,12 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V64</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I64</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -27837,6 +27874,12 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv6(+6)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6(b13)</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -28672,6 +28715,12 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V43(b5)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43(b5)-Fr6/IV</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -28707,7 +28756,7 @@ Or do ye find, at length, like eagles, some high nest?
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I|IAC}{</name>
+            <name>I|IAC}</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -28731,6 +28780,12 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -29334,6 +29389,12 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I]</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I]}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -29375,6 +29436,12 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -29727,7 +29794,7 @@ Or do ye find, at length, like eagles, some high nest?
               <Symbol>
                 <name>keyboardPedalPed</name>
                 <autoplace>0</autoplace>
-                <offset x="-0.541666" y="8.9638"/>
+                <offset x="-0.541666" y="12.1442"/>
                 </Symbol>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -30945,12 +31012,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#I6</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#VII.I6</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -30976,12 +31037,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#VII[#I6]</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#vii[I6]</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -31513,12 +31568,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#IV.I[I\\</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#IV.I[I|PAC}{</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -31563,7 +31612,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
-            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/24</fractions>
@@ -33297,12 +33345,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I[I\\</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I[I|PAC}{</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -33365,7 +33407,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
-            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/24</fractions>
@@ -35171,12 +35212,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I\\</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I|PAC}{</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -35199,7 +35234,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
-            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -37875,12 +37909,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio43\\</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio43</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -38502,12 +38530,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>III+\\</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>III+</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -40241,12 +40263,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio7\\</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio7|HC}</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -41249,12 +41265,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i[i</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i[i{</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -42095,12 +42105,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio65\\</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio65|HC}</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -42527,12 +42531,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i{</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -43481,12 +43479,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio43(#4)/iv\\</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio43(#4)/iv|HC}</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -43569,12 +43561,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>bII64</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>bII64{</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           </voice>
         </Measure>
@@ -44137,12 +44123,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio65(b3)\\</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio65(b3)|HC}</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <BeamMode>mid</BeamMode>
@@ -44609,12 +44589,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio43(b3)</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio43(b3){</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -46231,12 +46205,6 @@ Or do ye find, at length, like eagles, some high nest?
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i\\</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i|PAC}</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
