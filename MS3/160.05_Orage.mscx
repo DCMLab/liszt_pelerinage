@@ -30579,7 +30579,7 @@ Or do ye find, at length, like eagles, some high nest?
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6</name>
+            <name>I6{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -30895,7 +30895,7 @@ Or do ye find, at length, like eagles, some high nest?
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#I6</name>
+            <name>#VII.I6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -30920,7 +30920,7 @@ Or do ye find, at length, like eagles, some high nest?
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#VII[#I6]</name>
+            <name>I6(+0)</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -30969,7 +30969,7 @@ Or do ye find, at length, like eagles, some high nest?
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#III.V2</name>
+            <name>V2/IV</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -31235,7 +31235,7 @@ Or do ye find, at length, like eagles, some high nest?
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#VII.Fr6</name>
+            <name>V43(b5)-Fr6/IV</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -31451,7 +31451,7 @@ Or do ye find, at length, like eagles, some high nest?
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#IV.I[I\\</name>
+            <name>I[I|PAC}{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -31490,16 +31490,6 @@ Or do ye find, at length, like eagles, some high nest?
               <tpc>25</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/24</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
-          <location>
-            <fractions>1/24</fractions>
-            </location>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
