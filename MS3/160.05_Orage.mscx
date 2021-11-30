@@ -43889,7 +43889,7 @@ Or do ye find, at length, like eagles, some high nest?
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio65(b3)\\</name>
+            <name>#viio65(b3)}-Ger6/iv}</name>
             </Harmony>
           <Rest>
             <BeamMode>mid</BeamMode>
@@ -44355,7 +44355,7 @@ Or do ye find, at length, like eagles, some high nest?
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio43(b3)</name>
+            <name>#viio43(b3){-Ger43/iv{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -44756,7 +44756,7 @@ Or do ye find, at length, like eagles, some high nest?
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio43(b3)</name>
+            <name>#viio43(b3)-Ger43/iv</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
