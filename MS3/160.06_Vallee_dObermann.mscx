@@ -37670,7 +37670,7 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>e.i6</name>
+            <name>e.i6{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -37867,6 +37867,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv</name>
+            <offset x="3.5945" y="6.29553"/>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
@@ -37942,7 +37943,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC}</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -38017,7 +38018,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6</name>
+            <name>i6{</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -38280,7 +38281,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|IAC}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
