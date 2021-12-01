@@ -12148,7 +12148,7 @@ And living as if earth contain'd no tomb, - ...
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I[I</name>
+            <name>I[I{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -12559,7 +12559,7 @@ And living as if earth contain'd no tomb, - ...
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V.V7\\</name>
+            <name>V.V7|HC}</name>
             </Harmony>
           <Chord>
             <durationType>whole</durationType>
