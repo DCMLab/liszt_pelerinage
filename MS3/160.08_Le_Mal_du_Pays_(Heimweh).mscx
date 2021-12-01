@@ -14730,7 +14730,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iii.i6</name>
+            <name>iii.i6{</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -15058,7 +15058,7 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii%7\\</name>
+            <name>ii%7</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -15802,7 +15802,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.V7(9)</name>
+            <name>i.V7(9)]|HC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -15856,16 +15856,6 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7(96)</name>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
           <Fermata>
             <subtype>fermataAbove</subtype>
             </Fermata>
@@ -15877,13 +15867,6 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7(9)]</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
