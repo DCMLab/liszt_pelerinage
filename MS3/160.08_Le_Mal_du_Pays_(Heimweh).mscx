@@ -14417,7 +14417,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bi.i6</name>
+            <name>bi.i6{</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -14593,7 +14593,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65(b5)/V</name>
+            <name>Fr6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -14606,16 +14606,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V65(9b5)/V</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -14624,16 +14614,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V65(b5)/V</name>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(+64)</name>
@@ -14697,7 +14677,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
