@@ -19893,7 +19893,7 @@ And living as if earth contain'd no tomb, - ...
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I]</name>
+            <name>I]|IAC}{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -19984,7 +19984,7 @@ And living as if earth contain'd no tomb, - ...
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV\\</name>
+            <name>IV</name>
             </Harmony>
           <Chord>
             <durationType>whole</durationType>
