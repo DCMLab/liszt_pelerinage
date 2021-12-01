@@ -13310,7 +13310,7 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I[I(+6)</name>
+            <name>I[I(+6){</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -14172,7 +14172,7 @@ And living as if earth contain'd no tomb, - ...
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IM7(+6)]\\</name>
+            <name>IM7(+6)]|IAC}</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
