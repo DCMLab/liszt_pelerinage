@@ -12003,7 +12003,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[V</name>
+            <name>V[V{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -12313,7 +12313,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6\\</name>
+            <name>V6|HC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
