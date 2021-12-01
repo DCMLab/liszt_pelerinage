@@ -13622,7 +13622,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v.V</name>
+            <name>v.V{</name>
             </Harmony>
           <Dynamic>
             <subtype>p</subtype>
@@ -14002,7 +14002,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
@@ -14021,7 +14021,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V.V</name>
+            <name>V.V{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
