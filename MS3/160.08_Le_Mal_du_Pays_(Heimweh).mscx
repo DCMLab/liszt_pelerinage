@@ -11087,7 +11087,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#iii.V</name>
+            <name>#iii.V{</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -11350,7 +11350,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
@@ -11372,7 +11372,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
