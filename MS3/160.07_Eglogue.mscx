@@ -14246,7 +14246,7 @@ And living as if earth contain'd no tomb, - ...
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi</name>
+            <name>vi{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -14605,7 +14605,7 @@ And living as if earth contain'd no tomb, - ...
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7\\</name>
+            <name>V7|HC}</name>
             </Harmony>
           <Chord>
             <dots>2</dots>
@@ -14634,7 +14634,7 @@ And living as if earth contain'd no tomb, - ...
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(6)/IV</name>
+            <name>V7(6)/IV{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
