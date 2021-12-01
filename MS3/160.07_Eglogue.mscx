@@ -19050,7 +19050,7 @@ And living as if earth contain'd no tomb, - ...
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV.ii</name>
+            <name>IV.ii{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -19495,7 +19495,7 @@ And living as if earth contain'd no tomb, - ...
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iii6</name>
+            <name>V(+6)</name>
             <offset x="0" y="-11.8182"/>
             </Harmony>
           <Chord>
@@ -19516,7 +19516,7 @@ And living as if earth contain'd no tomb, - ...
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I[I\\</name>
+            <name>I[I(+6)</name>
             </Harmony>
           <Chord>
             <durationType>whole</durationType>
@@ -19542,13 +19542,6 @@ And living as if earth contain'd no tomb, - ...
               <userLen1>11.6035</userLen1>
               </Arpeggio>
             </Chord>
-          <location>
-            <fractions>-7/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I(+6)</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
