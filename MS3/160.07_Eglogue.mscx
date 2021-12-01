@@ -20370,7 +20370,7 @@ And living as if earth contain'd no tomb, - ...
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|IAC}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
