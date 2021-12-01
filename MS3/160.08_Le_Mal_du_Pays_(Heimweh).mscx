@@ -9826,7 +9826,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii[V7/V</name>
+            <name>ii[V7/V{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -10572,7 +10572,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
