@@ -11823,7 +11823,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iii.i</name>
+            <name>iii.i{</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -11970,7 +11970,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
