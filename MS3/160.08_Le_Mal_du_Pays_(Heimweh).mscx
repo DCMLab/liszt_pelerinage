@@ -11488,7 +11488,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I]\\</name>
+            <name>I]|IAC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -11533,7 +11533,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6</name>
+            <name>i6{</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -11783,7 +11783,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
