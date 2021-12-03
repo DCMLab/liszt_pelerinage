@@ -23524,7 +23524,7 @@
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65(b9)/V\\</name>
+            <name>V65(b9)/V</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -24719,7 +24719,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V]</name>
+            <name>V]|HC}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -24735,7 +24735,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vii%65</name>
+            <name>vii%65{</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
