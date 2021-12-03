@@ -21251,7 +21251,7 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bvi.i</name>
+            <name>bvi.i{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -21916,7 +21916,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio7]\\</name>
+            <name>viio7]|HC}</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
