@@ -22388,7 +22388,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -22741,7 +22741,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bVII.I</name>
+            <name>biii.V</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -22771,7 +22771,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6</name>
+            <name>V6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -22789,13 +22789,6 @@
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <location>
-            <fractions>-1/24</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>biii.V65</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
