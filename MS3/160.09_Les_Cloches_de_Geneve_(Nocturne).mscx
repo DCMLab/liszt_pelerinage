@@ -24719,7 +24719,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V]|HC}</name>
+            <name>V]|HC}{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -25043,7 +25043,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii2\\</name>
+            <name>ii2</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -25274,7 +25274,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|IAC}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
