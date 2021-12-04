@@ -19704,7 +19704,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I[I(+9+6)</name>
+            <name>I[I(+9+6){</name>
             </Harmony>
           <Rest>
             <offset x="-0.165945" y="-1.85427"/>
@@ -20729,7 +20729,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IM7\\</name>
+            <name>IM7|IAC}{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
