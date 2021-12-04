@@ -21188,7 +21188,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I.V7(9)\\</name>
+            <name>I.V7(9)|EC</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -21488,7 +21488,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I[I(+9+6)</name>
+            <name>I[I(+9+6)|IAC}{</name>
             </Harmony>
           <Rest>
             <offset x="0" y="0.333333"/>
