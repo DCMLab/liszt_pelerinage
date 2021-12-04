@@ -14990,7 +14990,7 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>III{</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -15331,6 +15331,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>bVI6</name>
+            <minDistance>-4.85644</minDistance>
+            <offset x="0" y="4.71295"/>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -15349,7 +15355,7 @@
             <Note>
               <Symbol>
                 <name>keyboardPedalPed</name>
-                <offset x="-0.312595" y="4.59586"/>
+                <offset x="-0.312595" y="6.65603"/>
                 </Symbol>
               <pitch>40</pitch>
               <tpc>18</tpc>
