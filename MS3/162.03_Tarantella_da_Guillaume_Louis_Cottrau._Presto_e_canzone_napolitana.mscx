@@ -73416,7 +73416,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio65(6)/V</name>
+            <name>viio65(6)/V}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -73482,7 +73482,7 @@ scherzando
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio65/V</name>
+            <name>viio65/V|HC</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
