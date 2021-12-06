@@ -98525,7 +98525,7 @@ scherzando
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|IAC}{</name>
             </Harmony>
           <Rest>
             <offset x="0" y="1.66667"/>
