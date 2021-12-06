@@ -73863,7 +73863,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bIII64</name>
+            <name>bIII64{</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -74499,7 +74499,7 @@ scherzando
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio43(b8)/V</name>
+            <name>viio43(b8)/V}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -74561,7 +74561,7 @@ scherzando
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio43/V</name>
+            <name>viio43/V|HC</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -74821,7 +74821,7 @@ scherzando
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6/V\\</name>
+            <name>V6/V</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
