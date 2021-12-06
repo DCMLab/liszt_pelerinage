@@ -51539,7 +51539,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[V</name>
+            <name>V[V{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -51864,7 +51864,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
