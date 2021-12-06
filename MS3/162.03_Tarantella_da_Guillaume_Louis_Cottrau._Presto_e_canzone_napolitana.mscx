@@ -52836,7 +52836,7 @@ scherzando
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bV.I</name>
+            <name>bV.I{</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -53395,7 +53395,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
