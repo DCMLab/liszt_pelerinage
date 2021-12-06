@@ -54279,7 +54279,7 @@ scherzando
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6(#4)/iv</name>
+            <name>V6(#4)/iv{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -54524,7 +54524,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(9)</name>
+            <name>i(+6)|PAC}{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -54773,7 +54773,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(9)</name>
+            <name>i(+6)|PAC}{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -55026,7 +55026,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(9)</name>
+            <name>i(+6)|PAC}{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -55283,7 +55283,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(9)\\</name>
+            <name>i(+6)|PAC}</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -55313,7 +55313,7 @@ scherzando
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -55679,7 +55679,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -55728,7 +55728,7 @@ scherzando
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65/iv</name>
+            <name>V65/iv{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -56078,7 +56078,7 @@ scherzando
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|IAC}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -56099,7 +56099,7 @@ scherzando
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -56461,7 +56461,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -56510,7 +56510,7 @@ scherzando
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65/iv</name>
+            <name>V65/iv{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -56858,7 +56858,7 @@ scherzando
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|IAC}</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -56897,7 +56897,7 @@ scherzando
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i{</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
