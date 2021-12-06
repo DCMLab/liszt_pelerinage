@@ -52798,7 +52798,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I|IAC}</name>
+            <name>I|IAC}{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -52836,7 +52836,7 @@ scherzando
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bV.I{</name>
+            <name>bV.I</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -53649,7 +53649,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|IAC}{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
