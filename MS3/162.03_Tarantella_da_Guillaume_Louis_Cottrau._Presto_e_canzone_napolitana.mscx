@@ -63153,7 +63153,7 @@ scherzando
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI.V</name>
+            <name>VI.V{</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -64682,7 +64682,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I[I\\</name>
+            <name>I[I|PAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -64882,10 +64882,6 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -65023,6 +65019,10 @@ scherzando
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <small>1</small>
