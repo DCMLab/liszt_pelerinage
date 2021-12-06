@@ -157,14 +157,14 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/177126</metaTag>
-    <metaTag name="annotators">Adrian Nagel</metaTag>
+    <metaTag name="annotators">Adrian Nagel (2.1.1), Amelia Brey (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1859</metaTag>
     <metaTag name="composed_start">1859</metaTag>
     <metaTag name="composer">Gabriel Fauré</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-01-26</metaTag>
-    <metaTag name="harmony_version">2.1.1</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -172,7 +172,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">Johannes Hentschel (1-76 &amp; 200-220 &amp; 300-320 &amp; 447-479)</metaTag>
+    <metaTag name="reviewers">Johannes Hentschel (1-76 &amp; 200-220 &amp; 300-320 &amp; 447-479), AB</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">http://musescore.com/user/2749876/scores/5399463</metaTag>
     <metaTag name="translator"></metaTag>
