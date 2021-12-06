@@ -51173,7 +51173,7 @@ scherzando
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[V7</name>
+            <name>V[V7{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -51483,7 +51483,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
