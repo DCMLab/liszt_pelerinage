@@ -78844,7 +78844,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -78870,7 +78870,7 @@ scherzando
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V{</name>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
