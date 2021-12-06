@@ -51917,7 +51917,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[V7</name>
+            <name>V[V7{</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -52496,7 +52496,7 @@ scherzando
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V|HC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
