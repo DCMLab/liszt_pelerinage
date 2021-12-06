@@ -93416,7 +93416,7 @@ scherzando
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6\\</name>
+            <name>I6</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -96281,7 +96281,7 @@ scherzando
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bII6\\</name>
+            <name>bII6</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -97087,7 +97087,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|PAC}{</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
