@@ -77938,10 +77938,6 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(64)</name>
-            </Harmony>
           <Spanner type="Pedal">
             <prev>
               <location>
@@ -77972,10 +77968,6 @@ scherzando
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(964)</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -77987,13 +77979,6 @@ scherzando
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(64)</name>
-            </Harmony>
           </voice>
         <voice>
           <Beam>
