@@ -73005,7 +73005,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)</name>
+            <name>I64</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -73105,7 +73105,7 @@ scherzando
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(+64)</name>
+            <name>I64(119)</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -73180,7 +73180,7 @@ scherzando
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)</name>
+            <name>I64</name>
             </Harmony>
           </voice>
         <voice>
