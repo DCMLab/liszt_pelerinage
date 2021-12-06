@@ -74933,7 +74933,7 @@ scherzando
             </KeySig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#VI.I6</name>
+            <name>#VI.I6{</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -75887,7 +75887,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio65\\</name>
+            <name>viio65|HC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
