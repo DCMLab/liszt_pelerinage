@@ -5760,7 +5760,7 @@
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6}-It6}</name>
+            <name>iv6-It6</name>
             </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -6043,7 +6043,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i{</name>
+            <name>i</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
