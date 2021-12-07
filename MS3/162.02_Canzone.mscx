@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision>3224f34</programRevision>
+  <programRevision></programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -195,12 +195,14 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/177126</metaTag>
+    <metaTag name="annotators">AN</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1859</metaTag>
     <metaTag name="composed_start">1859</metaTag>
     <metaTag name="composer"></metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-12-05</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -19407,13 +19409,13 @@
               <tpc>8</tpc>
               </Note>
             </Chord>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>Ger6</name>
             </Harmony>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
