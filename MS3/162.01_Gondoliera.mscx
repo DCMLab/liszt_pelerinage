@@ -26511,7 +26511,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)}</name>
+            <name>V(64)|HC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
