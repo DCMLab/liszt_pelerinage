@@ -21701,7 +21701,7 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I/bIII(9)</name>
+            <name>I(9)/bIII</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -21970,7 +21970,7 @@
             </Symbol>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I/bIII(9)</name>
+            <name>I(9)/bIII</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
