@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -109,7 +109,7 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/177125</metaTag>
-    <metaTag name="annotators">AN</metaTag>
+    <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1849</metaTag>
     <metaTag name="composed_start">1846</metaTag>
@@ -124,6 +124,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">AB</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="typesetter">Tom Schreyer</metaTag>
@@ -1369,7 +1370,7 @@
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/2</fractions>
+                    <fractions>19/54</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -1399,66 +1400,33 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>quarter</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            <bracketType>1</bracketType>
-            </Tuplet>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>quarter</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            <bracketType>1</bracketType>
-            </Tuplet>
-          <Chord>
-            <small>1</small>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <small>1</small>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>23</tpc>
-              </Note>
-            </Chord>
-          <location>
-            <fractions>-1/36</fractions>
-            </location>
-          <Chord>
-            <small>1</small>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <location>
-            <fractions>-5/36</fractions>
-            </location>
           <Spanner type="HairPin">
             <prev>
               <location>
-                <fractions>5/36</fractions>
+                <fractions>11/108</fractions>
                 </location>
               </prev>
             </Spanner>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>quarter</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            <bracketType>1</bracketType>
+            </Tuplet>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>quarter</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            <bracketType>1</bracketType>
+            </Tuplet>
           <Chord>
             <small>1</small>
             <durationType>quarter</durationType>
@@ -1468,7 +1436,18 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
+          <location>
+            <fractions>-1/54</fractions>
+            </location>
+          <Chord>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
           <location>
             <fractions>-1/18</fractions>
             </location>
@@ -1480,7 +1459,7 @@
               <Spanner type="Tie">
                 <prev>
                   <location>
-                    <fractions>-1/2</fractions>
+                    <fractions>-19/54</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -1497,7 +1476,7 @@
               </HairPin>
             <next>
               <location>
-                <fractions>-5/36</fractions>
+                <fractions>-11/108</fractions>
                 </location>
               </next>
             </Spanner>
@@ -1511,7 +1490,20 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-1/12</fractions>
+            <fractions>-5/54</fractions>
+            </location>
+          <Chord>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <location>
+            <fractions>-7/108</fractions>
             </location>
           <Chord>
             <small>1</small>
@@ -1534,6 +1526,14 @@
           <endTuplet/>
           <location>
             <fractions>-4/9</fractions>
+            </location>
+          <Rest>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            <duration>10/8</duration>
+            </Rest>
+          <location>
+            <fractions>-113/108</fractions>
             </location>
           <Rest>
             <dots>1</dots>
