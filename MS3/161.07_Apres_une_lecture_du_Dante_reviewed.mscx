@@ -64479,6 +64479,11 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4b2)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -67297,6 +67302,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V/bII</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -76260,6 +76266,11 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iii.viio2/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Symbol>
             <name>keyboardPedalPed</name>
             <visible>0</visible>
@@ -76267,6 +76278,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#iii.viio2/V</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Spanner type="Ottava">
             <prev>
@@ -76718,6 +76730,11 @@
               </Note>
             </Chord>
           <endTuplet/>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v7</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Symbol>
             <name>keyboardPedalPed</name>
             <visible>0</visible>
@@ -76725,6 +76742,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>v65</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -76865,7 +76883,13 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V6/iii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -77064,7 +77088,13 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V[V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Tuplet>
             <normalNotes>4</normalNotes>
@@ -77476,7 +77506,13 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>v7]</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>v65</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Tuplet>
             <normalNotes>4</normalNotes>
@@ -78969,7 +79005,13 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>VI</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>vi</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -79094,7 +79136,13 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>III</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>ii</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -101771,7 +101819,13 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I}{</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I|PC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -110206,6 +110260,11 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio7/V/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <Symbol>
             <name>keyboardPedalPed</name>
             <visible>0</visible>
@@ -110213,6 +110272,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>viio7/ii</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -120650,7 +120710,13 @@
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I}{</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -121416,7 +121482,13 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I|PC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
