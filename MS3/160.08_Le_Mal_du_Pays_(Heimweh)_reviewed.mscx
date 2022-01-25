@@ -185,7 +185,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">Johannes Hentschel (1-34 &amp; 61-70), AB</metaTag>
+    <metaTag name="reviewers">Johannes Hentschel (1-34 &amp; 61-70), AB, AN</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
@@ -16430,14 +16430,14 @@
             <name>i\\</name>
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Chord>
             <durationType>whole</durationType>
             <Spanner type="Slur">
