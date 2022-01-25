@@ -173,7 +173,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">Johannes Hentschel, AB</metaTag>
+    <metaTag name="reviewers">Johannes Hentschel, AB, AN</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">https://musescore.com/user/2749876/scores/5137056</metaTag>
     <metaTag name="translator"></metaTag>
@@ -16627,7 +16627,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
@@ -16666,7 +16666,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I[I</name>
+            <name>I[I{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
