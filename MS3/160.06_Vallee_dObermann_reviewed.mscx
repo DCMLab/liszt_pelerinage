@@ -185,7 +185,7 @@
     <metaTag name="originalFormat">mxl</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">Johannes Hentschel (1-55 &amp; 75-100 &amp; 175-200), AB</metaTag>
+    <metaTag name="reviewers">Johannes Hentschel (1-55 &amp; 75-100 &amp; 175-200), AB, AN</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">http://musescore.com/user/2749876/scores/4078266</metaTag>
     <metaTag name="translator"></metaTag>
@@ -41935,15 +41935,15 @@
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i6</name>
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i6{</name>
@@ -44720,15 +44720,15 @@
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I{</name>
@@ -46006,15 +46006,15 @@
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I|IAC}{</name>
@@ -51376,11 +51376,6 @@
             <name>V43(#2)</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V43(#2)</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
@@ -51404,7 +51399,15 @@
               </Tremolo>
             </Chord>
           <location>
-            <fractions>-3/16</fractions>
+            <fractions>-3/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43(#2)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>3/16</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -52082,17 +52085,6 @@
               <subtype>c32</subtype>
               </Tremolo>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V43/vi</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
           <Chord>
             <durationType>half</durationType>
             <duration>1/4</duration>
@@ -52105,6 +52097,17 @@
               <tpc>24</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-5/16</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43/vi</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>5/16</fractions>
+            </location>
           <Chord>
             <visible>0</visible>
             <durationType>half</durationType>
@@ -62740,15 +62743,15 @@
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I.ii</name>
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I.ii{</name>
