@@ -172,7 +172,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">Johannes Hentschel (1-76 &amp; 200-220 &amp; 300-320 &amp; 447-479), AB</metaTag>
+    <metaTag name="reviewers">Johannes Hentschel (1-76 &amp; 200-220 &amp; 300-320 &amp; 447-479), AB, AN</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">http://musescore.com/user/2749876/scores/5399463</metaTag>
     <metaTag name="translator"></metaTag>
@@ -77948,14 +77948,14 @@ scherzando
             <name>I6</name>
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>{</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Rest>
             <durationType>quarter</durationType>
             <Symbol>
