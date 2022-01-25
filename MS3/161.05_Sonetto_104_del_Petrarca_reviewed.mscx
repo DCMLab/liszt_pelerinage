@@ -124,7 +124,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">AB</metaTag>
+    <metaTag name="reviewers">AB, AN</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="typesetter">Tom Schreyer</metaTag>
@@ -1403,7 +1403,7 @@
           <Spanner type="HairPin">
             <prev>
               <location>
-                <fractions>11/108</fractions>
+                <fractions>7/108</fractions>
                 </location>
               </prev>
             </Spanner>
@@ -1437,19 +1437,53 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-1/54</fractions>
+            <fractions>-1/36</fractions>
             </location>
           <Chord>
             <small>1</small>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <location>
-            <fractions>-1/18</fractions>
+            <fractions>-7/108</fractions>
+            </location>
+          <Chord>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>56</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-11/108</fractions>
+            </location>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>-7/108</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-7/108</fractions>
             </location>
           <Chord>
             <small>1</small>
@@ -1467,55 +1501,9 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/12</fractions>
-            </location>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>-11/108</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Chord>
-            <small>1</small>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>61</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <location>
-            <fractions>-5/54</fractions>
-            </location>
-          <Chord>
-            <small>1</small>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
           <endTuplet/>
           <location>
             <fractions>-7/108</fractions>
-            </location>
-          <Chord>
-            <small>1</small>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>56</pitch>
-              <tpc>22</tpc>
-              </Note>
-            </Chord>
-          <location>
-            <fractions>-1/12</fractions>
             </location>
           <Rest>
             <dots>1</dots>
@@ -1534,6 +1522,14 @@
             </Rest>
           <location>
             <fractions>-113/108</fractions>
+            </location>
+          <Rest>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            <duration>10/8</duration>
+            </Rest>
+          <location>
+            <fractions>-127/108</fractions>
             </location>
           <Rest>
             <dots>1</dots>
