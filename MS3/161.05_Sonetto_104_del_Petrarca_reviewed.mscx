@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision/>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -109,7 +109,7 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/177125</metaTag>
-    <metaTag name="annotators">AN</metaTag>
+    <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1849</metaTag>
     <metaTag name="composed_start">1846</metaTag>
@@ -124,6 +124,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">AB, AN</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="typesetter">Tom Schreyer</metaTag>
@@ -1369,7 +1370,7 @@
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/2</fractions>
+                    <fractions>19/54</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -1399,6 +1400,13 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>7/108</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -1426,15 +1434,6 @@
             <Note>
               <pitch>64</pitch>
               <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <small>1</small>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>23</tpc>
               </Note>
             </Chord>
           <location>
@@ -1450,46 +1449,19 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-5/36</fractions>
-            </location>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>5/36</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Chord>
-            <small>1</small>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <location>
-            <fractions>-1/18</fractions>
+            <fractions>-7/108</fractions>
             </location>
           <Chord>
             <small>1</small>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/2</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
+              <pitch>56</pitch>
+              <tpc>22</tpc>
               </Note>
             </Chord>
           <location>
-            <fractions>-1/12</fractions>
+            <fractions>-11/108</fractions>
             </location>
           <Spanner type="HairPin">
             <HairPin>
@@ -1497,7 +1469,7 @@
               </HairPin>
             <next>
               <location>
-                <fractions>-5/36</fractions>
+                <fractions>-7/108</fractions>
                 </location>
               </next>
             </Spanner>
@@ -1511,19 +1483,27 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-1/12</fractions>
+            <fractions>-7/108</fractions>
             </location>
           <Chord>
             <small>1</small>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
-              <pitch>56</pitch>
-              <tpc>22</tpc>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-19/54</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
+          <endTuplet/>
           <location>
-            <fractions>-1/12</fractions>
+            <fractions>-7/108</fractions>
             </location>
           <Rest>
             <dots>1</dots>
@@ -1534,6 +1514,22 @@
           <endTuplet/>
           <location>
             <fractions>-4/9</fractions>
+            </location>
+          <Rest>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            <duration>10/8</duration>
+            </Rest>
+          <location>
+            <fractions>-113/108</fractions>
+            </location>
+          <Rest>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            <duration>10/8</duration>
+            </Rest>
+          <location>
+            <fractions>-127/108</fractions>
             </location>
           <Rest>
             <dots>1</dots>
@@ -21701,7 +21697,7 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I/bIII(9)</name>
+            <name>I(9)/bIII</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
@@ -21971,7 +21967,7 @@
             </Symbol>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I/bIII(9)</name>
+            <name>I(9)/bIII}</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Spanner type="Pedal">
@@ -22077,6 +22073,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I/bIII</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I/bIII|IAC{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
