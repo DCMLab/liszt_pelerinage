@@ -11768,7 +11768,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>Fr6</name>
+            <name>Fr65</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -14279,7 +14279,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>Fr6</name>
+            <name>Fr65</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -14593,7 +14593,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>Fr6</name>
+            <name>Fr65</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15944,7 +15944,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>Fr6</name>
+            <name>Fr65</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16020,7 +16020,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>Fr6</name>
+            <name>Fr65</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16146,13 +16146,13 @@
         </Measure>
       <Measure>
         <voice>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
             </Harmony>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Chord>
             <durationType>whole</durationType>
             <Spanner type="Slur">
