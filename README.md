@@ -16,7 +16,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |160.06_Vallee_dObermann                                                  |     216|   631|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|Johannes Hentschel (1-55 & 75-100 & 175-200), AB, AN   |
 |160.07_Eglogue                                                           |     117|   214|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|Johannes Hentschel (1-57 & 100-117); AB, AN            |
 |160.08_Le_Mal_du_Pays_(Heimweh)                                          |      70|   200|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|Johannes Hentschel (1-34 & 61-70), AB                  |
-|160.09_Les_Cloches_de_Geneve_(Nocturne)                                  |     188|   205|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-76 & 140-188)                    |
+|160.09_Les_Cloches_de_Geneve_(Nocturne)                                  |     188|   205|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|Johannes Hentschel (1-76 & 140-188), AB, AN            |
 |161.01_Sposalizio                                                        |     133|   237|2.1.1   |Adrian Nagel                             |Johannes Hentschel                                     |
 |161.02_Il_Pensieroso                                                     |      48|    88|2.3.0   |Adrian Nagel                             |AB                                                     |
 |161.03_Canzonetta_del_Salvator_Rosa                                      |      75|   274|2.3.0   |Adrian Nagel                             |AB                                                     |
