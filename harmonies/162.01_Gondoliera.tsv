@@ -1,7 +1,7 @@
 mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	alt_label	globalkey	localkey	pedal	chord	special	numeral	form	figbass	changes	relativeroot	pedalend	cadence	phraseend	chord_type	globalkey_is_minor	localkey_is_minor	chord_tones	added_tones	root	bass_note
 1	1	1/8	1/8	6/8	4	1		F#.bIII6{	v(b6){	F#	I		bIII6		bIII		6					{	M	0	0	1, -2, -3		-3	1
 5	5	3/8	3/8	6/8	4	1		V(b6)	V+	F#	I		V(b6)		V			b6					M	0	0	1, 5, -3		1	1
-9	9	3/8	3/8	6/8	4	1		V(64)}		F#	I		V(64)		V			64				}	M	0	0	1, 0, 4		1	1
+9	9	3/8	3/8	6/8	4	1		V(64)|HC}		F#	I		V(64)		V			64			HC	}	M	0	0	1, 0, 4		1	1
 17	17	1/8	1/2	6/8	4	1		{		F#	I											{		0	0				
 18	18	0	0	6/8	4	1		I[I		F#	I	I	I		I								M	0	0	0, 4, 1		0	0
 19	19	0	0	6/8	4	1		I(134)		F#	I		I(134)		I			134					M	0	0	0, -1, 1	3	0	0
@@ -85,7 +85,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	alt_label	globalkey	loca
 87	87	0	0	6/8	4	1		V7		F#	I		V7		V		7						Mm7	0	0	1, 5, 2, -1		1	1
 88	88	0	0	6/8	4	1		IV		F#	I		IV		IV								M	0	0	-1, 3, 0		-1	-1
 89	89	0	0	6/8	4	1		V43		F#	I		V43		V		43						Mm7	0	0	2, -1, 1, 5		1	2
-98	98	0	0	6/8	4	1		I}{		F#	I		I		I							}{	M	0	0	0, 4, 1		0	0
+98	98	0	0	6/8	4	1		I|IAC}		F#	I		I		I						IAC	}	M	0	0	0, 4, 1		0	0
 99	99	0	0	6/8	4	1		I(13#11#2)		F#	I		I(13#11#2)		I			13#11#2					M	0	0	0, 9, 1	3, 6	0	0
 99	99	3/8	3/8	6/8	4	1		I		F#	I		I		I								M	0	0	0, 4, 1		0	0
 100	100	1/8	1/8	6/8	4	1		iv6		F#	I		iv6		iv		6						m	0	0	-4, 0, -1		-1	-4
@@ -119,4 +119,4 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	volta	label	alt_label	globalkey	loca
 119	119	0	0	6/8	4	1		vi64		F#	I		vi64		vi		64						m	0	0	4, 3, 0		3	4
 120	120	0	0	6/8	4	1		I		F#	I		I		I								M	0	0	0, 4, 1		0	0
 121	121	0	0	6/8	4	1		iii		F#	I		iii		iii								m	0	0	4, 1, 5		4	4
-122	122	0	0	6/8	4	1		I}		F#	I		I		I							}	M	0	0	0, 4, 1		0	0
+122	122	0	0	6/8	4	1		I		F#	I		I		I								M	0	0	0, 4, 1		0	0
