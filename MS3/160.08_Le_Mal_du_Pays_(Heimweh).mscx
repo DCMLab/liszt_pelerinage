@@ -2542,10 +2542,6 @@
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -6120,10 +6116,6 @@
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -11095,10 +11087,6 @@
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -13664,10 +13652,6 @@
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
