@@ -3988,10 +3988,6 @@
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         <voice>
           <Beam>
@@ -20548,10 +20544,6 @@
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
