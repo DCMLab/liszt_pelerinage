@@ -5,11 +5,11 @@
 
 |-----:|:------------------------------------------------------------------|
 |   19 | Number of pieces in corpus                                        |
-| 2626 | Number of measures in corpus                                      |
+| 2625 | Number of measures in corpus                                      |
 |    0 | Number of untouched pieces in corpus                              |
 |    0 | Number of untouched measures in corpus                            |
 |   19 | Number of pieces reviewed in the latest version of the standard   |
-| 2626 | Number of measures reviewed in the latest version of the standard |
+| 2625 | Number of measures reviewed in the latest version of the standard |
 
 ## Completion ratios
 
