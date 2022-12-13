@@ -1,0 +1,567 @@
+Warnings encountered during the last execution of ms3 review (v1.0.2)
+=====================================================================
+
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 9) ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 753) make_offset_col():
+	The incomplete MC 9 (timesig 1, act_dur 1/4) is completed by 1 incorrect duration (expected: 3/4):
+	{10: Fraction(1, 1)}WARNING  ms3.Parse.liszt_pelerinage.16201_Gondoliera -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1124) _get_metadata():
+	Score properties contain a superfluous key called 'annotator'. Please merge with the value for 'annotators' and delete.MCS_NOT_EXCLUDED_FROM_BARCOUNT_WARNING (1, 17, 34, 54) ms3.Parse.liszt_pelerinage.16201_Gondoliera -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 204) check_measure_numbers():
+	MCs 17, 34, 54 seem to be offset from the MN's beginning but have not been excluded from barcount. Context:
+	    mc  mn act_dur mc_offset  dont_count  numbering_offset
+	15  16  16     3/8         0        <NA>              <NA>
+	16  17  17     3/8       3/8        <NA>              <NA>
+	17  18  18     3/4         0        <NA>              <NA>
+	32  33  33   11/16         0        <NA>              <NA>
+	33  34  34    1/16     11/16        <NA>              <NA>
+	34  35  35     3/4         0        <NA>              <NA>
+	52  53  53   11/16         0        <NA>              <NA>
+	53  54  54    1/16     11/16        <NA>              <NA>
+	54  55  55     3/4         0        <NA>              <NA>UNUSED_FINE_MARKER_WARNING (20, 481) ms3.Parse.liszt_pelerinage.16203_Tarantella_da_Guillaume_Louis_Cottrau_Presto_e_canzone_napolitana -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 266) __init__():
+	Piece has a Fine but the last MC is missing a repeat sign or a D.C. (da capo) or D.S. (dal segno). Ignoring Fine.DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann -- /usr/local/lib/python3.10/site-packages/ms3/expand_dcml.py (line 145) expand_labels():
+	propagate_pedal() failed with
+	3 organ points started, 2 ended:
+	   mc pedal    mc pedalend
+	0  18     i    18        ]
+	1  70     i    88        ]
+	2  88     V  <NA>      NaNDCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4907) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             4a         }
+	            5a         {             8a         }
+	            9a         {            24a         }
+	           25a         {            33a         }
+	           34a         {            37a         }
+	           38a         {            41a         }
+	           42a         {            58a         }
+	           75a         {            73a         }
+	           85a        }{            85a        }{
+	           94a         {            94a         }
+	          119a         {           117a         }
+	          122a         {           121a         }
+	          124a         {           123a         }
+	          128a         {           128a         }
+	          170a         {           169a         }
+	          175a        }{           175a        }{
+	          180a         {           179a         }
+	          188a         {           187a         }
+	          192a        }{           192a        }{
+	          196a         {           195a         }
+	           NaN       NaN           212a         }DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16008_Le_Mal_du_Pays_(Heimweh) -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4907) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             5a         }
+	            6a         {             7a         }
+	            8a         {            14a         }
+	           19a         {            23a         }
+	           23a         {            25a         }
+	           26a         {            27a         }
+	           28a         {            32a         }
+	           33a         {            34a         }
+	           35a         {            41a         }
+	           46a         {            50a         }
+	           50a         {            52a         }
+	           52a         {            54a         }
+	           55a         {            56a         }
+	           57a         {            64a         }
+	           NaN       NaN            66a         }DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16101_Sposalizio -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4907) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             4a         }
+	            5a         {             8a         }
+	            9a         {            29a         }
+	           30a         {            37a         }
+	           38a         {            52a        }{
+	           52a        }{            60a        }{
+	           60a        }{            75a         }
+	           77a         {            85a        }{
+	           85a        }{            92a        }{
+	           92a        }{           106a        }{
+	          106a        }{           120a        }{
+	          120a        }{            NaN       NaNDCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16104_Sonetto_47_del_Petrarca -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4907) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             4a         }
+	            6a         {            10a         }
+	           12a         {            23a         }
+	           24a         {            27a         }
+	           28a         {            36a        }{
+	           36a        }{            52a         }
+	           53a         {            61a         }
+	           62a         {            68a         }
+	           75a         {            74a         }
+	           85a         {            83a         }
+	           90a         {            89a         }
+	           NaN       NaN            95a         }DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.liszt_pelerinage.16106_Sonetto_123_del_Petrarca -- /usr/local/lib/python3.10/site-packages/ms3/expand_dcml.py (line 145) expand_labels():
+	propagate_pedal() failed with
+	4 organ points started, 2 ended:
+	   mc pedal    mc pedalend
+	0  11     V    14        ]
+	1  16     I    19        ]
+	2  48     V  <NA>      NaN
+	3  75     I  <NA>      NaNDCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16106_Sonetto_123_del_Petrarca -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4907) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             9a         }
+	           11a         {            14a         }
+	           15a         {            19a         }
+	           19a         {            29a         }
+	           30a         {            39a         }
+	           41a         {            44a         }
+	           44a         {            48a         }
+	           60a         {            60a         }
+	           68a         {            66a         }
+	           75a        }{            75a        }{
+	           NaN       NaN            83a         }DCML_HARMONY_SYNTAX_WARNING (15,) ms3.Parse.liszt_pelerinage.16107_Apres_une_lecture_du_Dante -- /usr/local/lib/python3.10/site-packages/ms3/annotations.py (line 382) expand_dcml():
+	Score contains 1 labels that don't (and 631 that do) match the DCML standard:
+	     mc  mn           label harmony_layer
+	129  75  75  i.#iii.viio2/V             1DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16107_Apres_une_lecture_du_Dante -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4907) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             6a         }
+	            7a         {            12a         }
+	           13a         {            34a         }
+	           34a         {            54a        }{
+	           54a        }{            77a        }{
+	           77a        }{           103a        }{
+	          103a        }{           115a         }
+	          115a         {           119a         }
+	          119a         {           123a         }
+	          124a         {           135a         }
+	          136a         {           142a        }{
+	          142a        }{           145a        }{
+	          145a        }{           153a         }
+	          167a        }{           167a        }{
+	          211a        }{           211a        }{
+	          215a        }{           215a        }{
+	          219a        }{           219a        }{
+	          225a        }{           225a        }{
+	          273a        }{           273a        }{
+	          290a         {           288a         }
+	          300a        }{           300a        }{
+	          306a        }{           306a        }{
+	          316a        }{           316a        }{
+	          339a        }{           339a        }{
+	          353a        }{           353a        }{
+	           NaN       NaN           369a         }DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.liszt_pelerinage.16201_Gondoliera -- /usr/local/lib/python3.10/site-packages/ms3/expand_dcml.py (line 145) expand_labels():
+	propagate_pedal() failed with
+	5 organ points started, 3 ended:
+	   mc pedal    mc pedalend
+	0  18     I    33        ]
+	1  34     V    37        ]
+	2  46     I    57        ]
+	3  54     V  <NA>      NaN
+	4  71     I  <NA>      NaNDCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.liszt_pelerinage.16203_Tarantella_da_Guillaume_Louis_Cottrau_Presto_e_canzone_napolitana -- /usr/local/lib/python3.10/site-packages/ms3/expand_dcml.py (line 145) expand_labels():
+	propagate_pedal() failed with
+	20 organ points started, 19 ended:
+	     mc pedal    mc pedalend
+	0    13     V    36        ]
+	1    38     V    44        ]
+	2    46     V    52        ]
+	3    54     V    60        ]
+	4   165     V   171        ]
+	5   173     V   180        ]
+	6   181     V   207        ]
+	7   202     I   216        ]
+	8   209     I   233        ]
+	9   232    ii   245        ]
+	10  243     I   250        ]
+	11  249    ii   283        ]
+	12  282     i   341        ]
+	13  336     V   354        ]
+	14  345     V   402        ]
+	15  397     I   409        ]
+	16  405     I   411        ]
+	17  410     I   426        ]
+	18  425     i   430        ]
+	19  429     i  <NA>      NaNDCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16203_Tarantella_da_Guillaume_Louis_Cottrau_Presto_e_canzone_napolitana -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4907) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {            36a         }
+	           38a         {            45a         }
+	           46a         {            53a         }
+	           54a         {            62a         }
+	           74a         {            76a        }{
+	           76a        }{            83a        }{
+	           83a        }{            86a        }{
+	           86a        }{            93a         }
+	           93a         {            97a        }{
+	           97a        }{           101a        }{
+	          101a        }{           105a        }{
+	          105a        }{           109a         }
+	          109a         {           113a         }
+	          113a         {           117a         }
+	          117a         {           121a         }
+	          121a         {           125a         }
+	          125a         {           130a         }
+	          130a         {           135a         }
+	          135a         {           140a         }
+	          140a         {           145a        }{
+	          145a        }{           147a        }{
+	          147a        }{           154a        }{
+	          154a        }{           157a        }{
+	          157a        }{           164a        }{
+	          164a        }{           171a         }
+	          172a         {           180a        }{
+	          180a        }{           186a         }
+	          199a         {           207a         }
+	          208a         {           218a         }
+	          219a         {           235a         }
+	          236a         {           252a         }
+	          254a         {           257a         }
+	          259a         {           266a         }
+	          267a         {           273a         }
+	          279a         {           286a        }{
+	          286a        }{           293a         }
+	          293a         {           303a         }
+	          303a         {           334a        }{
+	          334a        }{           343a        }{
+	          343a        }{           369a         }
+	          385a         {           389a        }{
+	          389a        }{           402a        }{
+	          395a         {           411a         }
+	          402a        }{           448a        }{
+	          412a         {           454a         }
+	          448a        }{           468a        }{
+	          454a         {           476a         }
+	          468a        }{            NaN       NaNChord labels where the ratio of colored notes vs. all notes in a segment lies above 0.6:
+                                                                                                          mc   mn mc_onset           label          chord_tones added_tones  n_colored  n_untouched  count_ratio
+liszt_pelerinage MS3/160.01_Chapelle_de_Guillaume_Tell.mscx                                         76    33   33        0         I.bII64         (-4, -5, -1)          ()      143.0          0.0     1.000000
+                                                                                                    77    35   35      3/4             bII         (-5, -1, -4)          ()       13.0          0.0     1.000000
+                                                                                                    106   58   58      1/2          V64(6)            (1, 5, 9)          ()        2.0          0.0     1.000000
+                 MS3/160.02_Au_Lac_de_Wallenstadt.mscx                                              20    43   43        0              iv         (-5, -8, -4)          ()       16.0          0.0     1.000000
+                                                                                                    21    44   44     9/32              iv         (-5, -8, -4)          ()        5.0          0.0     1.000000
+                                                                                                    29    52   52        0             IM7         (4, 8, 5, 9)          ()        8.0          5.0     0.615385
+                 MS3/160.04_Au_Bord_dUne_Source.mscx                                                29     4    4    21/16           vii%7        (10, 7, 4, 8)          ()        2.0          1.0     0.666667
+                                                                                                    118   18   18      9/8         V.viio2      (-7, 2, -1, -4)          ()        5.0          0.0     1.000000
+                                                                                                    139   21   21      3/8           VI(9)            (0, 4, 1)        (2,)        5.0          0.0     1.000000
+                                                                                                    140   21   21      1/2              VI            (0, 4, 1)          ()        6.0          0.0     1.000000
+                                                                                                    145   22   22      3/8           VI(9)            (0, 4, 1)        (2,)        5.0          0.0     1.000000
+                                                                                                    146   22   22      1/2              VI            (0, 4, 1)          ()        6.0          0.0     1.000000
+                                                                                                    159   23   23     11/8              iv         (-4, -7, -3)          ()        3.0          1.0     0.750000
+                                                                                                    171   24   24     11/8              iv         (-4, -7, -3)          ()        3.0          1.0     0.750000
+                                                                                                    193   29   29      3/8        viio6(2)         (-2, -5, -4)          ()        3.0          1.0     0.750000
+                                                                                                    194   29   29      1/2           viio6          (-2, -5, 1)          ()        5.0          0.0     1.000000
+                                                                                                    199   30   30        0     V(#764)|HC}          (-3, -4, 0)        (2,)       21.0         12.0     0.636364
+                                                                                                    203   31   31      3/4            vi6]          (-4, 0, -1)          ()        4.0          2.0     0.666667
+                                                                                                    209   32   32        0            vi6]          (-4, 0, -1)          ()        4.0          2.0     0.666667
+                                                                                                    266   38   38      1/8             io7    (-3, -6, -9, -12)          ()        4.0          1.0     0.800000
+                                                                                                    271   38   38      3/4            ivo7   (-4, -7, -10, -13)          ()        4.0          1.0     0.800000
+                                                                                                    278   39   39      1/8             io7    (-3, -6, -9, -12)          ()        4.0          1.0     0.800000
+                                                                                                    283   39   39      3/4            ivo7   (-4, -7, -10, -13)          ()        4.0          1.0     0.800000
+                                                                                                    347   51   51      5/4              ii         (-2, -5, -1)          ()        2.0          1.0     0.666667
+                                                                                                    357   52   52      5/4              ii         (-2, -5, -1)          ()        2.0          1.0     0.666667
+                                                                                                    361   53   53      1/2              VI           (-1, 3, 0)          ()        6.0          0.0     1.000000
+                                                                                                    366   54   54      3/8           VI(9)           (-1, 3, 0)        (1,)        5.0          0.0     1.000000
+                                                                                                    367   54   54      1/2              VI           (-1, 3, 0)          ()        6.0          0.0     1.000000
+                 MS3/160.05_Orage.mscx                                                              51    29   28      1/2             VI6          (2, -1, -2)          ()       10.0          2.0     0.833333
+                                                                                                    274  133  131        0       bII64(#4)          (8, -5, -1)          ()        3.0          1.0     0.750000
+                                                                                                    275  133  131      1/4         bII6(4)          (1, -4, -5)          ()        2.0          1.0     0.666667
+                 MS3/160.06_Vallee_dObermann.mscx                                                   115   48   45      3/4         #viio65       (0, -3, -6, 3)          ()        1.0          0.0     1.000000
+                                                                                                    130   54   51        0          bV.I64          (-1, -2, 2)          ()        7.0          4.0     0.636364
+                                                                                                    131   55   52        0              IV          (-3, 1, -2)          ()        3.0          1.0     0.750000
+                                                                                                    132   55   52      1/4             iio          (0, -3, -6)          ()        2.0          0.0     1.000000
+                                                                                                    134   56   53        0             I64          (-1, -2, 2)          ()        7.0          4.0     0.636364
+                                                                                                    135   57   54        0              IV          (-3, 1, -2)          ()        3.0          1.0     0.750000
+                                                                                                    136   57   54      1/4             iio          (0, -3, -6)          ()        2.0          0.0     1.000000
+                                                                                                    201   87   83      7/8      I.V7(+6)/V        (6, 10, 7, 4)        (9,)        5.0          1.0     0.833333
+                                                                                                    202   88   84        0          V[V7/V        (6, 10, 7, 4)          ()       10.0          2.0     0.833333
+                                                                                                    203   88   84      1/4        V+(#7)/V          (6, 10, 14)       (11,)        7.0          4.0     0.636364
+                                                                                                    204   88   84      1/2            V(9)            (5, 9, 6)        (7,)        9.0          2.0     0.818182
+                                                                                                    207   89   85      1/4            I(9)            (4, 8, 5)        (6,)       13.0          7.0     0.650000
+                                                                                                    208   89   85      3/4               I            (4, 8, 5)          ()        7.0          3.0     0.700000
+                                                                                                    209   90   86        0              vi            (7, 4, 8)          ()        5.0          2.0     0.714286
+                                                                                                    212   91   87        0         viio7/V        (10, 7, 4, 1)          ()       19.0          0.0     1.000000
+                                                                                                    214   91   87      7/8               V            (5, 9, 6)          ()        4.0          1.0     0.800000
+                                                                                                    215   92   88        0       viio7(#0)         (9, 6, 3, 0)          ()       17.0          0.0     1.000000
+                                                                                                    216   92   88      1/2           viio7         (9, 6, 3, 0)          ()        9.0          0.0     1.000000
+                                                                                                    217   92   88      3/4             V65         (9, 6, 3, 5)          ()       10.0          0.0     1.000000
+                                                                                                    219   93   89      1/4            I(9)            (4, 8, 5)        (6,)       13.0          7.0     0.650000
+                                                                                                    220   93   89      3/4               I            (4, 8, 5)          ()        7.0          3.0     0.700000
+                                                                                                    221   94   90        0              vi            (7, 4, 8)          ()        5.0          2.0     0.714286
+                                                                                                    266  109  105      1/2          viio43       (-1, -4, 5, 2)          ()        7.0          0.0     1.000000
+                                                                                                    349  136  132      3/4             V65       (13, 10, 7, 9)          ()       22.0          0.0     1.000000
+                                                                                                    350  137  133        0            I(6)          (8, 12, 11)          ()        8.0          0.0     1.000000
+                                                                                                    351  137  133      1/8               I           (8, 12, 9)          ()       11.0          0.0     1.000000
+                                                                                                    352  137  133      3/8             I64           (9, 8, 12)          ()        2.0          0.0     1.000000
+                                                                                                    353  137  133      1/2           vii%7      (13, 10, 7, 11)          ()        8.0          0.0     1.000000
+                                                                                                    354  137  133      5/8             V65       (13, 10, 7, 9)          ()        7.0          0.0     1.000000
+                                                                                                    355  137  133      3/4               V          (9, 13, 10)          ()        6.0          0.0     1.000000
+                                                                                                    356  138  134        0       #viio7/ii       (15, 12, 9, 6)          ()       24.0          6.0     0.800000
+                                                                                                    621  217  213      5/8              V2         (3, 5, 9, 6)          ()        8.0          3.0     0.727273
+                 MS3/160.09_Les_Cloches_de_Geneve_(Nocturne).mscx                                   149  139  139        0             I64            (3, 2, 6)          ()        7.0          2.0     0.777778
+                                                                                                    160  149  149        0       V7(#4)/ii       (8, 12, 14, 6)          ()        6.0          2.0     0.750000
+                                                                                                    161  149  149     7/16           V7/ii        (8, 12, 9, 6)          ()        3.0          0.0     1.000000
+                 MS3/161.01_Sposalizio.mscx                                                         73    36   36      5/4          I6(64)            (4, 8, 5)          ()        1.0          0.0     1.000000
+                 MS3/161.02_Il_Pensieroso.mscx                                                      28    18   17      1/4              IV           (6, 10, 7)          ()        9.0          0.0     1.000000
+                                                                                                    31    19   18      3/4             II6          (13, 10, 9)          ()        9.0          0.0     1.000000
+                 MS3/161.04_Sonetto_47_del_Petrarca.mscx                                            0      1    1      1/4       Db.bVI.I{         (-9, -5, -8)          ()       12.0          0.0     1.000000
+                                                                                                    1      2    2        0           III64         (-4, -5, -1)          ()       16.0          0.0     1.000000
+                                                                                                    2      3    3        0             bVI       (-13, -9, -12)          ()       10.0          0.0     1.000000
+                                                                                                    3      3    3      1/2           ii%65   (-10, -13, -9, -7)          ()       11.0          0.0     1.000000
+                                                                                                    4      4    4        0           I|PC}         (-9, -5, -8)          ()       29.0          0.0     1.000000
+                                                                                                    47    32   32        0         bV.V[I6       (-7, -10, -11)          ()       12.0          0.0     1.000000
+                                                                                                    48    32   32      3/4               I       (-11, -7, -10)          ()       12.0          0.0     1.000000
+                                                                                                    49    33   33        0         iv64(7)       (-11, -7, -15)          ()       14.0          0.0     1.000000
+                                                                                                    50    33   33      3/4             iv6      (-15, -11, -12)          ()        8.0          0.0     1.000000
+                                                                                                    51    34   34        0        V7(b94)]  (-10, -11, -9, -12)      (-15,)       32.0          0.0     1.000000
+                                                                                                    52    35   35        0            bVI+       (-15, -11, -7)          ()        3.0          0.0     1.000000
+                                                                                                    53    35   35      1/4       viio43(4)   (-12, -15, -6, -7)          ()        3.0          0.0     1.000000
+                                                                                                    54    35   35      1/2         V7(b96)   (-10, -6, -7, -12)      (-15,)        1.0          0.0     1.000000
+                                                                                                    55    35   35      3/4          V7(b9)   (-10, -6, -9, -12)      (-15,)        1.0          0.0     1.000000
+                                                                                                    56    36   36        0         I|PAC}{       (-11, -7, -10)          ()       36.0          0.0     1.000000
+                                                                                                    57    38   38      1/2            IV64       (-11, -12, -8)          ()        3.0          0.0     1.000000
+                                                                                                    58    38   38      3/4             ii6        (-12, -8, -9)          ()        3.0          0.0     1.000000
+                                                                                                    59    38   38        1             V65   (-6, -9, -12, -10)          ()        8.0          0.0     1.000000
+                                                                                                    60    39   39        0               I       (-11, -7, -10)          ()       13.0          0.0     1.000000
+                                                                                                    61    39   39      5/4       #viio2/ii   (-13, -4, -7, -10)          ()        4.0          0.0     1.000000
+                                                                                                    62    40   40        0            V2/V    (-11, -9, -5, -8)          ()        9.0          0.0     1.000000
+                                                                                                    63    40   40      3/4           viio2   (-15, -6, -9, -12)          ()        9.0          0.0     1.000000
+                                                                                                    64    41   41        0            I(9)       (-11, -7, -10)       (-9,)        5.0          0.0     1.000000
+                                                                                                    65    41   41      1/2               I       (-11, -7, -10)          ()       17.0          0.0     1.000000
+                                                                                                    66    42   42      1/2            IV64       (-11, -12, -8)          ()        3.0          0.0     1.000000
+                                                                                                    67    42   42      3/4             ii6        (-12, -8, -9)          ()        3.0          0.0     1.000000
+                                                                                                    68    42   42        1             V65   (-6, -9, -12, -10)          ()        8.0          0.0     1.000000
+                                                                                                    69    43   43        0               I       (-11, -7, -10)          ()       18.0          0.0     1.000000
+                                                                                                    70    44   44        0              vi        (-8, -11, -7)          ()       28.0          0.0     1.000000
+                                                                                                    71    45   45        0              iv      (-12, -15, -11)          ()       28.0          0.0     1.000000
+                                                                                                    72    46   46        0             bII      (-16, -12, -15)          ()       29.0          0.0     1.000000
+                                                                                                    73    47   47        0            bVII       (-13, -9, -12)          ()       29.0          0.0     1.000000
+                                                                                                    74    48   48        0             V[V        (-10, -6, -9)          ()       26.0          0.0     1.000000
+                                                                                                    75    49   49        0           I6(2)        (-7, -10, -9)          ()        8.0          0.0     1.000000
+                                                                                                    76    49   49      1/2              I6       (-7, -10, -11)          ()        6.0          0.0     1.000000
+                                                                                                    77    49   49      3/4            V2/V    (-11, -9, -5, -8)          ()       14.0          0.0     1.000000
+                                                                                                    78    50   50        0               V        (-10, -6, -9)          ()       32.0          0.0     1.000000
+                                                                                                    79    51   51        0           I6(2)        (-7, -10, -9)          ()        7.0          0.0     1.000000
+                                                                                                    80    51   51      1/2              I6       (-7, -10, -11)          ()        6.0          0.0     1.000000
+                                                                                                    81    51   51      3/4            V2/V    (-11, -9, -5, -8)          ()       14.0          0.0     1.000000
+                                                                                                    82    52   52        0          V]|HC}        (-10, -6, -9)          ()       23.0          0.0     1.000000
+                                                                                                    83    53   53        0         viio64{        (-12, -6, -9)          ()       25.0          0.0     1.000000
+                                                                                                    84    54   54        0        i.#viio7      (0, -3, -6, -9)          ()       26.0          0.0     1.000000
+                                                                                                    85    55   55        0            V(4)         (-4, -5, -3)          ()       24.0          0.0     1.000000
+                                                                                                    86    56   56        0              i2     (-7, -5, -8, -4)          ()       23.0          0.0     1.000000
+                                                                                                    87    57   57        0              VI         (-9, -5, -8)          ()       16.0          0.0     1.000000
+                                                                                                    88    57   57      3/4            VIM2     (-4, -9, -5, -8)          ()       16.0          0.0     1.000000
+                                                                                                    89    58   58        0         viio7/V      (1, -2, -5, -8)          ()      113.0          2.0     0.982609
+                                                                                                    90    59   59      7/2        viio65/V      (-2, -5, -8, 1)          ()        5.0          0.0     1.000000
+                                                                                                    91    60   60      1/4            Ger6      (-9, -5, -8, 1)          ()        8.0          0.0     1.000000
+                                                                                                    92    61   61        0            V(9)          (-4, 0, -3)       (-9,)        5.0          0.0     1.000000
+                                                                                                    93    61   61      3/4           V|HC}          (-4, 0, -3)          ()        5.0          0.0     1.000000
+                                                                                                    94    62   62        1         bIII.I{         (-8, -4, -7)          ()       14.0          0.0     1.000000
+                                                                                                    95    63   63      1/2            IV64         (-8, -9, -5)          ()        4.0          0.0     1.000000
+                                                                                                    96    63   63      3/4             ii6         (-9, -5, -6)          ()        3.0          0.0     1.000000
+                                                                                                    97    63   63        1             V65     (-3, -6, -9, -7)          ()        8.0          0.0     1.000000
+                                                                                                    98    64   64        0               I         (-8, -4, -7)          ()       14.0          0.0     1.000000
+                                                                                                    99    64   64      5/4           V7/ii     (-5, -1, -4, -7)          ()        4.0          0.0     1.000000
+                                                                                                    100   65   65        0      I[vii%43/V     (-8, -4, -2, -5)          ()        6.0          0.0     1.000000
+                                                                                                    101   65   65      1/2            V2/V     (-8, -6, -2, -5)          ()        4.0          0.0     1.000000
+                                                                                                    102   65   65      3/4           viio2    (-12, -3, -6, -9)          ()       11.0          0.0     1.000000
+                                                                                                    103   66   66        0            I(9)         (-8, -4, -7)       (-6,)        5.0          0.0     1.000000
+                                                                                                    104   66   66      1/2               I         (-8, -4, -7)          ()       17.0          0.0     1.000000
+                                                                                                    105   67   67      1/2           IV64]         (-8, -9, -5)          ()        4.0          0.0     1.000000
+                                                                                                    107   67   67      3/4             ii6         (-9, -5, -6)          ()       11.0          0.0     1.000000
+                                                                                                    108   68   68        0          I|IAC}         (-8, -4, -7)          ()       12.0          0.0     1.000000
+                                                                                                    116   73   73      3/4       V7(6)/bVI    (-8, -4, -5, -10)          ()       13.0          0.0     1.000000
+                                                                                                    117   74   74        0        I(9)/bVI         (-9, -5, -8)       (-7,)        7.0          0.0     1.000000
+                                                                                                    118   74   74      1/2      I/bVI|IAC}         (-9, -5, -8)          ()       24.0          0.0     1.000000
+                                                                                                    130   82   82      3/4       V7(6)/bVI    (-8, -4, -5, -10)          ()       13.0          0.0     1.000000
+                                                                                                    131   83   83        0        I(9)/bVI         (-9, -5, -8)       (-7,)        7.0          0.0     1.000000
+                                                                                                    132   83   83      1/2      I/bVI|IAC}         (-9, -5, -8)          ()       24.0          0.0     1.000000
+                 MS3/161.05_Sonetto_104_del_Petrarca.mscx                                           7      4    3      1/2         V43/III       (10, 7, 9, 13)          ()        5.0          0.0     1.000000
+                 MS3/161.06_Sonetto_123_del_Petrarca.mscx                                           69    37   37        0       V(64)/bVI         (-7, -8, -4)          ()       55.0          0.0     1.000000
+                                                                                                    70    38   38      1/2       V7(6)/bVI     (-7, -3, -4, -9)          ()       10.0          0.0     1.000000
+                                                                                                    71    38   38      3/4          V7/bVI     (-7, -3, -6, -9)          ()        2.0          0.0     1.000000
+                                                                                                    72    39   39        0      I/bVI|PAC}         (-8, -4, -7)          ()       24.0          0.0     1.000000
+                                                                                                    145   81   81      5/8         V65/bII    (-4, -7, -10, -8)          ()        9.0          0.0     1.000000
+                                                                                                    147   82   82      5/8         V65/bII    (-4, -7, -10, -8)          ()        9.0          0.0     1.000000
+                 MS3/161.07_Apres_une_lecture_du_Dante.mscx                                         128   75   75    11/16      viio7/VII]       (5, 2, -1, -4)          ()       23.0          6.0     0.793103
+                                                                                                    131   77   77      1/2             iv6           (-2, 2, 1)          ()       11.0          2.0     0.846154
+                                                                                                    132   77   77      3/4               V            (3, 7, 4)          ()        6.0          3.0     0.666667
+                                                                                                    133   78   78        0           V7/ii         (5, 9, 6, 3)          ()       15.0          4.0     0.789474
+                                                                                                    134   78   78      1/2             v65         (0, 4, 1, 3)          ()       19.0          3.0     0.863636
+                                                                                                    136   79   79      1/4               i           (2, -1, 3)          ()        6.0          3.0     0.666667
+                                                                                                    137   79   79      1/2          V65/ii         (9, 6, 3, 5)          ()        6.0          2.0     0.750000
+                                                                                                    138   79   79      2/3             V64            (4, 3, 7)          ()        4.0          1.0     0.800000
+                                                                                                    140   79   79      5/6             V64            (4, 3, 7)          ()        4.0          1.0     0.800000
+                                                                                                    143   80   80      1/2             iv6           (-2, 2, 1)          ()       19.0          6.0     0.760000
+                                                                                                    144   81   81        0           V7/ii         (5, 9, 6, 3)          ()       14.0          5.0     0.736842
+                                                                                                    145   81   81      1/2             v65         (0, 4, 1, 3)          ()       19.0          6.0     0.760000
+                                                                                                    146   82   82        0              V6            (7, 4, 3)          ()        7.0          3.0     0.700000
+                                                                                                    147   82   82      1/4               i           (2, -1, 3)          ()        9.0          1.0     0.900000
+                                                                                                    148   82   82      1/2       #viio7/ii         (9, 6, 3, 0)          ()        7.0          2.0     0.777778
+                                                                                                    149   82   82      3/4             V64            (4, 3, 7)          ()        6.0          3.0     0.666667
+                                                                                                    150   83   83        0         viio2/V        (-1, 8, 5, 2)          ()        9.0          0.0     1.000000
+                                                                                                    151   83   83      1/6       #viio7/iv        (6, 3, 0, -3)          ()        9.0          0.0     1.000000
+                                                                                                    152   83   83      1/3         #viio65        (4, 1, -2, 7)          ()       17.0          4.0     0.809524
+                                                                                                    153   84   84        0          #viio2        (-2, 7, 4, 1)          ()       49.0          5.0     0.907407
+                                                                                                    154   85   85      1/2          #viio7        (7, 4, 1, -2)          ()       48.0          6.0     0.888889
+                                                                                                    155   87   87        0         #viio65        (4, 1, -2, 7)          ()      101.0         19.0     0.841667
+                                                                                                    156   90   90      1/4           iio64           (-2, 4, 1)          ()        9.0          0.0     1.000000
+                                                                                                    157   90   90      1/2              ii            (4, 1, 5)          ()       10.0          0.0     1.000000
+                                                                                                    158   90   90      3/4          #viio7        (7, 4, 1, -2)          ()        9.0          0.0     1.000000
+                                                                                                    159   91   91        0              iv           (1, -2, 2)          ()       21.0          1.0     0.954545
+                                                                                                    160   91   91      3/4          #viio7        (7, 4, 1, -2)          ()        9.0          0.0     1.000000
+                                                                                                    161   92   92        0              iv           (1, -2, 2)          ()        9.0          1.0     0.900000
+                                                                                                    162   92   92      1/4         #viio65        (4, 1, -2, 7)          ()        9.0          0.0     1.000000
+                                                                                                    163   92   92      1/2              vi         (-2, -5, -1)          ()       21.0          1.0     0.954545
+                                                                                                    164   93   93      1/4         #viio43        (1, -2, 7, 4)          ()        9.0          0.0     1.000000
+                                                                                                    165   93   93      1/2              bi         (-5, -8, -4)          ()        9.0          1.0     0.900000
+                                                                                                    166   93   93      3/4          #viio2        (-2, 7, 4, 1)          ()        7.0          0.0     1.000000
+                                                                                                    167   93   93    11/12              ii            (4, 1, 5)          ()        6.0          0.0     1.000000
+                                                                                                    168   94   94        0          #viio7        (7, 4, 1, -2)          ()        7.0          0.0     1.000000
+                                                                                                    169   94   94      1/6              iv           (1, -2, 2)          ()        5.0          1.0     0.833333
+                                                                                                    170   94   94      1/4         #viio65        (4, 1, -2, 7)          ()       10.0          0.0     1.000000
+                                                                                                    171   94   94     5/12              vi         (-2, -5, -1)          ()        5.0          1.0     0.833333
+                                                                                                    172   94   94      1/2         #viio65        (4, 1, -2, 7)          ()       10.0          0.0     1.000000
+                                                                                                    173   94   94      2/3              vi         (-2, -5, -1)          ()        5.0          1.0     0.833333
+                                                                                                    174   94   94      3/4         #viio65        (4, 1, -2, 7)          ()       10.0          0.0     1.000000
+                                                                                                    175   94   94    11/12              vi         (-2, -5, -1)          ()        5.0          1.0     0.833333
+                                                                                                    176   95   95        0             bIV         (-6, -2, -5)          ()       15.0          7.0     0.681818
+                                                                                                    178   96   96        0            bIV6         (-2, -5, -6)          ()       14.0          6.0     0.700000
+                                                                                                    180   97   97        0            bIV6         (-2, -5, -6)          ()       10.0          3.0     0.769231
+                                                                                                    182   97   97      1/2            bIV6         (-2, -5, -6)          ()       10.0          3.0     0.769231
+                                                                                                    184   98   98        0            bVII         (-7, -3, -6)          ()       88.0         36.0     0.709677
+                                                                                                    185  100  100        0               V            (3, 7, 4)          ()      152.0          4.0     0.974359
+                                                                                                    186  102  102      1/2            III6           (3, 0, -1)          ()       20.0         12.0     0.625000
+                                                                                                    193  108  108      1/2           V/III         (11, 15, 12)          ()       16.0          0.0     1.000000
+                                                                                                    194  109  109        0           I/III         (10, 14, 11)          ()       62.0          0.0     1.000000
+                                                                                                    195  110  110        0      V7(94)/III      (11, 10, 12, 9)       (13,)       24.0          0.0     1.000000
+                                                                                                    196  110  110      3/4       V7(6)/III      (11, 15, 14, 9)          ()        7.0          0.0     1.000000
+                                                                                                    197  111  111        0           I/III         (10, 14, 11)          ()       48.0          0.0     1.000000
+                                                                                                    202  114  114      3/4         V7(b96)       (7, 11, 10, 5)        (2,)        5.0          1.0     0.833333
+                                                                                                    215  121  121      3/4              V7       (-1, 3, 0, -3)          ()       10.0          0.0     1.000000
+                                                                                                    216  122  122      1/4           V(64)         (-1, -2, -5)          ()        3.0          0.0     1.000000
+                                                                                                    217  122  122      1/2            V(4)          (-1, -2, 0)          ()        6.0          0.0     1.000000
+                                                                                                    218  122  122      5/8           V(42)          (-6, -2, 0)          ()        2.0          0.0     1.000000
+                                                                                                    219  122  122      3/4            V(2)           (-6, 3, 0)          ()        4.0          0.0     1.000000
+                                                                                                    220  122  122      7/8               V           (-1, 3, 0)          ()        4.0          0.0     1.000000
+                                                                                                    221  123  123        0          i|IAC}         (-2, -5, -1)          ()        8.0          0.0     1.000000
+                                                                                                    246  139  139      1/2           V/III         (11, 15, 12)          ()       10.0          0.0     1.000000
+                                                                                                    247  140  140        0           I/III         (10, 14, 11)          ()       17.0          0.0     1.000000
+                                                                                                    248  141  141        0      V7(94)/III      (11, 10, 12, 9)       (13,)       10.0          0.0     1.000000
+                                                                                                    249  141  141      1/2       V7(6)/III      (11, 15, 14, 9)          ()        9.0          0.0     1.000000
+                                                                                                    250  142  142        0     I/III|PAC}{         (10, 14, 11)          ()        7.0          0.0     1.000000
+                                                                                                    278  161  161        0        V(64)/II           (9, 8, 12)          ()       24.0          0.0     1.000000
+                                                                                                    279  161  161      1/2           V7/II       (9, 13, 10, 7)          ()       12.0          0.0     1.000000
+                                                                                                    280  161  161      3/4     viio7/V/III      (16, 13, 10, 7)          ()       12.0          0.0     1.000000
+                                                                                                    281  162  162        0       V(64)/III         (11, 10, 14)          ()       24.0          0.0     1.000000
+                                                                                                    282  162  162      1/2          V7/III      (11, 15, 12, 9)          ()       12.0          0.0     1.000000
+                                                                                                    467  298  297        0        viio7/ii      (2, -1, -4, -7)          ()       19.0          0.0     1.000000
+                                                                                                    538  335  334      1/2   viio(b6)/V/bV          (2, -1, -9)          ()        3.0          1.0     0.750000
+                                                                                                    539  335  334      5/8  viio7(#4)/V/bV       (2, -1, 8, -7)          ()        6.0          3.0     0.666667
+                 MS3/162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.mscx 250  164  163      1/4               V            (2, 6, 3)          ()        6.0          3.0     0.666667
+                                                                                                    385  282  280        0         i[viio7    (-3, -6, -9, -12)          ()       11.0          0.0     1.000000
+                                                                                                    387  284  282        0             ii6           (-2, 2, 1)          ()        6.0          0.0     1.000000
+                                                                                                    388  284  282      1/4            iii6         (-7, -3, -4)          ()        2.0          0.0     1.000000
+                                                                                                    389  284  282     5/12             ii6           (-2, 2, 1)          ()        5.0          0.0     1.000000
+                                                                                                    390  285  283        0              I6           (3, 0, -1)          ()        6.0          0.0     1.000000
+                                                                                                    391  285  283      1/4            VII6          (1, -2, -3)          ()        2.0          0.0     1.000000
+                                                                                                    392  285  283     5/12           V(64)          (0, -1, -4)          ()        8.0          0.0     1.000000
+                                                                                                    393  286  284      1/6              V7        (0, 4, 1, -2)          ()        2.0          0.0     1.000000
+                                                                                                    395  286  284      1/3              V7        (0, 4, 1, -2)          ()        2.0          0.0     1.000000
+                                                                                                    396  286  284     5/12           V7(9)        (0, 4, 1, -2)       (-5,)        9.0          5.0     0.642857
+                                                                                                    397  287  285      1/4          V7(b9)        (0, 4, 1, -2)      (-12,)        4.0          0.0     1.000000
+                                                                                                    398  287  285      3/8           V(64)          (0, -1, -4)          ()        2.0          0.0     1.000000
+                                                                                                    399  288  286        0         I|PAC}{           (-1, 3, 0)          ()       33.0          5.0     0.868421
+                                                                                                    400  290  288        0               V            (0, 4, 1)          ()       10.0          0.0     1.000000
+                                                                                                    403  291  289      1/4           vii%7     (-3, -6, -9, -5)          ()        3.0          1.0     0.750000
+                                                                                                    405  292  290        0              V2        (-2, 0, 4, 1)          ()        9.0          1.0     0.900000
+                                                                                                    406  292  290      1/4          vii%43     (-9, -5, -3, -6)          ()        5.0          0.0     1.000000
+                                                                                                    408  293  291        0           V2/IV       (-3, -1, 3, 0)          ()        8.0          2.0     0.800000
+                                                                                                    409  293  291      1/4              IV          (-2, 2, -1)          ()        5.0          0.0     1.000000
+                                                                                                    411  294  292        0           V(64)          (0, -1, -4)          ()       10.0          0.0     1.000000
+                                                                                                    413  294  292     7/16              V2        (-2, 0, 4, 1)          ()        4.0          1.0     0.800000
+                                                                                                    414  295  293        0          I|PAC}           (-1, 3, 0)          ()        5.0          0.0     1.000000
+                                                                                                    415  295  293     3/16              V{            (0, 4, 1)          ()        2.0          0.0     1.000000
+                                                                                                    416  295  293      1/4         V43/bII     (-4, -7, -5, -1)          ()        4.0          2.0     0.666667
+                                                                                                    417  295  293      3/8          V43/ii         (3, 0, 2, 6)          ()        4.0          2.0     0.666667
+                                                                                                    418  296  294        0        V43/bIII   (-9, -12, -10, -6)          ()        6.0          0.0     1.000000
+                                                                                                    419  296  294      1/8         V43/iii      (-2, -5, -3, 1)          ()        6.0          0.0     1.000000
+                                                                                                    420  296  294      1/4        V43/bIII   (-9, -12, -10, -6)          ()        6.0          0.0     1.000000
+                                                                                                    421  296  294      3/8          V43/ii         (3, 0, 2, 6)          ()        4.0          2.0     0.666667
+                                                                                                    422  297  295        0         V43/bII     (-4, -7, -5, -1)          ()        4.0          2.0     0.666667
+                                                                                                    423  297  295      1/8             V43        (1, -2, 0, 4)          ()        4.0          2.0     0.666667
+                                                                                                    424  297  295      1/4         V43/VII      (-1, -4, -2, 2)          ()        6.0          0.0     1.000000
+                                                                                                    426  298  296        0               I           (-1, 3, 0)          ()       10.0          1.0     0.909091
+                                                                                                    427  298  296  141/560              I6           (3, 0, -1)          ()        7.0          0.0     1.000000
+                                                                                                    428  299  297        0             I64           (0, -1, 3)          ()        9.0          2.0     0.818182
+                                                                                                    429  299  297  141/560              vi         (-5, -8, -4)          ()        7.0          0.0     1.000000
+                                                                                                    430  300  298        0               V            (0, 4, 1)          ()       10.0          1.0     0.909091
+                                                                                                    431  300  298  141/560              V2        (-2, 0, 4, 1)          ()        5.0          2.0     0.714286
+                                                                                                    432  301  299        0             V43        (1, -2, 0, 4)          ()        7.0          4.0     0.636364
+                                                                                                    435  302  300        0             V43        (1, -2, 0, 4)          ()        8.0          3.0     0.727273
+                                                                                                    436  302  300  141/560           V7(2)       (-5, 4, 1, -2)          ()        6.0          1.0     0.857143
+                                                                                                    437  303  301        0          V43/IV       (0, -3, -1, 3)          ()        9.0          2.0     0.818182
+                                                                                                    438  303  301  141/560              IV          (-2, 2, -1)          ()        6.0          1.0     0.857143
+                                                                                                    439  304  302        0               I           (-1, 3, 0)          ()       11.0          0.0     1.000000
+                                                                                                    442  305  303        0          I|PAC}           (-1, 3, 0)          ()        8.0          0.0     1.000000
+                                                                                                    443  305  303      1/4        V43/bII{     (-4, -7, -5, -1)          ()        4.0          2.0     0.666667
+                                                                                                    444  305  303      3/8          V43/ii         (3, 0, 2, 6)          ()        4.0          2.0     0.666667
+                                                                                                    445  306  304        0        V43/bIII   (-9, -12, -10, -6)          ()        6.0          0.0     1.000000
+                                                                                                    446  306  304      1/8         V43/iii      (-2, -5, -3, 1)          ()        6.0          0.0     1.000000
+                                                                                                    447  306  304      1/4          V43/IV       (0, -3, -1, 3)          ()        4.0          2.0     0.666667
+                                                                                                    448  306  304      3/8          V43/bV     (-5, -8, -6, -2)          ()        4.0          2.0     0.666667
+                                                                                                    449  307  305        0          V43/IV       (0, -3, -1, 3)          ()        4.0          2.0     0.666667
+                                                                                                    450  307  305      1/8          V43/bV     (-5, -8, -6, -2)          ()        4.0          2.0     0.666667
+                                                                                                    451  307  305      1/4           V43/V        (2, -1, 1, 5)          ()        4.0          2.0     0.666667
+                                                                                                    452  307  305      3/8            Ger6      (-5, -1, -4, 5)          ()        6.0          0.0     1.000000
+                                                                                                    453  308  306        0           V7/IV       (-1, 3, 0, -3)          ()       28.0         11.0     0.717949
+                                                                                                    454  310  308        0           IV(6)           (-2, 2, 1)          ()        4.0          0.0     1.000000
+                                                                                                    455  310  308     3/16              IV          (-2, 2, -1)          ()        5.0          0.0     1.000000
+                                                                                                    457  310  308     7/16              IV          (-2, 2, -1)          ()        5.0          0.0     1.000000
+                                                                                                    458  311  309        0          IV(#2)          (-2, 7, -1)          ()        5.0          0.0     1.000000
+                                                                                                    459  311  309     3/16              IV          (-2, 2, -1)          ()       10.0          0.0     1.000000
+                                                                                                    460  312  310        0           V7/IV       (-1, 3, 0, -3)          ()       28.0         11.0     0.717949
+                                                                                                    461  314  312        0           IV(6)           (-2, 2, 1)          ()        4.0          0.0     1.000000
+                                                                                                    462  314  312     3/16              IV          (-2, 2, -1)          ()        5.0          0.0     1.000000
+                                                                                                    464  314  312     7/16              IV          (-2, 2, -1)          ()        5.0          0.0     1.000000
+                                                                                                    465  315  313        0          IV(#2)          (-2, 7, -1)          ()        5.0          0.0     1.000000
+                                                                                                    466  315  313     3/16              IV          (-2, 2, -1)          ()       10.0          0.0     1.000000
+                                                                                                    467  316  314        0           V7/ii         (2, 6, 3, 0)          ()       32.0          6.0     0.842105
+                                                                                                    468  318  316        0         ii(b64)          (1, 0, -10)          ()       10.0          0.0     1.000000
+                                                                                                    469  318  316      1/4              II            (1, 5, 2)          ()       10.0          0.0     1.000000
+                                                                                                    470  319  317        0             #I6           (10, 7, 6)          ()       16.0          0.0     1.000000
+                                                                                                    471  320  318        0            II64            (2, 1, 5)          ()        5.0          0.0     1.000000
+                                                                                                    472  320  318      1/8           #II64           (9, 8, 12)          ()        5.0          0.0     1.000000
+                                                                                                    473  320  318      1/4           III64          (-3, -4, 0)          ()        5.0          0.0     1.000000
+                                                                                                    474  320  318      3/8          #III64            (4, 3, 7)          ()        5.0          0.0     1.000000
+                                                                                                    475  321  319        0           III64          (-3, -4, 0)          ()        5.0          0.0     1.000000
+                                                                                                    476  321  319      1/8           #II64           (9, 8, 12)          ()        5.0          0.0     1.000000
+                                                                                                    477  321  319      1/4            II64            (2, 1, 5)          ()        5.0          0.0     1.000000
+                                                                                                    478  321  319      3/8            #I64           (7, 6, 10)          ()        5.0          0.0     1.000000
+                                                                                                    479  322  320        0          I(b64)        (-1, -2, -12)          ()       10.0          0.0     1.000000
+                                                                                                    480  322  320      1/4               I           (-1, 3, 0)          ()       10.0          0.0     1.000000
+                                                                                                    481  323  321        0            VII6          (1, -2, -3)          ()       16.0          0.0     1.000000
+                                                                                                    482  324  322        0             I64           (0, -1, 3)          ()        5.0          0.0     1.000000
+                                                                                                    483  324  322      1/8            #I64           (7, 6, 10)          ()        5.0          0.0     1.000000
+                                                                                                    484  324  322      1/4            II64            (2, 1, 5)          ()        5.0          0.0     1.000000
+                                                                                                    485  324  322      3/8           #II64           (9, 8, 12)          ()        5.0          0.0     1.000000
+                                                                                                    486  325  323        0            II64            (2, 1, 5)          ()        5.0          0.0     1.000000
+                                                                                                    487  325  323      1/8            #I64           (7, 6, 10)          ()        5.0          0.0     1.000000
+                                                                                                    488  325  323      1/4             I64           (0, -1, 3)          ()        5.0          0.0     1.000000
+                                                                                                    489  325  323      3/8           VII64          (-2, -3, 1)          ()        5.0          0.0     1.000000
+                                                                                                    490  326  324        0        #VI(b64)           (2, 1, -9)          ()       10.0          0.0     1.000000
+                                                                                                    491  326  324      1/4             #VI            (2, 6, 3)          ()       10.0          0.0     1.000000
+                                                                                                    492  327  325        0             VI6         (-1, -4, -5)          ()       16.0          0.0     1.000000
+                                                                                                    493  328  326        0          bVII64        (-9, -10, -6)          ()        5.0          0.0     1.000000
+                                                                                                    494  328  326      1/8           VII64          (-2, -3, 1)          ()        5.0          0.0     1.000000
+                                                                                                    495  328  326      1/4             I64           (0, -1, 3)          ()        5.0          0.0     1.000000
+                                                                                                    496  328  326      3/8            #I64           (7, 6, 10)          ()        5.0          0.0     1.000000
+                                                                                                    497  329  327        0            II64            (2, 1, 5)          ()        5.0          0.0     1.000000
+                                                                                                    498  329  327      1/8           #II64           (9, 8, 12)          ()        5.0          0.0     1.000000
+                                                                                                    499  329  327      1/4           III64          (-3, -4, 0)          ()        5.0          0.0     1.000000
+                                                                                                    500  329  327      3/8            IV64          (-1, -2, 2)          ()        5.0          0.0     1.000000
+                                                                                                    501  330  328        0           #IV64            (6, 5, 9)          ()        5.0          0.0     1.000000
+                                                                                                    502  330  328      1/8             V64            (1, 0, 4)          ()        5.0          0.0     1.000000
+                                                                                                    503  330  328      1/4            #V64           (8, 7, 11)          ()        5.0          0.0     1.000000
+                                                                                                    504  330  328      3/8            VI64         (-4, -5, -1)          ()        5.0          0.0     1.000000
+                                                                                                    505  331  329        0            #V64           (8, 7, 11)          ()        5.0          0.0     1.000000
+                                                                                                    506  331  329      1/8             V64            (1, 0, 4)          ()        5.0          0.0     1.000000
+                                                                                                    507  331  329      1/4           #IV64            (6, 5, 9)          ()        5.0          0.0     1.000000
+                                                                                                    508  331  329      3/8            IV64          (-1, -2, 2)          ()        5.0          0.0     1.000000
+                                                                                                    509  332  330        0           III64          (-3, -4, 0)          ()        5.0          0.0     1.000000
+                                                                                                    510  332  330      1/8           #II64           (9, 8, 12)          ()        5.0          0.0     1.000000
+                                                                                                    511  332  330      1/4            II64            (2, 1, 5)          ()        5.0          0.0     1.000000
+                                                                                                    512  332  330      3/8            #I64           (7, 6, 10)          ()        5.0          0.0     1.000000
+                                                                                                    513  333  331        0             I64           (0, -1, 3)          ()        5.0          0.0     1.000000
+                                                                                                    514  333  331      1/8           VII64          (-2, -3, 1)          ()        5.0          0.0     1.000000
+                                                                                                    515  333  331      1/4          bVII64        (-9, -10, -6)          ()        5.0          0.0     1.000000
+                                                                                                    516  333  331      3/8            VI64         (-4, -5, -1)          ()        5.0          0.0     1.000000

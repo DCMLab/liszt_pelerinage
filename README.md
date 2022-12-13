@@ -117,7 +117,10 @@ based on a tarantella by Guillaume Louis Cottrau (1797–1847)
 |161.04_Sonetto_47_del_Petrarca                                           |      95|   153|2.3.0   |Adrian Nagel                             |AB        |
 |161.05_Sonetto_104_del_Petrarca                                          |      79|   121|2.3.0   |Adrian Nagel                             |AB        |
 |161.06_Sonetto_123_del_Petrarca                                          |      84|   149|2.3.0   |Adrian Nagel                             |AB        |
-|161.07_Apres_une_lecture_du_Dante                                        |     373|   632|2.3.0   |Adrian Nagel                             |AB        |
+|161.07_Apres_une_lecture_du_Dante                                        |     373|   631|2.3.0   |Adrian Nagel                             |AB        |
 |162.01_Gondoliera                                                        |     125|   121|2.3.0   |Adrian Nagel                             |AB        |
 |162.02_Canzone                                                           |      60|    98|2.3.0   |Adrian Nagel                             |AB        |
 |162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana|     479|   716|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|JH, AB, AN|
+
+
+*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.0.2.*
