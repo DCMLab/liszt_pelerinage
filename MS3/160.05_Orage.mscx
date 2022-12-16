@@ -171,14 +171,14 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/176824</metaTag>
-    <metaTag name="annotators">Adrian Nagel</metaTag>
+    <metaTag name="annotators">Adrian Nagel (2.1.1), Amelia Brey (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1855</metaTag>
     <metaTag name="composed_start">1848</metaTag>
     <metaTag name="composer">Franz Liszt</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-01-26</metaTag>
-    <metaTag name="harmony_version">2.1.1</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -186,7 +186,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">Johannes Hentschel (1-50)</metaTag>
+    <metaTag name="reviewers">JH, AB, AN</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>

@@ -151,21 +151,20 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>0.9</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/177126</metaTag>
-    <metaTag name="annotators">Adrian Nagel</metaTag>
+    <metaTag name="annotators">Adrian Nagel (2.1.1), Amelia Brey (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1859</metaTag>
     <metaTag name="composed_start">1859</metaTag>
     <metaTag name="composer">Gabriel Fauré</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-01-26</metaTag>
-    <metaTag name="harmony_version">2.1.1</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -173,7 +172,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">Johannes Hentschel (1-76 &amp; 200-220 &amp; 300-320 &amp; 447-479)</metaTag>
+    <metaTag name="reviewers">JH, AB, AN</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">http://musescore.com/user/2749876/scores/5399463</metaTag>
     <metaTag name="translator"></metaTag>
@@ -15158,9 +15157,6 @@ scherzando
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <location>
-            <fractions>-1/960</fractions>
-            </location>
           <Dynamic>
             <subtype>other-dynamics</subtype>
             <velocity>80</velocity>
@@ -15168,9 +15164,10 @@ scherzando
             <offset x="1.0875" y="-2.73765"/>
             <text>rinforz.</text>
             </Dynamic>
-          <location>
-            <fractions>1/960</fractions>
-            </location>
+          <Rest>
+            <durationType>1024th</durationType>
+            <duration>1/960</duration>
+            </Rest>
           <Rest>
             <dots>1</dots>
             <durationType>16th</durationType>
@@ -20124,9 +20121,6 @@ scherzando
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
-          <location>
-            <fractions>0</fractions>
-            </location>
           <BarLine>
             <subtype>double</subtype>
             <span>0</span>
@@ -39990,9 +39984,6 @@ scherzando
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
-          <location>
-            <fractions>0</fractions>
-            </location>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
@@ -48957,7 +48948,7 @@ scherzando
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>g.#viio2</name>
+            <name>g.#viio2{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -49403,7 +49394,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio\\</name>
+            <name>#viio</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -50724,14 +50715,14 @@ scherzando
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>III6</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>III6</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -50887,14 +50878,14 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Spanner type="Pedal">
             <Pedal>
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
@@ -50933,14 +50924,14 @@ scherzando
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VI6</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI6</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -51139,7 +51130,7 @@ scherzando
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio2/V]\\</name>
+            <name>viio2/V]|HC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -51176,14 +51167,14 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V[V7</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V[V7{</name>
+            </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
             <actualNotes>2</actualNotes>
@@ -51492,7 +51483,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -51548,7 +51539,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[V</name>
+            <name>V[V{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -51579,14 +51570,14 @@ scherzando
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -51873,7 +51864,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -51926,7 +51917,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[V7</name>
+            <name>V[V7{</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -52505,7 +52496,7 @@ scherzando
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V|HC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -52632,40 +52623,22 @@ scherzando
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
-          <location>
-            <fractions>-3/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i6</name>
-            </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
-          <location>
-            <fractions>-3/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V64\\</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i{</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -52825,7 +52798,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|IAC}{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -53422,7 +53395,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -53612,14 +53585,14 @@ scherzando
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I6</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -53650,14 +53623,14 @@ scherzando
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -53676,7 +53649,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|IAC}{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -54273,7 +54246,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -54300,14 +54273,14 @@ scherzando
         </Measure>
       <Measure len="3/8">
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V6(#4)/iv</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6(#4)/iv{</name>
+            </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
             <actualNotes>2</actualNotes>
@@ -54551,7 +54524,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(9)</name>
+            <name>i(+6)|PAC}{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -54800,7 +54773,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(9)</name>
+            <name>i(+6)|PAC}{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -54952,14 +54925,14 @@ scherzando
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>bII6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>bII6</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -55053,7 +55026,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(9)</name>
+            <name>i(+6)|PAC}{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -55080,14 +55053,14 @@ scherzando
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V6(#4)/iv</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6(#4)/iv</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -55209,14 +55182,14 @@ scherzando
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>bII6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>bII6</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -55310,7 +55283,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(9)\\</name>
+            <name>i(+6)|PAC}</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -55340,7 +55313,7 @@ scherzando
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -55706,7 +55679,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -55755,7 +55728,7 @@ scherzando
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65/iv</name>
+            <name>V65/iv{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -56105,7 +56078,7 @@ scherzando
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|IAC}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -56126,7 +56099,7 @@ scherzando
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -56488,7 +56461,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -56537,7 +56510,7 @@ scherzando
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65/iv</name>
+            <name>V65/iv{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -56885,7 +56858,7 @@ scherzando
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|IAC}</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -56924,7 +56897,7 @@ scherzando
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i{</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -57558,7 +57531,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -57612,6 +57585,10 @@ scherzando
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -58165,7 +58142,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -58220,14 +58197,14 @@ scherzando
             <offset x="0" y="-5"/>
             <durationType>16th</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i6</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6{</name>
+            </Harmony>
           <StaffText>
             <placement>below</placement>
             <text>sempre con pedale</text>
@@ -58564,14 +58541,14 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio2/iv</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio2/iv</name>
+            </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
             <actualNotes>2</actualNotes>
@@ -58812,7 +58789,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|IAC}</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -58843,14 +58820,14 @@ scherzando
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i6</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6{</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -59182,14 +59159,14 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio2/iv</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio2/iv</name>
+            </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
             <actualNotes>2</actualNotes>
@@ -59377,7 +59354,7 @@ scherzando
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -59411,7 +59388,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -59564,7 +59541,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|IAC}{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -60165,7 +60142,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -60355,14 +60332,14 @@ scherzando
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I6</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -60393,14 +60370,14 @@ scherzando
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -60419,7 +60396,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|IAC}{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -61001,7 +60978,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[V7</name>
+            <name>V[V7|HC}{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -61317,7 +61294,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -61370,7 +61347,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[V</name>
+            <name>V[V{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -61397,14 +61374,14 @@ scherzando
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -61691,7 +61668,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i]</name>
+            <name>i]|EC</name>
             </Harmony>
           <Tuplet>
             <normalNotes>3</normalNotes>
@@ -61763,7 +61740,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[V7</name>
+            <name>V[V7|HC}{</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -62167,7 +62144,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V7|HC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -62228,10 +62205,6 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V]</name>
-            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -63014,7 +62987,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -63180,7 +63153,7 @@ scherzando
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI.V</name>
+            <name>VI.V{</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -63196,14 +63169,14 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I[I</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I[I</name>
+            </Harmony>
           <Spanner type="Pedal">
             <Pedal>
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
@@ -64709,7 +64682,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I[I\\</name>
+            <name>I[I|PAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -64909,10 +64882,6 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -65050,6 +65019,10 @@ scherzando
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <small>1</small>
@@ -66452,7 +66425,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -66680,10 +66653,6 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -66799,6 +66768,10 @@ scherzando
               </Note>
             </Chord>
           <endTuplet/>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -69960,7 +69933,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -70169,10 +70142,6 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -70289,6 +70258,10 @@ scherzando
               </Note>
             </Chord>
           <endTuplet/>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -73032,7 +73005,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)</name>
+            <name>I64</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -73132,7 +73105,7 @@ scherzando
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(+64)</name>
+            <name>I64(119)</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -73207,7 +73180,7 @@ scherzando
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)</name>
+            <name>I64</name>
             </Harmony>
           </voice>
         <voice>
@@ -73443,7 +73416,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio65(6)/V</name>
+            <name>viio65(6)/V}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -73509,7 +73482,7 @@ scherzando
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio65/V</name>
+            <name>viio65/V|HC</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -73890,7 +73863,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bIII64</name>
+            <name>bIII64{</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -74314,14 +74287,14 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Spanner type="Pedal">
             <prev>
               <location>
@@ -74520,14 +74493,14 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio43(b8)/V</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio43(b8)/V}</name>
+            </Harmony>
           <Spanner type="Pedal">
             <prev>
               <location>
@@ -74588,7 +74561,7 @@ scherzando
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio43/V</name>
+            <name>viio43/V|HC</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -74848,7 +74821,7 @@ scherzando
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6/V\\</name>
+            <name>V6/V</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -74960,7 +74933,7 @@ scherzando
             </KeySig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#VI.I6</name>
+            <name>#VI.I6{</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -75442,14 +75415,14 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Spanner type="Pedal">
             <Pedal>
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
@@ -75914,7 +75887,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio65\\</name>
+            <name>viio65|HC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -75948,7 +75921,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2</name>
+            <name>V2{</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -76022,7 +75995,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio65/ii</name>
+            <name>ii/VI.#viio65</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -76069,7 +76042,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v6</name>
+            <name>iv6</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -76107,14 +76080,14 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio7/ii</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio7</name>
+            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             <Symbol>
@@ -76206,14 +76179,14 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>v6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             <Symbol>
@@ -76302,14 +76275,14 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vi[vi</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7(b9)|HC}</name>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -76332,10 +76305,6 @@ scherzando
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iiio6</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -76347,10 +76316,6 @@ scherzando
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#iio6</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -76358,10 +76323,6 @@ scherzando
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iio6</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -76373,20 +76334,6 @@ scherzando
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#io6</name>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>io6</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
@@ -76398,21 +76345,10 @@ scherzando
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio6]</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vo7</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -76427,10 +76363,6 @@ scherzando
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#ivo7</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -76445,10 +76377,6 @@ scherzando
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ivo7</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -76463,10 +76391,6 @@ scherzando
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iiio7</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Articulation>
@@ -76477,10 +76401,6 @@ scherzando
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#iio7</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -76498,10 +76418,6 @@ scherzando
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vo7</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -76894,10 +76810,6 @@ scherzando
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio7</name>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -76929,10 +76841,6 @@ scherzando
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>io7</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -76954,10 +76862,6 @@ scherzando
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#io7</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Articulation>
@@ -76979,10 +76883,6 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iio7</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -77004,10 +76904,6 @@ scherzando
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#iio7</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -77026,10 +76922,6 @@ scherzando
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iiio7</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -77048,10 +76940,6 @@ scherzando
               <tpc>9</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ivo7</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Articulation>
@@ -77073,10 +76961,6 @@ scherzando
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>Ger6</name>
-            </Harmony>
           <Spanner type="Pedal">
             <prev>
               <location>
@@ -77113,10 +76997,6 @@ scherzando
               <tpc>23</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2/ii</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -77138,10 +77018,6 @@ scherzando
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>Ger6</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -77160,10 +77036,6 @@ scherzando
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2/ii</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -77193,10 +77065,6 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>Ger6</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -77233,10 +77101,6 @@ scherzando
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2/ii</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -77255,10 +77119,6 @@ scherzando
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>Ger6</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -77277,10 +77137,6 @@ scherzando
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2/ii</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Articulation>
@@ -77298,10 +77154,6 @@ scherzando
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>Ger6</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -77323,10 +77175,6 @@ scherzando
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2/ii</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -77345,10 +77193,6 @@ scherzando
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>Ger6</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -77367,10 +77211,6 @@ scherzando
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2/ii</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Articulation>
@@ -77392,10 +77232,6 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>Ger6</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -77421,10 +77257,6 @@ scherzando
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2/ii</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -77443,10 +77275,6 @@ scherzando
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>Ger6</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -77465,10 +77293,6 @@ scherzando
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2/ii</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -77496,7 +77320,7 @@ scherzando
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6</name>
+            <name>{</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
@@ -77508,27 +77332,6 @@ scherzando
               <offset x="-0.811303" y="5.71796"/>
               </Symbol>
             </Rest>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>bVII6</name>
-            </Harmony>
-          <location>
-            <fractions>1/24</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V6/ii</name>
-            </Harmony>
-          <location>
-            <fractions>1/24</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii[#viio7/ii</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -77542,6 +77345,10 @@ scherzando
             <velocity>60</velocity>
             <offset x="1.0875" y="5.49073"/>
             </Dynamic>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i[viio7</name>
+            </Harmony>
           <Spanner type="Pedal">
             <Pedal>
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
@@ -77646,7 +77453,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii]</name>
+            <name>i]-VI.ii]</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -78005,7 +77812,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|PAC}{</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -78131,10 +77938,6 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(64)</name>
-            </Harmony>
           <Spanner type="Pedal">
             <prev>
               <location>
@@ -78165,10 +77968,6 @@ scherzando
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(964)</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -78180,13 +77979,6 @@ scherzando
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(64)</name>
-            </Harmony>
           </voice>
         <voice>
           <Beam>
@@ -79052,7 +78844,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -79078,7 +78870,7 @@ scherzando
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V{</name>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
@@ -80258,7 +80050,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -80278,7 +80070,7 @@ scherzando
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43/bII</name>
+            <name>V43/bII{</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -84520,7 +84312,7 @@ scherzando
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[I</name>
+            <name>V[I|HC}{</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -85178,7 +84970,7 @@ scherzando
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[I</name>
+            <name>V[I|HC}{</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -87703,14 +87495,14 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V\\</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V|HC}</name>
+            </Harmony>
           <Spanner type="Pedal">
             <prev>
               <location>
@@ -89281,7 +89073,7 @@ scherzando
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6</name>
+            <name>V6{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -89744,7 +89536,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43</name>
+            <name>V43|HC}{</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -90081,10 +89873,6 @@ scherzando
               </Note>
             </Chord>
           <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V\\</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -90394,7 +90182,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I[I</name>
+            <name>I[I{</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -91398,7 +91186,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|PAC}{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -92622,7 +92410,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -92679,10 +92467,6 @@ scherzando
             <durationType>eighth</durationType>
             </Rest>
           <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I64</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -92741,10 +92525,6 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I\\</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -92812,14 +92592,14 @@ scherzando
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV.V</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV.V{</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -93578,14 +93358,14 @@ scherzando
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I6</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -93636,7 +93416,7 @@ scherzando
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6\\</name>
+            <name>I6</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -94496,14 +94276,14 @@ scherzando
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i[V</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i[V</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -95452,14 +95232,14 @@ scherzando
             <durationType>eighth</durationType>
             </Rest>
           <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio65(6)/V</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio65(6)/V</name>
+            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -96308,14 +96088,14 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -96403,14 +96183,14 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iio6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iio6</name>
+            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -96495,14 +96275,14 @@ scherzando
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>bII6\\</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>bII6</name>
+            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -97307,7 +97087,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|PAC}{</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -97892,14 +97672,14 @@ scherzando
             <durationType>eighth</durationType>
             </Rest>
           <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7(9)</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7(9)</name>
+            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -97940,7 +97720,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|IAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -97974,7 +97754,7 @@ scherzando
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>III{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -98174,14 +97954,14 @@ scherzando
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -98745,7 +98525,7 @@ scherzando
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|IAC}{</name>
             </Harmony>
           <Rest>
             <offset x="0" y="1.66667"/>
@@ -99421,7 +99201,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
