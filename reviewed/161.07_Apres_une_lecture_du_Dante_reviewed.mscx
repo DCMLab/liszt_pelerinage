@@ -78067,7 +78067,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i.#iii.viio2/V</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Spanner type="Ottava">
             <prev>
@@ -112638,7 +112637,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7/III</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -112688,14 +112686,6 @@
           <Rest>
             <durationType>32nd</durationType>
             </Rest>
-          <location>
-            <fractions>23/32</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7/III</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -112816,7 +112806,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V2/vi</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -112833,14 +112822,6 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/2</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2/vi</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
           </voice>
         <voice>
           <location>
@@ -113239,7 +113220,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>viio43(11)/V</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -113300,14 +113280,6 @@
           <Rest>
             <durationType>32nd</durationType>
             </Rest>
-          <location>
-            <fractions>19/32</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio43(11)/V</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
