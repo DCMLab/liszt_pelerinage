@@ -204,4 +204,4 @@ The file names listed in the [Overview](#overview) below refer to:
 |162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana|     479|   716|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|JH, AB, AN|
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.0.2.*
+*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.0.4.*
