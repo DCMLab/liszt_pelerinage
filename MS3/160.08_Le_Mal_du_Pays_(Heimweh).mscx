@@ -164,21 +164,20 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.1</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/176824</metaTag>
-    <metaTag name="annotators">Adrian Nagel</metaTag>
+    <metaTag name="annotators">Adrian Nagel (2.1.1), Amelia Brey (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1855</metaTag>
     <metaTag name="composed_start">1848</metaTag>
     <metaTag name="composer">Franz Liszt</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-01-26</metaTag>
-    <metaTag name="harmony_version">2.1.1</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -186,7 +185,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">Johannes Hentschel (1-34 &amp; 61-70)</metaTag>
+    <metaTag name="reviewers">JH, AB, AN</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
@@ -434,9 +433,6 @@
             <durationType>measure</durationType>
             <duration>1/1</duration>
             </Rest>
-          <location>
-            <fractions>0</fractions>
-            </location>
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
@@ -2546,10 +2542,6 @@
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -6121,16 +6113,9 @@
           <Rest>
             <durationType>whole</durationType>
             </Rest>
-          <location>
-            <fractions>0</fractions>
-            </location>
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -9312,7 +9297,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>e.i</name>
+            <name>e.i{</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -9462,7 +9447,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
@@ -9498,7 +9483,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[V</name>
+            <name>V[V{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -9808,7 +9793,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6\\</name>
+            <name>V6|HC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -9833,7 +9818,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii[V7/V</name>
+            <name>ii[V7/V{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -10579,7 +10564,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -11094,7 +11079,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#iii.V</name>
+            <name>#iii.V{</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -11102,10 +11087,6 @@
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -11117,14 +11098,14 @@
             <sigN>6</sigN>
             <sigD>8</sigD>
             </TimeSig>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -11357,7 +11338,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
@@ -11379,7 +11360,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -11495,7 +11476,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I]\\</name>
+            <name>I]|IAC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -11540,7 +11521,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6</name>
+            <name>i6{</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -11718,7 +11699,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65(b5)/V</name>
+            <name>Fr6</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -11775,7 +11756,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>Fr6</name>
+            <name>Fr65</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -11790,7 +11771,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
@@ -11830,7 +11811,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iii.i</name>
+            <name>iii.i{</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -11977,7 +11958,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
@@ -12010,7 +11991,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[V</name>
+            <name>V[V{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -12320,7 +12301,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6\\</name>
+            <name>V6|HC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -12342,7 +12323,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii[V7/V</name>
+            <name>ii[V7/V{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -13100,7 +13081,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -13623,14 +13604,14 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>v.V</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v.V{</name>
+            </Harmony>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>70</velocity>
@@ -13671,10 +13652,6 @@
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -14009,7 +13986,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
@@ -14028,7 +14005,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V.V</name>
+            <name>V.V{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -14113,7 +14090,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I]\\</name>
+            <name>I]|IAC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -14136,7 +14113,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v.V</name>
+            <name>v.V{</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
@@ -14286,7 +14263,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65(b5)/V</name>
+            <name>Fr65</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -14296,16 +14273,6 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V65(9b5)/V</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -14314,16 +14281,6 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V65(b5)/V</name>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(+64)</name>
@@ -14399,7 +14356,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -14444,7 +14401,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bi.i6</name>
+            <name>bi.i6{</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -14620,7 +14577,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65(b5)/V</name>
+            <name>Fr65</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -14633,16 +14590,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V65(9b5)/V</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -14651,16 +14598,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V65(b5)/V</name>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(+64)</name>
@@ -14724,7 +14661,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -14771,14 +14708,14 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iii.i6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iii.i6{</name>
+            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -15105,7 +15042,7 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii%7\\</name>
+            <name>ii%7</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -15849,7 +15786,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.V7(9)</name>
+            <name>i.V7(9)]|HC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -15903,16 +15840,6 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7(96)</name>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
           <Fermata>
             <subtype>fermataAbove</subtype>
             </Fermata>
@@ -15924,13 +15851,6 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7(9)]</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -15942,7 +15862,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16008,7 +15928,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65(b5)/V</name>
+            <name>Fr65</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16084,7 +16004,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65(b5)/V</name>
+            <name>Fr65</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16189,8 +16109,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65(b5)/V</name>
-            <offset x="0" y="-13"/>
+            <name>Fr6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -16213,7 +16132,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
