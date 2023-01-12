@@ -1,0 +1,233 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw#",
+    {
+      "@language": "en "
+    }
+  ],
+  "dc:title": "DCML harmony annotations for liszt_pelerinage",
+  "dialect": {
+    "delimiter": "\t"
+  },
+  "dc:description": "One feature matrix per score, containing one line per label. The first columns (until 'label') are the same as in extracted 'labels' tables with the difference that only those harmony labels that match the DCML harmony annotation standard (dcmlab.github.io/standards) are included. Since these follow a specific syntax, they can be split into their components (features) and transformed into scale degrees. For more information, please refer to the docs at https://johentsch.github.io/ms3/columns",
+  "dc:created": "2022-12-26T07:47:27",
+  "dc:creator": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "SoftwareApplication",
+      "@id": "https://github.com/johentsch/ms3",
+      "name": "ms3",
+      "description": "A parser for MuseScore 3 files.",
+      "author": {
+        "name": "Johannes Hentschel",
+        "@id": "https://orcid.org/0000-0002-1986-9545"
+      },
+      "softwareVersion": "1.0.4"
+    }
+  ],
+  "tables": [
+    {
+      "url": "160.01_Chapelle_de_Guillaume_Tell.tsv"
+    },
+    {
+      "url": "160.02_Au_Lac_de_Wallenstadt.tsv"
+    },
+    {
+      "url": "160.03_Pastorale.tsv"
+    },
+    {
+      "url": "160.04_Au_Bord_dUne_Source.tsv"
+    },
+    {
+      "url": "160.05_Orage.tsv"
+    },
+    {
+      "url": "160.06_Vallee_dObermann.tsv"
+    },
+    {
+      "url": "160.07_Eglogue.tsv"
+    },
+    {
+      "url": "160.08_Le_Mal_du_Pays_(Heimweh).tsv"
+    },
+    {
+      "url": "160.09_Les_Cloches_de_Geneve_(Nocturne).tsv"
+    },
+    {
+      "url": "161.01_Sposalizio.tsv"
+    },
+    {
+      "url": "161.02_Il_Pensieroso.tsv"
+    },
+    {
+      "url": "161.03_Canzonetta_del_Salvator_Rosa.tsv"
+    },
+    {
+      "url": "161.04_Sonetto_47_del_Petrarca.tsv"
+    },
+    {
+      "url": "161.05_Sonetto_104_del_Petrarca.tsv"
+    },
+    {
+      "url": "161.06_Sonetto_123_del_Petrarca.tsv"
+    },
+    {
+      "url": "161.07_Apres_une_lecture_du_Dante.tsv"
+    },
+    {
+      "url": "162.01_Gondoliera.tsv"
+    },
+    {
+      "url": "162.02_Canzone.tsv"
+    },
+    {
+      "url": "162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana.tsv"
+    }
+  ],
+  "tableSchema": {
+    "columns": [
+      {
+        "titles": "mc",
+        "datatype": "integer",
+        "dc:description": "Measure count."
+      },
+      {
+        "titles": "mn",
+        "datatype": "string",
+        "dc:description": "Measure number."
+      },
+      {
+        "titles": "quarterbeats",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "titles": "duration_qb",
+        "datatype": "float"
+      },
+      {
+        "titles": "mc_onset",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        },
+        "dc:description": "An event's distance (fraction of a whole note) from the beginning of the MC."
+      },
+      {
+        "titles": "mn_onset",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        },
+        "dc:description": "An event's distance (fraction of a whole note) from the beginning of the MN."
+      },
+      {
+        "titles": "timesig",
+        "datatype": "string"
+      },
+      {
+        "titles": "staff",
+        "datatype": "integer"
+      },
+      {
+        "titles": "voice",
+        "datatype": "integer"
+      },
+      {
+        "titles": "label",
+        "datatype": "string"
+      },
+      {
+        "titles": "alt_label",
+        "datatype": "string"
+      },
+      {
+        "titles": "globalkey",
+        "datatype": "string"
+      },
+      {
+        "titles": "localkey",
+        "datatype": "string"
+      },
+      {
+        "titles": "pedal",
+        "datatype": "string"
+      },
+      {
+        "titles": "chord",
+        "datatype": "string"
+      },
+      {
+        "titles": "special",
+        "datatype": "string"
+      },
+      {
+        "titles": "numeral",
+        "datatype": "string"
+      },
+      {
+        "titles": "form",
+        "datatype": "string"
+      },
+      {
+        "titles": "figbass",
+        "datatype": "string"
+      },
+      {
+        "titles": "changes",
+        "datatype": "string"
+      },
+      {
+        "titles": "relativeroot",
+        "datatype": "string"
+      },
+      {
+        "titles": "pedalend"
+      },
+      {
+        "titles": "cadence",
+        "datatype": "string"
+      },
+      {
+        "titles": "phraseend",
+        "datatype": "string"
+      },
+      {
+        "titles": "chord_type",
+        "datatype": "string"
+      },
+      {
+        "titles": "globalkey_is_minor",
+        "datatype": "boolean"
+      },
+      {
+        "titles": "localkey_is_minor",
+        "datatype": "boolean"
+      },
+      {
+        "titles": "chord_tones",
+        "datatype": {
+          "base": "string",
+          "format": "\\(-?\\d+, ?-?\\d+\\)"
+        }
+      },
+      {
+        "titles": "added_tones",
+        "datatype": {
+          "base": "string",
+          "format": "\\(-?\\d+, ?-?\\d+\\)"
+        }
+      },
+      {
+        "titles": "root",
+        "datatype": "integer"
+      },
+      {
+        "titles": "bass_note",
+        "datatype": "integer"
+      }
+    ]
+  }
+}
