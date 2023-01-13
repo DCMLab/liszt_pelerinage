@@ -111,16 +111,19 @@
     <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/177125</metaTag>
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="composed_end">1849</metaTag>
-    <metaTag name="composed_start">1846</metaTag>
-    <metaTag name="composer">Liszt - Annees de peleriange No.3</metaTag>
+    <metaTag name="composed_end">1858</metaTag>
+    <metaTag name="composed_source">OxfordMusicOnline</metaTag>
+    <metaTag name="composed_start">1838</metaTag>
+    <metaTag name="composer">Franz Liszt</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-07-08</metaTag>
     <metaTag name="harmony_version">2.3.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Ann%C3%A9es_de_p%C3%A8lerinage_II,_S.161_(Liszt,_Franz)</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber">3</metaTag>
+    <metaTag name="movementTitle">Canzonetta del Salvator Rosa</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/c125008d-921a-49da-8568-5dc6aac973dd</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
@@ -128,8 +131,10 @@
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="typesetter">Tom Schreyer</metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Canzonetta del Salvator Rosa</metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/179020308/</metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q567462</metaTag>
+    <metaTag name="workNumber">S.161</metaTag>
+    <metaTag name="workTitle">Annees de pelerinage, Deuxieme annee: Italie</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -200,13 +205,13 @@
           <style>Composer</style>
           <family>FreeSerif</family>
           <size>12</size>
-          <text><font size="10.063"></font><font face="Plantin MT Std"></font>Liszt - Annees de pelerinage No.3</text>
+          <text><font size="10.063"/><font face="Plantin MT Std"/>Liszt - Annees de pelerinage No.3</text>
           </Text>
         <Text>
           <style>Title</style>
           <family>FreeSerif</family>
           <size>24</size>
-          <text><font size="20.126"></font><font face="Plantin MT Std"></font>Canzonetta del Salvator Rosa</text>
+          <text><font size="20.126"/><font face="Plantin MT Std"/>Canzonetta del Salvator Rosa</text>
           </Text>
         </VBox>
       <Measure>
@@ -222,7 +227,7 @@
             </TimeSig>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="11.9055"></font><font face="Plantin MT Std"></font><b>Andante marziale</b></text>
+            <text><font size="11.9055"/><font face="Plantin MT Std"/><b>Andante marziale</b></text>
             </StaffText>
           <Tempo>
             <tempo>1.3333299999999999</tempo>
@@ -4728,7 +4733,7 @@
             </Rest>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.9134"></font><font face="Plantin MT Std"></font>poco riten.</text>
+            <text><font size="10.9134"/><font face="Plantin MT Std"/>poco riten.</text>
             </StaffText>
           <Rest>
             <durationType>quarter</durationType>
@@ -6803,7 +6808,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.9134"></font><font face="Plantin MT Std"></font>dim.</text>
+            <text><font size="10.9134"/><font face="Plantin MT Std"/>dim.</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -7536,7 +7541,7 @@
             </TimeSig>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.9134"></font><font face="Plantin MT Std"></font>marcato</text>
+            <text><font size="10.9134"/><font face="Plantin MT Std"/>marcato</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -8748,7 +8753,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.9134"></font><font face="Plantin MT Std"></font>marcato</text>
+            <text><font size="10.9134"/><font face="Plantin MT Std"/>marcato</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -9549,7 +9554,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.9134"></font><font face="Plantin MT Std"></font>piu rinforz.</text>
+            <text><font size="10.9134"/><font face="Plantin MT Std"/>piu rinforz.</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -9952,7 +9957,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.9134"></font><font face="Plantin MT Std"></font>dim.</text>
+            <text><font size="10.9134"/><font face="Plantin MT Std"/>dim.</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -10212,7 +10217,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.9134"></font><font face="Plantin MT Std"></font>energico</text>
+            <text><font size="10.9134"/><font face="Plantin MT Std"/>energico</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -10985,7 +10990,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.9134"></font><font face="Plantin MT Std"></font>accentuato il canto</text>
+            <text><font size="10.9134"/><font face="Plantin MT Std"/>accentuato il canto</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -11214,7 +11219,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.9134"></font><font face="Plantin MT Std"></font>dolce</text>
+            <text><font size="10.9134"/><font face="Plantin MT Std"/>dolce</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -11281,7 +11286,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.9134"></font><font face="Plantin MT Std"></font>espr.</text>
+            <text><font size="10.9134"/><font face="Plantin MT Std"/>espr.</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -11805,7 +11810,7 @@
             </Clef>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.9134"></font><font face="Plantin MT Std"></font>dim.</text>
+            <text><font size="10.9134"/><font face="Plantin MT Std"/>dim.</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -11896,7 +11901,7 @@
             </Rest>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.9134"></font><font face="Plantin MT Std"></font>al</text>
+            <text><font size="10.9134"/><font face="Plantin MT Std"/>al</text>
             </StaffText>
           <Chord>
             <durationType>16th</durationType>
@@ -12733,7 +12738,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.9134"></font><font face="Plantin MT Std"></font>marcato</text>
+            <text><font size="10.9134"/><font face="Plantin MT Std"/>marcato</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -13518,7 +13523,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.9134"></font><font face="Plantin MT Std"></font>piu rinforz.</text>
+            <text><font size="10.9134"/><font face="Plantin MT Std"/>piu rinforz.</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -14299,7 +14304,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.9134"></font><font face="Plantin MT Std"></font>dim.</text>
+            <text><font size="10.9134"/><font face="Plantin MT Std"/>dim.</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -14347,7 +14352,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.9134"></font><font face="Plantin MT Std"></font>al</text>
+            <text><font size="10.9134"/><font face="Plantin MT Std"/>al</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>

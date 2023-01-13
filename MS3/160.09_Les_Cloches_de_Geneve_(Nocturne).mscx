@@ -170,27 +170,32 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/176824</metaTag>
-    <metaTag name="annotators">Adrian Nagel (2.1.1), Amelia Brey (2.3.0)</metaTag>
+    <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1855</metaTag>
+    <metaTag name="composed_source">OxfordMusicOnline</metaTag>
     <metaTag name="composed_start">1848</metaTag>
     <metaTag name="composer">Franz Liszt</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-01-26</metaTag>
-    <metaTag name="harmony_version">2.3.0</metaTag>
+    <metaTag name="harmony_version">2.1.1</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Ann%C3%A9es_de_p%C3%A8lerinage_I%2C_S.160_(Liszt%2C_Franz)</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber">9</metaTag>
+    <metaTag name="movementTitle">Les cloches de Geneve (Nocturne)</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/676f6953-af37-465e-8af6-711cf727567c</metaTag>
     <metaTag name="originalFormat">mxl</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">JH, AB, AN</metaTag>
+    <metaTag name="reviewers">Johannes Hentschel (1-76 &amp; 140-188)</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Au bord d'une source</metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/179020308/</metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q567462</metaTag>
+    <metaTag name="workNumber">S.160</metaTag>
+    <metaTag name="workTitle">Annees de pelerinage, Premiere annee: Suisse</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -256,19 +261,19 @@
         <Text>
           <style>Composer</style>
           <offset x="-2.49915" y="-1.11312"/>
-          <text><font size="12"></font>Franz Liszt</text>
+          <text><font size="12"/>Franz Liszt</text>
           </Text>
         <Text>
           <style>Title</style>
           <size>10</size>
           <offset x="-0.264583" y="4.11173"/>
-          <text><font size="18"></font>9. LES CLOCHES DE GENÈVE</text>
+          <text><font size="18"/>9. LES CLOCHES DE GENÈVE</text>
           </Text>
         <Text>
           <style>Subtitle</style>
           <size>10</size>
           <offset x="0.0797067" y="13.8246"/>
-          <text><font size="16"></font>Nocturne</text>
+          <text><font size="16"/>Nocturne</text>
           </Text>
         </VBox>
       <Measure>
@@ -1052,7 +1057,7 @@
               </Note>
             </Chord>
           <StaffText>
-            <text><font size="12"></font>poco rit.</text>
+            <text><font size="12"/>poco rit.</text>
             </StaffText>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -1098,7 +1103,7 @@
       <Measure>
         <voice>
           <StaffText>
-            <text><font size="12"></font><i>a tempo</i></text>
+            <text><font size="12"/><i>a tempo</i></text>
             </StaffText>
           <Chord>
             <dots>1</dots>
@@ -2101,7 +2106,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="-8.01061" y="0.780994"/>
-            <text><font size="12"></font>sempre</text>
+            <text><font size="12"/>sempre</text>
             </StaffText>
           <Dynamic>
             <subtype>pp</subtype>
@@ -2234,7 +2239,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>cantando</text>
+            <text><font size="12"/>cantando</text>
             </StaffText>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -3796,7 +3801,7 @@
               </Note>
             </Chord>
           <StaffText>
-            <text><font size="12"></font>ritenuto molto</text>
+            <text><font size="12"/>ritenuto molto</text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -6944,7 +6949,7 @@
       <Measure>
         <voice>
           <StaffText>
-            <text><font size="12"></font>un poco slentando</text>
+            <text><font size="12"/>un poco slentando</text>
             </StaffText>
           <Chord>
             <durationType>half</durationType>
@@ -8707,7 +8712,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>agitato</text>
+            <text><font size="12"/>agitato</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -11098,7 +11103,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>simile</text>
+            <text><font size="12"/>simile</text>
             </StaffText>
           </voice>
         <voice>
@@ -13372,7 +13377,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>slargando</text>
+            <text><font size="12"/>slargando</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -15622,7 +15627,7 @@
           </LayoutBreak>
         <voice>
           <StaffText>
-            <text><font size="12"></font>poco rall.</text>
+            <text><font size="12"/>poco rall.</text>
             </StaffText>
           <Chord>
             <durationType>half</durationType>
@@ -16572,7 +16577,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>dolce</text>
+            <text><font size="12"/>dolce</text>
             </StaffText>
           <StaffText>
             <style>Tempo</style>
@@ -17175,7 +17180,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>una corda</text>
+            <text><font size="12"/>una corda</text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -17190,7 +17195,7 @@
             </Chord>
           <StaffText>
             <offset x="-9.85173" y="1.79561"/>
-            <text><font size="12"></font>dolcissimo</text>
+            <text><font size="12"/>dolcissimo</text>
             </StaffText>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -18270,7 +18275,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>un poco marcato</text>
+            <text><font size="12"/>un poco marcato</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -19902,7 +19907,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="-0.224418" y="1.2231"/>
-            <text><font size="12"></font>espressivo</text>
+            <text><font size="12"/>espressivo</text>
             </StaffText>
           <Chord>
             <durationType>eighth</durationType>
@@ -20555,7 +20560,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="4.98871" y="2.29807"/>
-            <text><font size="12"></font><i>tre corde</i></text>
+            <text><font size="12"/><i>tre corde</i></text>
             </StaffText>
           <StaffText>
             <text>L'accompagnamento dolce, quasi arpa</text>
@@ -21248,7 +21253,7 @@
       <Measure>
         <voice>
           <StaffText>
-            <text><font size="12"></font>più dolce</text>
+            <text><font size="12"/>più dolce</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -21998,7 +22003,7 @@
             <name>I[I{</name>
             </Harmony>
           <StaffText>
-            <text><font size="12"></font>con somma passione</text>
+            <text><font size="12"/>con somma passione</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -23584,7 +23589,7 @@
       <Measure>
         <voice>
           <StaffText>
-            <text><font size="12"></font>dolce</text>
+            <text><font size="12"/>dolce</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -23757,12 +23762,12 @@
           <StaffText>
             <autoplace>0</autoplace>
             <offset x="0.180714" y="-7.98012"/>
-            <text><font size="12"></font>8</text>
+            <text><font size="12"/>8</text>
             </StaffText>
           <StaffText>
             <autoplace>0</autoplace>
             <offset x="-0.0633391" y="-5.52014"/>
-            <text><font size="12"></font>4</text>
+            <text><font size="12"/>4</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -24077,10 +24082,10 @@
       <Measure>
         <voice>
           <StaffText>
-            <text><font size="12"></font>4</text>
+            <text><font size="12"/>4</text>
             </StaffText>
           <StaffText>
-            <text><font size="12"></font>2</text>
+            <text><font size="12"/>2</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -24310,11 +24315,11 @@
           <StaffText>
             <autoplace>0</autoplace>
             <offset x="-0.306025" y="-6.34619"/>
-            <text><font size="12"></font>10</text>
+            <text><font size="12"/>10</text>
             </StaffText>
           <StaffText>
             <autoplace>0</autoplace>
-            <text><font size="12"></font>4</text>
+            <text><font size="12"/>4</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>

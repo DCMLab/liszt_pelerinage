@@ -113,16 +113,19 @@
     <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/177125</metaTag>
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="composed_end">1849</metaTag>
-    <metaTag name="composed_start">1846</metaTag>
-    <metaTag name="composer">Liszt - Annees de peleriange No.4</metaTag>
+    <metaTag name="composed_end">1858</metaTag>
+    <metaTag name="composed_source">OxfordMusicOnline</metaTag>
+    <metaTag name="composed_start">1838</metaTag>
+    <metaTag name="composer">Franz Liszt</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-07-08</metaTag>
     <metaTag name="harmony_version">2.3.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Ann%C3%A9es_de_p%C3%A8lerinage_II,_S.161_(Liszt,_Franz)</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber">4</metaTag>
+    <metaTag name="movementTitle">Sonetto 47 del Petrarca</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/37a20c08-a7ad-3ea6-8647-b9666170bcb2</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
@@ -130,8 +133,10 @@
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="typesetter">Tom Schreyer</metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Sonetto 47 del Petrarca</metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/179020308/</metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q567462</metaTag>
+    <metaTag name="workNumber">S.161</metaTag>
+    <metaTag name="workTitle">Annees de pelerinage, Deuxieme annee: Italie</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -269,13 +274,13 @@
           <style>Composer</style>
           <family>FreeSerif</family>
           <size>12</size>
-          <text><font size="9.7485"></font><font face="Plantin MT Std"></font>Liszt - Annees de pelerinage No.4</text>
+          <text><font size="9.7485"/><font face="Plantin MT Std"/>Liszt - Annees de pelerinage No.4</text>
           </Text>
         <Text>
           <style>Title</style>
           <family>FreeSerif</family>
           <size>24</size>
-          <text><font size="19.497"></font><font face="Plantin MT Std"></font>Sonetto 47 del Petrarca</text>
+          <text><font size="19.497"/><font face="Plantin MT Std"/>Sonetto 47 del Petrarca</text>
           </Text>
         </VBox>
       <Measure>
@@ -287,7 +292,7 @@
             </TimeSig>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="11.5335"></font><font face="Plantin MT Std"></font><b>Preludio con moto</b></text>
+            <text><font size="11.5335"/><font face="Plantin MT Std"/><b>Preludio con moto</b></text>
             </StaffText>
           <Tempo>
             <tempo>2</tempo>
@@ -548,7 +553,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font><i>cresc.molto</i></text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/><i>cresc.molto</i></text>
             </StaffText>
           <Spanner type="HairPin">
             <HairPin>
@@ -829,14 +834,14 @@
             </KeySig>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="11.5335"></font><font face="Plantin MT Std"></font><b>Ritenuto</b></text>
+            <text><font size="11.5335"/><font face="Plantin MT Std"/><b>Ritenuto</b></text>
             </StaffText>
           <Rest>
             <durationType>half</durationType>
             </Rest>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>accentuato</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>accentuato</text>
             </StaffText>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -1199,7 +1204,7 @@
             </TimeSig>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>Sempre mosso con intimo sentimento</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>Sempre mosso con intimo sentimento</text>
             </StaffText>
           <Rest>
             <durationType>quarter</durationType>
@@ -1415,7 +1420,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>il canto mezzoforte espressivo e un poco marcato</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>il canto mezzoforte espressivo e un poco marcato</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -4844,7 +4849,7 @@
             </TimeSig>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>ritard.</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>ritard.</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -7134,7 +7139,7 @@
             </Rest>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>quasi in tempo</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>quasi in tempo</text>
             </StaffText>
           <Spanner type="Ottava">
             <Ottava>
@@ -7513,7 +7518,7 @@
             </Rest>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>accelerando</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>accelerando</text>
             </StaffText>
           <Spanner type="HairPin">
             <HairPin>
@@ -7663,7 +7668,7 @@
             </StaffText>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>quasi cadenza</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>quasi cadenza</text>
             </StaffText>
           <Dynamic>
             <subtype>pp</subtype>
@@ -9557,7 +9562,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>molto riten.</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>molto riten.</text>
             </StaffText>
           <Rest>
             <durationType>half</durationType>
@@ -9622,7 +9627,7 @@
             </Dynamic>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>in tempo ma sempre rubato</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>in tempo ma sempre rubato</text>
             </StaffText>
           <Rest>
             <durationType>eighth</durationType>
@@ -12642,7 +12647,7 @@
             </Rest>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>dolce</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>dolce</text>
             </StaffText>
           <Rest>
             <durationType>quarter</durationType>
@@ -13229,7 +13234,7 @@
             </TimeSig>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Rest>
             <durationType>quarter</durationType>
@@ -13275,7 +13280,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -13331,7 +13336,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -13378,7 +13383,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -13421,7 +13426,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -13839,15 +13844,15 @@
             </TimeSig>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>una corda</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>una corda</text>
             </StaffText>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>l'accompagnamento<font size="10.5723"></font><font face="Plantin MT Std"></font>sempre dolce</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>l'accompagnamento<font size="10.5723"/><font face="Plantin MT Std"/>sempre dolce</text>
             </StaffText>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -13959,7 +13964,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -13991,7 +13996,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -14046,7 +14051,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -14106,7 +14111,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -14142,7 +14147,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -14178,7 +14183,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -14242,7 +14247,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -14274,7 +14279,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -14332,7 +14337,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -14396,7 +14401,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -14428,7 +14433,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -14469,7 +14474,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -14564,11 +14569,11 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>rinforz.</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>rinforz.</text>
             </StaffText>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -14642,7 +14647,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>smorzando</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>smorzando</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -14691,7 +14696,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -14760,7 +14765,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -14796,7 +14801,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -14832,7 +14837,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -14867,7 +14872,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -14910,7 +14915,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -14970,7 +14975,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -15032,7 +15037,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -15098,7 +15103,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -15170,12 +15175,12 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <StaffText>
             <family>FreeSerif</family>
             <offset x="0" y="-4.5232"/>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>cresc.</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>cresc.</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -15261,11 +15266,11 @@
             </KeySig>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>rinforzando ed appassionato assai</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>rinforzando ed appassionato assai</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -15353,7 +15358,7 @@
             </Rest>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Rest>
             <durationType>quarter</durationType>
@@ -15625,7 +15630,7 @@
             </TimeSig>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -15689,11 +15694,11 @@
             </Clef>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>dolcissimo</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>dolcissimo</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -15709,7 +15714,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>una corda</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>una corda</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -15757,7 +15762,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -15813,7 +15818,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -15882,7 +15887,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -15949,7 +15954,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -15984,7 +15989,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -16026,7 +16031,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -16093,7 +16098,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -16125,7 +16130,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -16165,7 +16170,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -16225,7 +16230,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -16339,7 +16344,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -16355,7 +16360,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>tre corde</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>tre corde</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -16453,7 +16458,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -16578,7 +16583,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -16705,7 +16710,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -16814,11 +16819,11 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>vibrato assai</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>vibrato assai</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -16870,7 +16875,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -16933,7 +16938,7 @@
             </Clef>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -17033,7 +17038,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -17081,7 +17086,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -18136,7 +18141,7 @@
             </TimeSig>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>dolente</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>dolente</text>
             </StaffText>
           <Rest>
             <dots>1</dots>
@@ -18229,7 +18234,7 @@
             </Rest>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -18255,7 +18260,7 @@
             </Rest>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>dolciss.</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>dolciss.</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -18283,7 +18288,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -18315,7 +18320,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -18355,7 +18360,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -18422,7 +18427,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -18453,7 +18458,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -18502,7 +18507,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -18569,7 +18574,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -18601,7 +18606,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -18738,11 +18743,11 @@
             </KeySig>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>dolce cantando</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>dolce cantando</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -18810,7 +18815,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -18884,7 +18889,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -18952,7 +18957,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -19026,7 +19031,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -19050,7 +19055,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -19131,7 +19136,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -19421,7 +19426,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Dynamic>
             <subtype>p</subtype>
@@ -19534,7 +19539,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -19614,7 +19619,7 @@
             </Clef>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -19706,7 +19711,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -19786,7 +19791,7 @@
             </Clef>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -19810,11 +19815,11 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>cresc. molto</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>cresc. molto</text>
             </StaffText>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -19895,7 +19900,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -19929,7 +19934,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Chord>
             <dots>1</dots>
@@ -20023,7 +20028,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>con somma passione</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>con somma passione</text>
             </StaffText>
           <Dynamic>
             <subtype>f</subtype>
@@ -20035,7 +20040,7 @@
             </Rest>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -20071,7 +20076,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -20131,7 +20136,7 @@
             </Clef>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -20161,7 +20166,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -20480,7 +20485,7 @@
             </TimeSig>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Dynamic>
             <subtype>p</subtype>
@@ -20544,7 +20549,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -20580,7 +20585,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -20616,11 +20621,11 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>piu dim.</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>piu dim.</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -20652,7 +20657,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -20688,7 +20693,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -21328,7 +21333,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Plantin MT Std"></font>recitando</text>
+            <text><font size="10.5723"/><font face="Plantin MT Std"/>recitando</text>
             </StaffText>
           <Spanner type="Ottava">
             <prev>
@@ -22995,7 +23000,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Chord>
             <dots>1</dots>
@@ -23037,7 +23042,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.5723"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.5723"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Chord>
             <dots>1</dots>
