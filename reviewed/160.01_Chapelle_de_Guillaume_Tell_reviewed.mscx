@@ -177,24 +177,30 @@
     <metaTag name="annotators">Adrian Nagel (2.1.1), Amelia Brey (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1855</metaTag>
+    <metaTag name="composed_source">OxfordMusicOnline</metaTag>
     <metaTag name="composed_start">1848</metaTag>
     <metaTag name="composer">Franz Liszt</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-01-26</metaTag>
     <metaTag name="harmony_version">2.3.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Ann%C3%A9es_de_p%C3%A8lerinage_I%2C_S.160_(Liszt%2C_Franz)</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber">1</metaTag>
+    <metaTag name="movementTitle">Chapelle de Guillaume Tell</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/5804701d-54a6-4c9d-afb9-3e01d6704e5a</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">JH, AB, AN</metaTag>
+    <metaTag name="reviewers">Johannes Hentschel (1-33 &amp; 82-97), AB, AN</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">https://musescore.com/score/3987861</metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Au bord d'une source</metaTag>
+    <metaTag name="typesetter"></metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/179020308/</metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q567462</metaTag>
+    <metaTag name="workNumber">S.160</metaTag>
+    <metaTag name="workTitle">Années de Pèlerinage, Première année: Suisse</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -259,19 +265,15 @@
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Composer</style>
-          <offset x="-1.85208" y="-3.15648"/>
-          <text><font size="12"></font>Franz Liszt</text>
+          <text>Franz Liszt</text>
           </Text>
         <Text>
           <style>Lyricist</style>
-          <text><font size="8"></font><i>[Timbres of Heaven
-</i>Concert Grand]</text>
+          <text></text>
           </Text>
         <Text>
           <style>Title</style>
-          <size>10</size>
-          <offset x="-0.36087" y="-8.12065"/>
-          <text><font size="24"></font>ANNÉES DE PÈLERINAGE</text>
+          <text>Années de Pèlerinage, Première année: Suisse, S.160</text>
           </Text>
         <Text>
           <style>Subtitle</style>
@@ -281,9 +283,7 @@
           </Text>
         <Text>
           <style>Subtitle</style>
-          <size>10</size>
-          <offset x="0.36087" y="-1.19523"/>
-          <text><font size="16"></font>Première Année - Suisse</text>
+          <text>1. Chapelle de Guillaume Tell</text>
           </Text>
         </VBox>
       <Measure>

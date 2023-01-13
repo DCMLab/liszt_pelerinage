@@ -200,7 +200,7 @@ The file names listed in the [Overview](#overview) below refer to:
 |161.06_Sonetto_123_del_Petrarca                                          |      84|   149|2.3.0   |Adrian Nagel                             |AB                                                     |
 |161.07_Apres_une_lecture_du_Dante                                        |     373|   631|2.3.0   |Adrian Nagel                             |AB                                                     |
 |162.01_Gondoliera                                                        |     125|   121|2.3.0   |Adrian Nagel                             |AB                                                     |
-|162.02_Canzone                                                           |      60|    98|2.3.0   |AN                                       |AB                                                     |
+|162.02_Canzone                                                           |      60|    98|2.3.0   |Adrian Nagel                             |AB                                                     |
 |162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana|     479|   716|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-76 & 200-220 & 300-320 & 447-479)|
 
 

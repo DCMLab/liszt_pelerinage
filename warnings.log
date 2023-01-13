@@ -1,11 +1,9 @@
-Warnings encountered during the last execution of ms3 review (v1.0.4)
+Warnings encountered during the last execution of ms3 review (v1.1.1)
 =====================================================================
 
-INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 9) ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 759) make_offset_col():
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 9) ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 763) make_offset_col():
 	The incomplete MC 9 (timesig 1, act_dur 1/4) is completed by 1 incorrect duration (expected: 3/4):
 	{10: Fraction(1, 1)}
-WARNING  ms3.Parse.liszt_pelerinage.16201_Gondoliera -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1124) _get_metadata():
-	Score properties contain a superfluous key called 'annotator'. Please merge with the value for 'annotators' and delete.
 MCS_NOT_EXCLUDED_FROM_BARCOUNT_WARNING (1, 17, 34, 54) ms3.Parse.liszt_pelerinage.16201_Gondoliera -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 204) check_measure_numbers():
 	MCs 17, 34, 54 seem to be offset from the MN's beginning but have not been excluded from barcount. Context:
 	    mc  mn act_dur mc_offset  dont_count  numbering_offset
@@ -27,7 +25,7 @@ DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.liszt_pelerinage.16
 	0  18     i    18        ]
 	1  70     i    88        ]
 	2  88     V  <NA>      NaN
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4940) check_phrase_annotations():
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
 	            1a         {             4a         }
@@ -51,25 +49,7 @@ DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16006_Vallee_d
 	          192a        }{           192a        }{
 	          196a         {           195a         }
 	           NaN       NaN           212a         }
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16008_Le_Mal_du_Pays_(Heimweh) -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4940) check_phrase_annotations():
-	Phrase beginning and endings don't match:
-	mn_playthrough phraseend mn_playthrough phraseend
-	            1a         {             5a         }
-	            6a         {             7a         }
-	            8a         {            14a         }
-	           19a         {            23a         }
-	           23a         {            25a         }
-	           26a         {            27a         }
-	           28a         {            32a         }
-	           33a         {            34a         }
-	           35a         {            41a         }
-	           46a         {            50a         }
-	           50a         {            52a         }
-	           52a         {            54a         }
-	           55a         {            56a         }
-	           57a         {            64a         }
-	           NaN       NaN            66a         }
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16101_Sposalizio -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4940) check_phrase_annotations():
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16101_Sposalizio -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
 	            1a         {             4a         }
@@ -84,7 +64,7 @@ DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16101_Sposaliz
 	           92a        }{           106a        }{
 	          106a        }{           120a        }{
 	          120a        }{            NaN       NaN
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16104_Sonetto_47_del_Petrarca -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4940) check_phrase_annotations():
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16104_Sonetto_47_del_Petrarca -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
 	            1a         {             4a         }
@@ -107,7 +87,7 @@ DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.liszt_pelerinage.16
 	1  16     I    19        ]
 	2  48     V  <NA>      NaN
 	3  75     I  <NA>      NaN
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16106_Sonetto_123_del_Petrarca -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4940) check_phrase_annotations():
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16106_Sonetto_123_del_Petrarca -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
 	            1a         {             9a         }
@@ -125,7 +105,7 @@ DCML_HARMONY_SYNTAX_WARNING (15,) ms3.Parse.liszt_pelerinage.16107_Apres_une_lec
 	Score contains 1 labels that don't (and 631 that do) match the DCML standard:
 	     mc  mn           label harmony_layer
 	129  75  75  i.#iii.viio2/V             1
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16107_Apres_une_lecture_du_Dante -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4940) check_phrase_annotations():
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16107_Apres_une_lecture_du_Dante -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
 	            1a         {             6a         }
@@ -187,7 +167,7 @@ DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.liszt_pelerinage.16
 	17  410     I   426        ]
 	18  425     i   430        ]
 	19  429     i  <NA>      NaN
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16203_Tarantella_da_Guillaume_Louis_Cottrau_Presto_e_canzone_napolitana -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4940) check_phrase_annotations():
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16203_Tarantella_da_Guillaume_Louis_Cottrau_Presto_e_canzone_napolitana -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
 	            1a         {            36a         }
@@ -303,9 +283,6 @@ liszt_pelerinage MS3/160.01_Chapelle_de_Guillaume_Tell.mscx                     
                  MS3/160.06_Vallee_dObermann.mscx                                                    137  133      3/4               V          (9, 13, 10)          ()        6.0          0.0     1.000000
                  MS3/160.06_Vallee_dObermann.mscx                                                    138  134        0       #viio7/ii       (15, 12, 9, 6)          ()       24.0          6.0     0.800000
                  MS3/160.06_Vallee_dObermann.mscx                                                    217  213      5/8              V2         (3, 5, 9, 6)          ()        8.0          3.0     0.727273
-                 MS3/160.09_Les_Cloches_de_Geneve_(Nocturne).mscx                                    139  139        0             I64            (3, 2, 6)          ()        7.0          2.0     0.777778
-                 MS3/160.09_Les_Cloches_de_Geneve_(Nocturne).mscx                                    149  149        0       V7(#4)/ii       (8, 12, 14, 6)          ()        6.0          2.0     0.750000
-                 MS3/160.09_Les_Cloches_de_Geneve_(Nocturne).mscx                                    149  149     7/16           V7/ii        (8, 12, 9, 6)          ()        3.0          0.0     1.000000
                  MS3/161.01_Sposalizio.mscx                                                           36   36      5/4          I6(64)            (4, 8, 5)          ()        1.0          0.0     1.000000
                  MS3/161.02_Il_Pensieroso.mscx                                                        18   17      1/4              IV           (6, 10, 7)          ()        9.0          0.0     1.000000
                  MS3/161.02_Il_Pensieroso.mscx                                                        19   18      3/4             II6          (13, 10, 9)          ()        9.0          0.0     1.000000

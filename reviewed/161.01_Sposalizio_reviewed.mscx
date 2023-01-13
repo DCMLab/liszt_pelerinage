@@ -158,28 +158,33 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/177125</metaTag>
-    <metaTag name="annotators">Adrian Nagel (2.1.1), Amelia Brey (2.3.0)</metaTag>
+    <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="composed_end">1849</metaTag>
-    <metaTag name="composed_start">1846</metaTag>
-    <metaTag name="composer">Gabriel Fauré</metaTag>
+    <metaTag name="composed_end">1858</metaTag>
+    <metaTag name="composed_source">OxfordMusicOnline</metaTag>
+    <metaTag name="composed_start">1838</metaTag>
+    <metaTag name="composer">Franz Liszt</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-01-26</metaTag>
-    <metaTag name="harmony_version">2.3.0</metaTag>
+    <metaTag name="harmony_version">2.1.1</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Ann%C3%A9es_de_p%C3%A8lerinage_II,_S.161_(Liszt,_Franz)</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber">1</metaTag>
+    <metaTag name="movementTitle">Sposalizio</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/ebf07653-914c-46b4-869c-ae69a1e20bfa</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">JH, AB, AN</metaTag>
+    <metaTag name="reviewers">Johannes Hentschel</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">https://musescore.com/user/2749876/scores/5137056</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="typesetter">https://musescore.com/user/2749876</metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Nocturne No. 1</metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/179020308/</metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q567462</metaTag>
+    <metaTag name="workNumber">S.161</metaTag>
+    <metaTag name="workTitle">Années de Pèlerinage, Deuxième année: Italie</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -244,21 +249,19 @@
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Composer</style>
-          <offset x="-0.488573" y="-0.640834"/>
-          <text>Franz Liszt.</text>
+          <text>Franz Liszt</text>
           </Text>
         <Text>
           <style>Title</style>
-          <size>12</size>
-          <offset x="0.149192" y="-4.17335"/>
-          <text><font size="24"></font><b>Années de Pèlerinage
-</b><font size="20"></font>Deuxième Année : Italie</text>
+          <text>Années de Pèlerinage, Deuxième année: Italie, S.161</text>
           </Text>
         <Text>
           <style>Subtitle</style>
-          <size>12</size>
-          <offset x="1.2706" y="12.0501"/>
-          <text><font size="16"></font>1. Sposalizio</text>
+          <text>1. Sposalizio</text>
+          </Text>
+        <Text>
+          <style>Lyricist</style>
+          <text></text>
           </Text>
         </VBox>
       <Measure>
