@@ -173,25 +173,30 @@
     <metaTag name="annotators">Adrian Nagel (2.1.1), Amelia Brey (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1855</metaTag>
+    <metaTag name="composed_source">OxfordMusicOnline</metaTag>
     <metaTag name="composed_start">1848</metaTag>
     <metaTag name="composer">Franz Liszt</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-01-26</metaTag>
     <metaTag name="harmony_version">2.3.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Ann%C3%A9es_de_p%C3%A8lerinage_I%2C_S.160_(Liszt%2C_Franz)</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber">6</metaTag>
+    <metaTag name="movementTitle">Vallee d'Obermann</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/b428b55c-1f68-4a34-a643-a65a6b791b65</metaTag>
     <metaTag name="originalFormat">mxl</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">JH, AB, AN</metaTag>
+    <metaTag name="reviewers">Johannes Hentschel (1-55 &amp; 75-100 &amp; 175-200), AB, AN</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">http://musescore.com/user/2749876/scores/4078266</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="typesetter">https://musescore.com/user/2749876</metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Au bord d'une source</metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/179020308/</metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q567462</metaTag>
+    <metaTag name="workNumber">S.160</metaTag>
+    <metaTag name="workTitle">Années de Pèlerinage, Première année: Suisse</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -255,18 +260,20 @@
         <height>16.474</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
+          <style>Subtitle</style>
+          <text>6. Vallee d'Obermann</text>
+          </Text>
+        <Text>
           <style>Composer</style>
-          <offset x="0.156101" y="-14.3613"/>
-          <text><font size="12"></font>Franz Liszt</text>
+          <text>Franz Liszt</text>
           </Text>
         <Text>
           <style>Lyricist</style>
-          <text><font size="8"></font><i>[acoustic grand piano ydp]</i></text>
+          <text><font size="8"/><i>[acoustic grand piano ydp]</i></text>
           </Text>
         <Text>
           <style>Title</style>
-          <size>10</size>
-          <text><font size="18"></font>6. VALLÉE D'OBERMANN</text>
+          <text>Années de Pèlerinage, Première année: Suisse, S.160</text>
           </Text>
         </VBox>
       <Measure>
@@ -1420,7 +1427,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>sotto voce</text>
+            <text><font size="12"/>sotto voce</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -4696,7 +4703,7 @@
             <offset x="0.388985" y="4.08585"/>
             </Dynamic>
           <StaffText>
-            <text><font size="12"></font>espressivo</text>
+            <text><font size="12"/>espressivo</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -5514,7 +5521,7 @@
               </Note>
             </Chord>
           <StaffText>
-            <text><font size="12"></font>rall.</text>
+            <text><font size="12"/>rall.</text>
             </StaffText>
           <Spanner type="HairPin">
             <prev>
@@ -5649,7 +5656,7 @@
       <Measure>
         <voice>
           <StaffText>
-            <text><font size="12"></font><i>a tempo</i></text>
+            <text><font size="12"/><i>a tempo</i></text>
             </StaffText>
           <Chord>
             <durationType>eighth</durationType>
@@ -6000,7 +6007,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>sempre dolciss.</text>
+            <text><font size="12"/>sempre dolciss.</text>
             </StaffText>
           <Spanner type="HairPin">
             <prev>
@@ -6964,7 +6971,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <StaffText>
-            <text><font size="12"></font>ritard.</text>
+            <text><font size="12"/>ritard.</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -7060,7 +7067,7 @@
       <Measure>
         <voice>
           <StaffText>
-            <text><font size="12"></font><i>a tempo</i></text>
+            <text><font size="12"/><i>a tempo</i></text>
             </StaffText>
           <Chord>
             <durationType>half</durationType>
@@ -9003,7 +9010,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>dolcissimo</text>
+            <text><font size="12"/>dolcissimo</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -12105,7 +12112,7 @@
           </LayoutBreak>
         <voice>
           <StaffText>
-            <text><font size="12"></font><i>quasi cadenza</i></text>
+            <text><font size="12"/><i>quasi cadenza</i></text>
             </StaffText>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -12288,7 +12295,7 @@
             </KeySig>
           <StaffText>
             <style>Tempo</style>
-            <text><font size="12"></font>Recitativo</text>
+            <text><font size="12"/>Recitativo</text>
             </StaffText>
           <Spanner type="TextLine">
             <prev>
@@ -14145,7 +14152,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>agitato molto</text>
+            <text><font size="12"/>agitato molto</text>
             </StaffText>
           <Dynamic>
             <subtype>f</subtype>
@@ -15888,7 +15895,7 @@
           </LayoutBreak>
         <voice>
           <StaffText>
-            <text><font size="12"></font>rinforz.</text>
+            <text><font size="12"/>rinforz.</text>
             </StaffText>
           <Chord>
             <durationType>half</durationType>
@@ -16138,7 +16145,7 @@
           </LayoutBreak>
         <voice>
           <StaffText>
-            <text><font size="12"></font>rinforz.</text>
+            <text><font size="12"/>rinforz.</text>
             </StaffText>
           <Chord>
             <durationType>half</durationType>
@@ -17033,7 +17040,7 @@
           </LayoutBreak>
         <voice>
           <StaffText>
-            <text><font size="12"></font>tremolando</text>
+            <text><font size="12"/>tremolando</text>
             </StaffText>
           <Dynamic>
             <subtype>pp</subtype>
@@ -17259,12 +17266,12 @@
       <Measure>
         <voice>
           <StaffText>
-            <text><font size="12"></font><i>in tempo</i></text>
+            <text><font size="12"/><i>in tempo</i></text>
             </StaffText>
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>sempre</text>
+            <text><font size="12"/>sempre</text>
             </StaffText>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -19136,7 +19143,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font><i>quasi cadenza</i></text>
+            <text><font size="12"/><i>quasi cadenza</i></text>
             </StaffText>
           <Spanner type="HairPin">
             <HairPin>
@@ -19322,7 +19329,7 @@
               </Note>
             </Chord>
           <StaffText>
-            <text><font size="12"></font>ritenuto</text>
+            <text><font size="12"/>ritenuto</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -23697,7 +23704,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>smorzando</text>
+            <text><font size="12"/>smorzando</text>
             </StaffText>
           <location>
             <fractions>1/12</fractions>
@@ -25926,7 +25933,7 @@
             <offset x="0.771136" y="4.08585"/>
             </Dynamic>
           <StaffText>
-            <text><font size="12"></font>sempre animando sin' al fine</text>
+            <text><font size="12"/>sempre animando sin' al fine</text>
             </StaffText>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -27357,7 +27364,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>rinforz.</text>
+            <text><font size="12"/>rinforz.</text>
             </StaffText>
           <Spanner type="HairPin">
             <prev>
@@ -29209,7 +29216,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>rinforz.</text>
+            <text><font size="12"/>rinforz.</text>
             </StaffText>
           <Spanner type="Ottava">
             <Ottava>
@@ -31992,7 +31999,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>rinforz.</text>
+            <text><font size="12"/>rinforz.</text>
             </StaffText>
           <Chord>
             <durationType>eighth</durationType>
@@ -32767,7 +32774,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>rinforz.</text>
+            <text><font size="12"/>rinforz.</text>
             </StaffText>
           <Spanner type="Ottava">
             <Ottava>
@@ -37518,7 +37525,7 @@
             <offset x="0.388985" y="4.08585"/>
             </Dynamic>
           <StaffText>
-            <text><font size="12"></font>rit<i>en</i>.</text>
+            <text><font size="12"/>rit<i>en</i>.</text>
             </StaffText>
           <Chord>
             <durationType>eighth</durationType>
@@ -37666,7 +37673,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>espressivo</text>
+            <text><font size="12"/>espressivo</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -43126,7 +43133,7 @@
       <Measure>
         <voice>
           <StaffText>
-            <text><font size="12"></font>dolcissimo</text>
+            <text><font size="12"/>dolcissimo</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -44134,7 +44141,7 @@
       <Measure>
         <voice>
           <StaffText>
-            <text><font size="12"></font>dolente</text>
+            <text><font size="12"/>dolente</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -44336,7 +44343,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>pesante</text>
+            <text><font size="12"/>pesante</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -44557,7 +44564,7 @@
             <durationType>eighth</durationType>
             </Rest>
           <StaffText>
-            <text><font size="12"></font>lunga pausa</text>
+            <text><font size="12"/>lunga pausa</text>
             </StaffText>
           <Fermata>
             <subtype>fermataAbove</subtype>
@@ -44581,7 +44588,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>una corda</text>
+            <text><font size="12"/>una corda</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -44603,7 +44610,7 @@
             <name>I{</name>
             </Harmony>
           <StaffText>
-            <text><font size="12"></font>dolcissimo</text>
+            <text><font size="12"/>dolcissimo</text>
             </StaffText>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -45883,7 +45890,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="-0.298701" y="2.98052"/>
-            <text><font size="12"></font><i>tre corde</i></text>
+            <text><font size="12"/><i>tre corde</i></text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -49055,7 +49062,7 @@
             </Rest>
           <StaffText>
             <offset x="0.14935" y="-4.2987"/>
-            <text><font size="12"></font>più appassionato</text>
+            <text><font size="12"/>più appassionato</text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -50571,7 +50578,7 @@
             <offset x="0.544578" y="-1.7702"/>
             </Dynamic>
           <StaffText>
-            <text><font size="12"></font><i>trem.</i></text>
+            <text><font size="12"/><i>trem.</i></text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -52959,7 +52966,7 @@
             </Rest>
           <StaffText>
             <offset x="0.649144" y="-6.78205"/>
-            <text><font size="12"></font>appassionato</text>
+            <text><font size="12"/>appassionato</text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -54583,11 +54590,11 @@
             <transposingClefType>F</transposingClefType>
             </Clef>
           <StaffText>
-            <text><font size="12"></font>rinforz.</text>
+            <text><font size="12"/>rinforz.</text>
             </StaffText>
           <StaffText>
             <offset x="0.135773" y="-3.59268"/>
-            <text><font size="12"></font>precipitato</text>
+            <text><font size="12"/>precipitato</text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -55107,7 +55114,7 @@
             <transposingClefType>F</transposingClefType>
             </Clef>
           <StaffText>
-            <text><font size="12"></font>precipitato</text>
+            <text><font size="12"/>precipitato</text>
             </StaffText>
           <Dynamic>
             <subtype>ff</subtype>
@@ -55778,7 +55785,7 @@
         <voice>
           <StaffText>
             <offset x="0" y="-4.32857"/>
-            <text><font size="12"></font>tempestuoso</text>
+            <text><font size="12"/>tempestuoso</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -58050,7 +58057,7 @@
               </Note>
             </Chord>
           <StaffText>
-            <text><font size="12"></font><i>quasi cadenza</i></text>
+            <text><font size="12"/><i>quasi cadenza</i></text>
             </StaffText>
           <Rest>
             <durationType>eighth</durationType>
@@ -60056,10 +60063,10 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>una corda</text>
+            <text><font size="12"/>una corda</text>
             </StaffText>
           <StaffText>
-            <text><font size="12"></font>dolce</text>
+            <text><font size="12"/>dolce</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -60521,12 +60528,12 @@
         <voice>
           <StaffText>
             <offset x="-1.12209" y="-4.71406"/>
-            <text><font size="12"></font>dolce</text>
+            <text><font size="12"/>dolce</text>
             </StaffText>
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font><i>tre corde</i></text>
+            <text><font size="12"/><i>tre corde</i></text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -63711,7 +63718,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"></font>marcato espressivo</text>
+            <text><font size="12"/>marcato espressivo</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>

@@ -175,25 +175,30 @@
     <metaTag name="annotators">Adrian Nagel (2.1.1), Amelia Brey (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1855</metaTag>
+    <metaTag name="composed_source">OxfordMusicOnline</metaTag>
     <metaTag name="composed_start">1848</metaTag>
     <metaTag name="composer">Franz Liszt</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-01-26</metaTag>
     <metaTag name="harmony_version">2.3.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Ann%C3%A9es_de_p%C3%A8lerinage_I%2C_S.160_(Liszt%2C_Franz)</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber">4</metaTag>
+    <metaTag name="movementTitle">Au bord d'une source</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/d37325c2-9463-4bac-8da6-1afb328c0f70</metaTag>
     <metaTag name="originalFormat">mxl</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">JH, AB, AN</metaTag>
+    <metaTag name="reviewers">JH (1-13 &amp; 34-43 &amp; 57-66), AB, AN</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">http://musescore.com/user/2749876/scores/4078941</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="typesetter">https://musescore.com/user/2749876</metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Au bord d'une source</metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/179020308/</metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q567462</metaTag>
+    <metaTag name="workNumber">S.160</metaTag>
+    <metaTag name="workTitle">Années de Pèlerinage, Première année: Suisse</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -257,21 +262,23 @@
         <height>20.705</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
+          <style>Subtitle</style>
+          <text>4. Au bord d'une source</text>
+          </Text>
+        <Text>
           <style>Composer</style>
-          <offset x="-0.516435" y="-18.0752"/>
-          <text><font size="12"></font>Franz Liszt</text>
+          <text>Franz Liszt</text>
           </Text>
         <Text>
           <style>Lyricist</style>
-          <text><font size="9"></font>In säuselnder Kühle
+          <text><font size="9"/>In säuselnder Kühle
 Beginnen die Spiele
 Der jungen Natur.
                      <i>(Schiller)</i></text>
           </Text>
         <Text>
           <style>Title</style>
-          <size>10</size>
-          <text><font size="18"></font>4. AU BORD D'UNE SOURCE</text>
+          <text>Années de Pèlerinage, Première année: Suisse, S.160</text>
           </Text>
         </VBox>
       <Measure>

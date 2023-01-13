@@ -171,27 +171,33 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/176824</metaTag>
-    <metaTag name="annotators">Adrian Nagel (2.1.1), Amelia Brey (2.3.0)</metaTag>
+    <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1855</metaTag>
+    <metaTag name="composed_source">OxfordMusicOnline</metaTag>
     <metaTag name="composed_start">1848</metaTag>
     <metaTag name="composer">Franz Liszt</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-01-26</metaTag>
-    <metaTag name="harmony_version">2.3.0</metaTag>
+    <metaTag name="harmony_version">2.1.1</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Ann%C3%A9es_de_p%C3%A8lerinage_I%2C_S.160_(Liszt%2C_Franz)</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber">5</metaTag>
+    <metaTag name="movementTitle">Orage</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/711c761a-c766-41b4-a509-68240d5f259e</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">JH, AB, AN</metaTag>
+    <metaTag name="reviewers">Johannes Hentschel (1-50)</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Au bord d'une source</metaTag>
+    <metaTag name="typesetter"></metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/179020308/</metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q567462</metaTag>
+    <metaTag name="workNumber">S.160</metaTag>
+    <metaTag name="workTitle">Années de Pèlerinage, Première année: Suisse</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -255,22 +261,24 @@
         <height>16.474</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
+          <style>Subtitle</style>
+          <text>5. Orage</text>
+          </Text>
+        <Text>
           <style>Composer</style>
-          <offset x="0.34429" y="-13.7716"/>
-          <text><font size="12"></font>Franz Liszt</text>
+          <text>Franz Liszt</text>
           </Text>
         <Text>
           <style>Lyricist</style>
           <offset x="-0.1" y="-9.02811"/>
-          <text><font size="9"></font>But where of ye, O tempests! is the goal?
+          <text><font size="9"/>But where of ye, O tempests! is the goal?
 Are ye like those within the human breast?
 Or do ye find, at length, like eagles, some high nest?
                                                                            <i>(Byron)</i></text>
           </Text>
         <Text>
           <style>Title</style>
-          <size>10</size>
-          <text><font size="18"></font>5. ORAGE</text>
+          <text>Années de Pèlerinage, Première année: Suisse, S.160</text>
           </Text>
         </VBox>
       <Measure>
@@ -2641,7 +2649,7 @@ Or do ye find, at length, like eagles, some high nest?
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="3.27778"/>
-            <text><font size="12"></font>rinforz.</text>
+            <text><font size="12"/>rinforz.</text>
             </StaffText>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -3620,7 +3628,7 @@ Or do ye find, at length, like eagles, some high nest?
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="3.27778"/>
-            <text><font size="12"></font>rinforz.</text>
+            <text><font size="12"/>rinforz.</text>
             </StaffText>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -4041,7 +4049,7 @@ Or do ye find, at length, like eagles, some high nest?
             <autoplace>0</autoplace>
             <placement>below</placement>
             <offset x="-8.38124" y="3.66165"/>
-            <text><font size="12"></font>sempre</text>
+            <text><font size="12"/>sempre</text>
             </StaffText>
           <Chord>
             <durationType>half</durationType>
@@ -8654,10 +8662,10 @@ Or do ye find, at length, like eagles, some high nest?
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="3.27778"/>
-            <text><font size="12"></font>tremolando</text>
+            <text><font size="12"/>tremolando</text>
             </StaffText>
           <StaffText>
-            <text><font size="12"></font>stringendo</text>
+            <text><font size="12"/>stringendo</text>
             </StaffText>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -9397,7 +9405,7 @@ Or do ye find, at length, like eagles, some high nest?
       <Measure>
         <voice>
           <StaffText>
-            <text><font size="12"></font>a tempo</text>
+            <text><font size="12"/>a tempo</text>
             </StaffText>
           <Chord>
             <durationType>eighth</durationType>
@@ -10346,7 +10354,7 @@ Or do ye find, at length, like eagles, some high nest?
       <Measure>
         <voice>
           <StaffText>
-            <text><font size="12"></font>stringendo</text>
+            <text><font size="12"/>stringendo</text>
             </StaffText>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -11155,7 +11163,7 @@ Or do ye find, at length, like eagles, some high nest?
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="3.27778"/>
-            <text><font size="12"></font>sempre strepitoso</text>
+            <text><font size="12"/>sempre strepitoso</text>
             </StaffText>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -13390,7 +13398,7 @@ Or do ye find, at length, like eagles, some high nest?
             <accidental>-3</accidental>
             </KeySig>
           <StaffText>
-            <text><font size="12"></font>Cadenza ad lib.</text>
+            <text><font size="12"/>Cadenza ad lib.</text>
             </StaffText>
           <Rest>
             <offset x="0" y="-2.88889"/>
@@ -18897,7 +18905,7 @@ Or do ye find, at length, like eagles, some high nest?
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="3.27778"/>
-            <text><font size="12"></font>rinforz.</text>
+            <text><font size="12"/>rinforz.</text>
             </StaffText>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -22073,7 +22081,7 @@ Or do ye find, at length, like eagles, some high nest?
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="3.27778"/>
-            <text><font size="12"></font><i>quasi cadenza</i></text>
+            <text><font size="12"/><i>quasi cadenza</i></text>
             </StaffText>
           <Spanner type="Ottava">
             <prev>
@@ -31447,7 +31455,7 @@ Or do ye find, at length, like eagles, some high nest?
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="9.74278"/>
-            <text><font size="12"></font>sempre pedale</text>
+            <text><font size="12"/>sempre pedale</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -33195,7 +33203,7 @@ Or do ye find, at length, like eagles, some high nest?
             <autoplace>0</autoplace>
             <placement>below</placement>
             <offset x="-8.1313" y="8.42207"/>
-            <text><font size="12"></font><i>sempre</i></text>
+            <text><font size="12"/><i>sempre</i></text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -36277,7 +36285,7 @@ Or do ye find, at length, like eagles, some high nest?
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="3.27778"/>
-            <text><font size="12"></font>rinforz.</text>
+            <text><font size="12"/>rinforz.</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -36795,7 +36803,7 @@ Or do ye find, at length, like eagles, some high nest?
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="3.27778"/>
-            <text><font size="12"></font>rinforz.</text>
+            <text><font size="12"/>rinforz.</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -38398,7 +38406,7 @@ Or do ye find, at length, like eagles, some high nest?
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="3.27778"/>
-            <text><font size="12"></font>marcato</text>
+            <text><font size="12"/>marcato</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -42305,7 +42313,7 @@ Or do ye find, at length, like eagles, some high nest?
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="3.27778"/>
-            <text><font size="12"></font><i>con ped.</i></text>
+            <text><font size="12"/><i>con ped.</i></text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -44086,7 +44094,7 @@ Or do ye find, at length, like eagles, some high nest?
       <Measure>
         <voice>
           <StaffText>
-            <text><font size="12"></font>pesante</text>
+            <text><font size="12"/>pesante</text>
             </StaffText>
           <Chord>
             <durationType>half</durationType>
@@ -45513,7 +45521,7 @@ Or do ye find, at length, like eagles, some high nest?
       <Measure len="7/2">
         <voice>
           <StaffText>
-            <text><font size="12"></font>rinforz.</text>
+            <text><font size="12"/>rinforz.</text>
             </StaffText>
           <Beam>
             <StemDirection>down</StemDirection>

@@ -111,25 +111,31 @@
     <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/177125</metaTag>
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="composed_end">1849</metaTag>
-    <metaTag name="composed_start">1846</metaTag>
-    <metaTag name="composer">Liszt - Annees de peleriange No.2</metaTag>
+    <metaTag name="composed_end">1858</metaTag>
+    <metaTag name="composed_source">OxfordMusicOnline</metaTag>
+    <metaTag name="composed_start">1838</metaTag>
+    <metaTag name="composer">Franz Liszt</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-07-08</metaTag>
     <metaTag name="harmony_version">2.3.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Ann%C3%A9es_de_p%C3%A8lerinage_II,_S.161_(Liszt,_Franz)</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber">2</metaTag>
+    <metaTag name="movementTitle">Il Pensieroso</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/b0c88a4e-e296-49fa-8ee0-2d54ebf1b6ee</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="reviewers">AB</metaTag>
+    <metaTag name="score_integrity"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="typesetter">Tom Schreyer</metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Il penseroso</metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/179020308/</metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q567462</metaTag>
+    <metaTag name="workNumber">S.161</metaTag>
+    <metaTag name="workTitle">Années de Pèlerinage, Deuxième année: Italie</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -199,16 +205,20 @@
         <height>9.1</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
+          <style>Subtitle</style>
+          <text>2. Il Pensieroso</text>
+          </Text>
+        <Text>
           <style>Composer</style>
-          <family>FreeSerif</family>
-          <size>12</size>
-          <text><font size="9.9058"></font><font face="Plantin MT Std"></font>Liszt - Annees de peleriange No.2</text>
+          <text>Franz Liszt</text>
           </Text>
         <Text>
           <style>Title</style>
-          <family>FreeSerif</family>
-          <size>24</size>
-          <text><font size="19.8115"></font><font face="Plantin MT Std"></font>Il penseroso</text>
+          <text>Années de Pèlerinage, Deuxième année: Italie, S.161</text>
+          </Text>
+        <Text>
+          <style>Lyricist</style>
+          <text></text>
           </Text>
         </VBox>
       <Measure len="1/4">
@@ -229,7 +239,7 @@
             </Dynamic>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="11.7195"></font><font face="Plantin MT Std"></font><b>Lento</b></text>
+            <text><font size="11.7195"/><font face="Plantin MT Std"/><b>Lento</b></text>
             </StaffText>
           <Tempo>
             <tempo>1</tempo>
@@ -1072,7 +1082,7 @@
             </Clef>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.7429"></font><font face="Plantin MT Std"></font>rinforz.</text>
+            <text><font size="10.7429"/><font face="Plantin MT Std"/>rinforz.</text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4834,7 +4844,7 @@
             </Rest>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.7429"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.7429"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Chord>
             <durationType>half</durationType>
@@ -5047,7 +5057,7 @@
             </Rest>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.7429"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.7429"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Chord>
             <durationType>half</durationType>
@@ -6312,11 +6322,11 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.7429"></font><font face="Plantin MT Std"></font>sotto voce pesante</text>
+            <text><font size="10.7429"/><font face="Plantin MT Std"/>sotto voce pesante</text>
             </StaffText>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.7429"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.7429"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -6405,7 +6415,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.7429"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.7429"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -6696,7 +6706,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.7429"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.7429"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -6781,7 +6791,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.7429"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.7429"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -6868,7 +6878,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.7429"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.7429"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -6913,7 +6923,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.7429"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.7429"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -6962,7 +6972,7 @@
             </Symbol>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.7429"></font><font face="Plantin MT Std"></font>rinforz.</text>
+            <text><font size="10.7429"/><font face="Plantin MT Std"/>rinforz.</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -7173,11 +7183,11 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.7429"></font><font face="Opus Text Std"></font>P</text>
+            <text><font size="10.7429"/><font face="Opus Text Std"/>P</text>
             </StaffText>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.7429"></font><font face="Plantin MT Std"></font>dim.</text>
+            <text><font size="10.7429"/><font face="Plantin MT Std"/>dim.</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -7323,7 +7333,7 @@
             </Chord>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.7429"></font><font face="Plantin MT Std"></font>espr.</text>
+            <text><font size="10.7429"/><font face="Plantin MT Std"/>espr.</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -7469,7 +7479,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <text><font size="10.7429"></font><font face="Plantin MT Std"></font>rinforz.</text>
+            <text><font size="10.7429"/><font face="Plantin MT Std"/>rinforz.</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>

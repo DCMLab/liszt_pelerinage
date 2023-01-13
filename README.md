@@ -1,5 +1,10 @@
+![Version](https://img.shields.io/github/v/release/DCMLab/liszt_pelerinage?display_name=tag)
+[![DOI](https://zenodo.org/badge/379678214.svg)](https://zenodo.org/badge/latestdoi/379678214)
+![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/liszt_pelerinage)
+![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf) 
+
 <!-- TOC -->
-* [Franz Liszt - Années de Pèlerinage](#franz-liszt---années-de-pèlerinage)
+* [Franz Liszt - Années de Pèlerinage (A corpus of annotated scores)](#franz-liszt---années-de-pèlerinage--a-corpus-of-annotated-scores-)
   * [Getting the data](#getting-the-data)
     * [With full version history](#with-full-version-history)
     * [Without full version history](#without-full-version-history)
@@ -19,15 +24,25 @@
 * [Overview](#overview)
 <!-- TOC -->
 
-# Franz Liszt - Années de Pèlerinage
+# Franz Liszt - Années de Pèlerinage (A corpus of annotated scores)
 
+This corpus of annotated [MuseScore](https://musescore.org) files has been created within
+the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora) and employs
+the [DCML harmony annotation standard](https://github.com/DCMLab/standards). It is one out of nine similar corpora that
+have been grouped together
+to [An Annotated Corpus of Tonal Piano Music from the Long 19th Century](https://github.com/DCMLab/romantic_piano_corpus)
+which comes with a data report that is currently under review.
 
-This corpus has been created within the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora) and employs
-the [DCML harmony annotation standard](https://github.com/DCMLab/standards).
+**Version 1** has been released for submitting it as part of the data
+report `Hentschel, J., Rammos, Y., Neuwirth, M., Rohrmeier, M. (forthcoming). An Annotated Corpus of Tonal Piano Music from the Long 19th Century`
+that accompanies nine corpora grouped under the DOI [10.5281/zenodo.7483349](https://doi.org/10.5281/zenodo.7483349).
 
-It is part of a larger dataset that has been submitted for publication as 
-`Hentschel, J., Rammos, Y., Neuwirth, M., Rohrmeier, M. (forthcoming). 
-An Annotated Corpus of Tonal Piano Music from the Long 19th Century`.
+**Version 1.1** comes with a complete set of metadata and score headers. Among more accurate composition dates, the
+metadata now include URIs that identify the compositions in terms of
+the [Virtual International Authority File (VIAF)](https://viaf.org/), [Wikidata](https://www.wikidata.org), [IMSLP](https://imslp.org/)
+and [MusicBrainz](https://musicbrainz.org/). The data has been re-extracted from the scores
+using [ms3 1.1.1](https://pypi.org/project/ms3/).
+
 
 ## Getting the data
 
@@ -181,27 +196,27 @@ The file names listed in the [Overview](#overview) below refer to:
 
 
 # Overview
-|                                file_name                                |measures|labels|standard|               annotators                |reviewers |
-|-------------------------------------------------------------------------|-------:|-----:|--------|-----------------------------------------|----------|
-|160.01_Chapelle_de_Guillaume_Tell                                        |      97|   174|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|JH, AB, AN|
-|160.02_Au_Lac_de_Wallenstadt                                             |     112|    84|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|JH, AB, AN|
-|160.03_Pastorale                                                         |      48|   200|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|JH, AB, AN|
-|160.04_Au_Bord_dUne_Source                                               |      66|   465|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|JH, AB, AN|
-|160.05_Orage                                                             |     160|   307|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|JH, AB, AN|
-|160.06_Vallee_dObermann                                                  |     216|   631|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|JH, AB, AN|
-|160.07_Eglogue                                                           |     117|   214|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|JH, AB, AN|
-|160.08_Le_Mal_du_Pays_(Heimweh)                                          |      70|   200|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|JH, AB, AN|
-|160.09_Les_Cloches_de_Geneve_(Nocturne)                                  |     188|   205|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|JH, AB, AN|
-|161.01_Sposalizio                                                        |     133|   237|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|JH, AB, AN|
-|161.02_Il_Pensieroso                                                     |      48|    88|2.3.0   |Adrian Nagel                             |AB        |
-|161.03_Canzonetta_del_Salvator_Rosa                                      |      75|   274|2.3.0   |Adrian Nagel                             |AB        |
-|161.04_Sonetto_47_del_Petrarca                                           |      95|   153|2.3.0   |Adrian Nagel                             |AB        |
-|161.05_Sonetto_104_del_Petrarca                                          |      79|   121|2.3.0   |Adrian Nagel                             |AB        |
-|161.06_Sonetto_123_del_Petrarca                                          |      84|   149|2.3.0   |Adrian Nagel                             |AB        |
-|161.07_Apres_une_lecture_du_Dante                                        |     373|   631|2.3.0   |Adrian Nagel                             |AB        |
-|162.01_Gondoliera                                                        |     125|   121|2.3.0   |Adrian Nagel                             |AB        |
-|162.02_Canzone                                                           |      60|    98|2.3.0   |Adrian Nagel                             |AB        |
-|162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana|     479|   716|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|JH, AB, AN|
+|                                file_name                                |measures|labels|standard|               annotators                |                       reviewers                       |
+|-------------------------------------------------------------------------|-------:|-----:|--------|-----------------------------------------|-------------------------------------------------------|
+|160.01_Chapelle_de_Guillaume_Tell                                        |      97|   174|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|Johannes Hentschel (1-33 & 82-97), AB, AN              |
+|160.02_Au_Lac_de_Wallenstadt                                             |     112|    84|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|JH (1-70 & 106-112); AB; AN                            |
+|160.03_Pastorale                                                         |      48|   200|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|JH, AB, AN                                             |
+|160.04_Au_Bord_dUne_Source                                               |      66|   465|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|JH (1-13 & 34-43 & 57-66), AB, AN                      |
+|160.05_Orage                                                             |     160|   307|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-50)                              |
+|160.06_Vallee_dObermann                                                  |     216|   631|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|Johannes Hentschel (1-55 & 75-100 & 175-200), AB, AN   |
+|160.07_Eglogue                                                           |     117|   214|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-57 & 100-117)                    |
+|160.08_Le_Mal_du_Pays_(Heimweh)                                          |      70|   200|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-34 & 61-70)                      |
+|160.09_Les_Cloches_de_Geneve_(Nocturne)                                  |     188|   205|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-76 & 140-188)                    |
+|161.01_Sposalizio                                                        |     133|   237|2.1.1   |Adrian Nagel                             |Johannes Hentschel                                     |
+|161.02_Il_Pensieroso                                                     |      48|    88|2.3.0   |Adrian Nagel                             |AB                                                     |
+|161.03_Canzonetta_del_Salvator_Rosa                                      |      75|   274|2.3.0   |Adrian Nagel                             |AB                                                     |
+|161.04_Sonetto_47_del_Petrarca                                           |      95|   153|2.3.0   |Adrian Nagel                             |AB                                                     |
+|161.05_Sonetto_104_del_Petrarca                                          |      79|   121|2.3.0   |Adrian Nagel                             |AB, AN                                                 |
+|161.06_Sonetto_123_del_Petrarca                                          |      84|   149|2.3.0   |Adrian Nagel                             |AB                                                     |
+|161.07_Apres_une_lecture_du_Dante                                        |     373|   631|2.3.0   |Adrian Nagel                             |AB                                                     |
+|162.01_Gondoliera                                                        |     125|   121|2.3.0   |Adrian Nagel                             |AB                                                     |
+|162.02_Canzone                                                           |      60|    98|2.3.0   |Adrian Nagel                             |AB                                                     |
+|162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana|     479|   716|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-76 & 200-220 & 300-320 & 447-479)|
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.0.4.*
+*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.1.1.*
