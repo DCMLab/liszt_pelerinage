@@ -131,13 +131,14 @@
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="reviewers">AB</metaTag>
+    <metaTag name="score_integrity"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="typesetter">Tom Schreyer</metaTag>
     <metaTag name="viaf">https://viaf.org/viaf/179020308/</metaTag>
     <metaTag name="wikidata">https://www.wikidata.org/wiki/Q567462</metaTag>
     <metaTag name="workNumber">S.161</metaTag>
-    <metaTag name="workTitle">Annees de pelerinage, Deuxieme annee: Italie</metaTag>
+    <metaTag name="workTitle">Années de Pèlerinage, Deuxième année: Italie</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -263,16 +264,20 @@
         <height>13.9</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
+          <style>Subtitle</style>
+          <text>7. Apres une lecture du Dante. Fantasia quasi Sonata</text>
+          </Text>
+        <Text>
           <style>Composer</style>
-          <family>FreeSerif</family>
-          <size>12</size>
-          <text><font size="8.4906"/><font face="Plantin MT Std"/>Liszt - Annees de peleriange No.7</text>
+          <text>Franz Liszt</text>
           </Text>
         <Text>
           <style>Title</style>
-          <family>FreeSerif</family>
-          <size>24</size>
-          <text><font size="16.9813"/><font face="Plantin MT Std"/>Aprés un lecture du Dante</text>
+          <text>Années de Pèlerinage, Deuxième année: Italie, S.161</text>
+          </Text>
+        <Text>
+          <style>Lyricist</style>
+          <text></text>
           </Text>
         </VBox>
       <Measure>

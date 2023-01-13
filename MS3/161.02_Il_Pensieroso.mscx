@@ -128,13 +128,14 @@
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="reviewers">AB</metaTag>
+    <metaTag name="score_integrity"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="typesetter">Tom Schreyer</metaTag>
     <metaTag name="viaf">https://viaf.org/viaf/179020308/</metaTag>
     <metaTag name="wikidata">https://www.wikidata.org/wiki/Q567462</metaTag>
     <metaTag name="workNumber">S.161</metaTag>
-    <metaTag name="workTitle">Annees de pelerinage, Deuxieme annee: Italie</metaTag>
+    <metaTag name="workTitle">Années de Pèlerinage, Deuxième année: Italie</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -204,16 +205,20 @@
         <height>9.1</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
+          <style>Subtitle</style>
+          <text>2. Il Pensieroso</text>
+          </Text>
+        <Text>
           <style>Composer</style>
-          <family>FreeSerif</family>
-          <size>12</size>
-          <text><font size="9.9058"/><font face="Plantin MT Std"/>Liszt - Annees de peleriange No.2</text>
+          <text>Franz Liszt</text>
           </Text>
         <Text>
           <style>Title</style>
-          <family>FreeSerif</family>
-          <size>24</size>
-          <text><font size="19.8115"/><font face="Plantin MT Std"/>Il penseroso</text>
+          <text>Années de Pèlerinage, Deuxième année: Italie, S.161</text>
+          </Text>
+        <Text>
+          <style>Lyricist</style>
+          <text></text>
           </Text>
         </VBox>
       <Measure len="1/4">

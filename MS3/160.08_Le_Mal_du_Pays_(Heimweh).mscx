@@ -192,10 +192,11 @@
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="typesetter"></metaTag>
     <metaTag name="viaf">https://viaf.org/viaf/179020308/</metaTag>
     <metaTag name="wikidata">https://www.wikidata.org/wiki/Q567462</metaTag>
     <metaTag name="workNumber">S.160</metaTag>
-    <metaTag name="workTitle">Annees de pelerinage, Premiere annee: Suisse</metaTag>
+    <metaTag name="workTitle">Années de Pèlerinage, Première année: Suisse</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -259,17 +260,20 @@
         <height>13.2708</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
+          <style>Subtitle</style>
+          <text>8. Le mal du pays (Heimweh)</text>
+          </Text>
+        <Text>
           <style>Composer</style>
-          <offset x="-0.38248" y="-1.55372"/>
-          <text><font size="12"/>Franz Liszt</text>
+          <text>Franz Liszt</text>
           </Text>
         <Text>
           <style>Title</style>
-          <size>10</size>
-          <offset x="-0.516435" y="-5.37508"/>
-          <text><font size="18"/>8. LE MAL DU PAYS
-(Heimweh)
-<font size="14"/>DE L'EXPRESSION ROMANTIQUE, ET DU RANZ DES VACHES</text>
+          <text>Années de Pèlerinage, Première année: Suisse, S.160</text>
+          </Text>
+        <Text>
+          <style>Lyricist</style>
+          <text></text>
           </Text>
         </VBox>
       <Measure>

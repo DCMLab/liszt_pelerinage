@@ -107,7 +107,6 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/177126</metaTag>
-    <metaTag name="annotator">Adrian Nagel</metaTag>
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1861</metaTag>
@@ -123,15 +122,18 @@
     <metaTag name="movementTitle">Gondoliera</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
     <metaTag name="musicbrainz">https://musicbrainz.org/work/2af1ff39-a716-4fc4-948e-9f516774a139</metaTag>
+    <metaTag name="originalFormat"></metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="reviewers">AB</metaTag>
+    <metaTag name="score_integrity"></metaTag>
     <metaTag name="source">https://musescore.com/user/2749876/scores/5193583</metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="typesetter"></metaTag>
     <metaTag name="viaf">https://viaf.org/viaf/179020308/</metaTag>
     <metaTag name="wikidata">https://www.wikidata.org/wiki/Q567462</metaTag>
     <metaTag name="workNumber">S.162</metaTag>
-    <metaTag name="workTitle">Annees de pelerinage, Supplement: Venezia e Napoli</metaTag>
+    <metaTag name="workTitle">Années de Pèlerinage, Supplément: Venezia e Napoli</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -241,6 +243,22 @@
         <height>5.55555</height>
         <topGap>0</topGap>
         <boxAutoSize>0</boxAutoSize>
+        <Text>
+          <style>Title</style>
+          <text>Années de Pèlerinage, Supplément: Venezia e Napoli, S.162</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>1. Gondoliera</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Franz Liszt</text>
+          </Text>
+        <Text>
+          <style>Lyricist</style>
+          <text></text>
+          </Text>
         </VBox>
       <Measure>
         <voice>

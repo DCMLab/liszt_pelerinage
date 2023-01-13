@@ -184,7 +184,7 @@
     <metaTag name="viaf">https://viaf.org/viaf/179020308/</metaTag>
     <metaTag name="wikidata">https://www.wikidata.org/wiki/Q567462</metaTag>
     <metaTag name="workNumber">S.161</metaTag>
-    <metaTag name="workTitle">Annees de pelerinage, Deuxieme annee: Italie</metaTag>
+    <metaTag name="workTitle">Années de Pèlerinage, Deuxième année: Italie</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -249,21 +249,19 @@
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Composer</style>
-          <offset x="-0.488573" y="-0.640834"/>
-          <text>Franz Liszt.</text>
+          <text>Franz Liszt</text>
           </Text>
         <Text>
           <style>Title</style>
-          <size>12</size>
-          <offset x="0.149192" y="-4.17335"/>
-          <text><font size="24"/><b>Années de Pèlerinage
-</b><font size="20"/>Deuxième Année : Italie</text>
+          <text>Années de Pèlerinage, Deuxième année: Italie, S.161</text>
           </Text>
         <Text>
           <style>Subtitle</style>
-          <size>12</size>
-          <offset x="1.2706" y="12.0501"/>
-          <text><font size="16"/>1. Sposalizio</text>
+          <text>1. Sposalizio</text>
+          </Text>
+        <Text>
+          <style>Lyricist</style>
+          <text></text>
           </Text>
         </VBox>
       <Measure>

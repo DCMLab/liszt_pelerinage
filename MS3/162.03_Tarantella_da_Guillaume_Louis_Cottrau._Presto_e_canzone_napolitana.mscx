@@ -179,10 +179,11 @@
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">http://musescore.com/user/2749876/scores/5399463</metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="typesetter"></metaTag>
     <metaTag name="viaf">https://viaf.org/viaf/179020308/</metaTag>
     <metaTag name="wikidata">https://www.wikidata.org/wiki/Q567462</metaTag>
     <metaTag name="workNumber">S.162</metaTag>
-    <metaTag name="workTitle">Annees de pelerinage, Supplement: Venezia e Napoli</metaTag>
+    <metaTag name="workTitle">Années de Pèlerinage, Supplément: Venezia e Napoli</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -247,21 +248,19 @@
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Composer</style>
-          <offset x="0.478904" y="-1.96267"/>
-          <text>Franz Liszt.</text>
+          <text>Franz Liszt</text>
           </Text>
         <Text>
           <style>Title</style>
-          <size>12</size>
-          <offset x="-0.580092" y="0.290945"/>
-          <text><font size="24"/><b>Venezia e Napoli
-</b><font size="20"/>Supplément aux Années de Pelèrinage, Italie (S. 162)</text>
+          <text>Années de Pèlerinage, Supplément: Venezia e Napoli, S.162</text>
           </Text>
         <Text>
           <style>Subtitle</style>
-          <size>12</size>
-          <offset x="0.142759" y="20.3393"/>
-          <text><font size="16"/>3. Tarantella</text>
+          <text>3. Tarantella da Guillaume Louis Cottrau</text>
+          </Text>
+        <Text>
+          <style>Lyricist</style>
+          <text></text>
           </Text>
         </VBox>
       <Measure>

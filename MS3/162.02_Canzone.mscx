@@ -195,7 +195,7 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/177126</metaTag>
-    <metaTag name="annotators">AN</metaTag>
+    <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1861</metaTag>
     <metaTag name="composed_source">OxfordMusicOnline</metaTag>
@@ -214,13 +214,14 @@
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="reviewers">AB</metaTag>
+    <metaTag name="score_integrity"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="typesetter">https://www.custommusictranscription.com/</metaTag>
     <metaTag name="viaf">https://viaf.org/viaf/179020308/</metaTag>
     <metaTag name="wikidata">https://www.wikidata.org/wiki/Q567462</metaTag>
     <metaTag name="workNumber">S.162</metaTag>
-    <metaTag name="workTitle">Annees de pelerinage, Supplement: Venezia e Napoli</metaTag>
+    <metaTag name="workTitle">Années de Pèlerinage, Supplément: Venezia e Napoli</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -289,9 +290,19 @@
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
-          <family>Times New Roman</family>
-          <size>11.9365</size>
-          <text><font size="22.0128"/><font face="Times New Roman"/>162.02_Canzone</text>
+          <text>Années de Pèlerinage, Supplément: Venezia e Napoli, S.162</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>2. Canzone</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Franz Liszt</text>
+          </Text>
+        <Text>
+          <style>Lyricist</style>
+          <text></text>
           </Text>
         </VBox>
       <Measure>
