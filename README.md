@@ -37,7 +37,9 @@ which comes with a data report that is currently under review.
 report `Hentschel, J., Rammos, Y., Neuwirth, M., Rohrmeier, M. (forthcoming). An Annotated Corpus of Tonal Piano Music from the Long 19th Century`
 that accompanies nine corpora grouped under the DOI [10.5281/zenodo.7483349](https://doi.org/10.5281/zenodo.7483349).
 
-**Version 1.1** comes with a complete set of metadata and score headers. Among more accurate composition dates, the
+**Version 1.1** corrects a mistake in the `metadata.tsv` file and extracts the data with ms3 1.0.4.
+
+**Version 1.2** comes with a complete set of metadata and score headers. Among more accurate composition dates, the
 metadata now include URIs that identify the compositions in terms of
 the [Virtual International Authority File (VIAF)](https://viaf.org/), [Wikidata](https://www.wikidata.org), [IMSLP](https://imslp.org/)
 and [MusicBrainz](https://musicbrainz.org/). The data has been re-extracted from the scores
