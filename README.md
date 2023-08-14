@@ -197,7 +197,7 @@ The file names listed in the [Overview](#overview) below refer to:
 * S. 162: Venezia e Napoli: Supplément aux Années de pèlerinage seconde volume
 
 
-# Overview
+## Overview
 |                                file_name                                |measures|labels|standard|               annotators                |                       reviewers                       |
 |-------------------------------------------------------------------------|-------:|-----:|--------|-----------------------------------------|-------------------------------------------------------|
 |160.01_Chapelle_de_Guillaume_Tell                                        |      97|   174|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|Johannes Hentschel (1-33 & 82-97), AB, AN              |
@@ -221,4 +221,4 @@ The file names listed in the [Overview](#overview) below refer to:
 |162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana|     479|   716|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-76 & 200-220 & 300-320 & 447-479)|
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.1.1.*
+*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*
