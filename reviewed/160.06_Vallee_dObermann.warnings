@@ -1,0 +1,305 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 9) ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	None of the MCs following the irregular MC 9 complete it.
+	   nominal_duration actual_duration expected_completion   next
+	mc                                                            
+	9                 1             1/4                 3/4  (10,)
+	10                1               1                   0  (11,)
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	No metronome mark found in the first measure nor anywhere else in the score.
+DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	propagate_pedal() failed with
+	3 organ points started, 2 ended:
+	   mc pedal    mc pedalend
+	0  18     i    18        ]
+	1  70     i    88        ]
+	2  88     V  <NA>      NaN
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             4a         }
+	            5a         {             8a         }
+	            9a         {            24a         }
+	           25a         {            33a         }
+	           34a         {            37a         }
+	           38a         {            41a         }
+	           42a         {            58a         }
+	           75a         {            73a         }
+	           85a        }{            85a        }{
+	           94a         {            94a         }
+	          119a         {           117a         }
+	          122a         {           121a         }
+	          124a         {           123a         }
+	          128a         {           128a         }
+	          170a         {           169a         }
+	          175a        }{           175a        }{
+	          180a         {           179a         }
+	          188a         {           187a         }
+	          192a        }{           192a        }{
+	          196a         {           195a         }
+	           NaN       NaN           212a         }
+DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	propagate_pedal() failed with
+	3 organ points started, 2 ended:
+	   mc pedal    mc pedalend
+	0  18     i    18        ]
+	1  70     i    88        ]
+	2  88     V  <NA>      NaN
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 48, '3/4', '#viio65') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label '#viio65' in m. 45, onset 3/4 (MC 48, onset 3/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.bv, it expresses the scale degrees
+	('2', '4', '6', '#7') [('C', 'Eb', 'Gb', 'A')].
+	The corresponding score segment has 0 within-label and 1 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 54, '0', 'bV.I64') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'bV.I64' in m. 51, onset 0 (MC 54, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.bV, it expresses the scale degrees
+	('5', '1', '3') [('F', 'Bb', 'D')].
+	The corresponding score segment has 4 within-label and 7 out-of-label note onsets,
+	a ratio of 0.6363636363636364 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 55, '0', 'IV') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'IV' in m. 52, onset 0 (MC 55, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.bV, it expresses the scale degrees
+	('4', '6', '1') [('Eb', 'G', 'Bb')].
+	The corresponding score segment has 1 within-label and 3 out-of-label note onsets,
+	a ratio of 0.75 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 55, '1/4', 'iio') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'iio' in m. 52, onset 1/4 (MC 55, onset 1/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.bV, it expresses the scale degrees
+	('2', '4', 'b6') [('C', 'Eb', 'Gb')].
+	The corresponding score segment has 0 within-label and 2 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 56, '0', 'I64') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'I64' in m. 53, onset 0 (MC 56, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.bV, it expresses the scale degrees
+	('5', '1', '3') [('F', 'Bb', 'D')].
+	The corresponding score segment has 4 within-label and 7 out-of-label note onsets,
+	a ratio of 0.6363636363636364 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 57, '0', 'IV') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'IV' in m. 54, onset 0 (MC 57, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.bV, it expresses the scale degrees
+	('4', '6', '1') [('Eb', 'G', 'Bb')].
+	The corresponding score segment has 1 within-label and 3 out-of-label note onsets,
+	a ratio of 0.75 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 57, '1/4', 'iio') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'iio' in m. 54, onset 1/4 (MC 57, onset 1/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.bV, it expresses the scale degrees
+	('2', '4', 'b6') [('C', 'Eb', 'Gb')].
+	The corresponding score segment has 0 within-label and 2 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 87, '7/8', 'I.V7(+6)/V') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'I.V7(+6)/V' in m. 83, onset 7/8 (MC 87, onset 7/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.I, it expresses the scale degrees
+	('2', '#4', '6', '1') [('F#', 'A#', 'C#', 'E')] plus the added ('7',) [('D#',)].
+	The corresponding score segment has 1 within-label and 5 out-of-label note onsets,
+	a ratio of 0.8333333333333334 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 88, '0', 'V[V7/V') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'V[V7/V' in m. 84, onset 0 (MC 88, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.I, it expresses the scale degrees
+	('2', '#4', '6', '1') [('F#', 'A#', 'C#', 'E')].
+	The corresponding score segment has 2 within-label and 10 out-of-label note onsets,
+	a ratio of 0.8333333333333334 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 88, '1/4', 'V+(#7)/V') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'V+(#7)/V' in m. 84, onset 1/4 (MC 88, onset 1/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.I, it expresses the scale degrees
+	('2', '#4', '#6') [('F#', 'A#', 'C##')] plus the added ('#1',) [('E#',)].
+	The corresponding score segment has 4 within-label and 7 out-of-label note onsets,
+	a ratio of 0.6363636363636364 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 88, '1/2', 'V(9)') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'V(9)' in m. 84, onset 1/2 (MC 88, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.I, it expresses the scale degrees
+	('5', '7', '2') [('B', 'D#', 'F#')] plus the added ('6',) [('C#',)].
+	The corresponding score segment has 2 within-label and 9 out-of-label note onsets,
+	a ratio of 0.8181818181818182 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 89, '1/4', 'I(9)') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'I(9)' in m. 85, onset 1/4 (MC 89, onset 1/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.I, it expresses the scale degrees
+	('1', '3', '5') [('E', 'G#', 'B')] plus the added ('2',) [('F#',)].
+	The corresponding score segment has 7 within-label and 13 out-of-label note onsets,
+	a ratio of 0.65 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 89, '3/4', 'I') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'I' in m. 85, onset 3/4 (MC 89, onset 3/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.I, it expresses the scale degrees
+	('1', '3', '5') [('E', 'G#', 'B')].
+	The corresponding score segment has 3 within-label and 7 out-of-label note onsets,
+	a ratio of 0.7 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 90, '0', 'vi') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'vi' in m. 86, onset 0 (MC 90, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.I, it expresses the scale degrees
+	('6', '1', '3') [('C#', 'E', 'G#')].
+	The corresponding score segment has 2 within-label and 5 out-of-label note onsets,
+	a ratio of 0.7142857142857143 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 91, '0', 'viio7/V') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'viio7/V' in m. 87, onset 0 (MC 91, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.I, it expresses the scale degrees
+	('#4', '6', '1', 'b3') [('A#', 'C#', 'E', 'G')].
+	The corresponding score segment has 0 within-label and 19 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 91, '7/8', 'V') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'V' in m. 87, onset 7/8 (MC 91, onset 7/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.I, it expresses the scale degrees
+	('5', '7', '2') [('B', 'D#', 'F#')].
+	The corresponding score segment has 1 within-label and 4 out-of-label note onsets,
+	a ratio of 0.8 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 92, '0', 'viio7(#0)') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'viio7(#0)' in m. 88, onset 0 (MC 92, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.I, it expresses the scale degrees
+	('7', '2', '4', 'b6') [('D#', 'F#', 'A', 'C')].
+	The corresponding score segment has 0 within-label and 17 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 92, '1/2', 'viio7') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'viio7' in m. 88, onset 1/2 (MC 92, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.I, it expresses the scale degrees
+	('7', '2', '4', 'b6') [('D#', 'F#', 'A', 'C')].
+	The corresponding score segment has 0 within-label and 9 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 92, '3/4', 'V65') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'V65' in m. 88, onset 3/4 (MC 92, onset 3/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.I, it expresses the scale degrees
+	('7', '2', '4', '5') [('D#', 'F#', 'A', 'B')].
+	The corresponding score segment has 0 within-label and 10 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 93, '1/4', 'I(9)') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'I(9)' in m. 89, onset 1/4 (MC 93, onset 1/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.I, it expresses the scale degrees
+	('1', '3', '5') [('E', 'G#', 'B')] plus the added ('2',) [('F#',)].
+	The corresponding score segment has 7 within-label and 13 out-of-label note onsets,
+	a ratio of 0.65 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 93, '3/4', 'I') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'I' in m. 89, onset 3/4 (MC 93, onset 3/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.I, it expresses the scale degrees
+	('1', '3', '5') [('E', 'G#', 'B')].
+	The corresponding score segment has 3 within-label and 7 out-of-label note onsets,
+	a ratio of 0.7 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 94, '0', 'vi') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'vi' in m. 90, onset 0 (MC 94, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.I, it expresses the scale degrees
+	('6', '1', '3') [('C#', 'E', 'G#')].
+	The corresponding score segment has 2 within-label and 5 out-of-label note onsets,
+	a ratio of 0.7142857142857143 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 109, '1/2', 'viio43') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'viio43' in m. 105, onset 1/2 (MC 109, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.#vi, it expresses the scale degrees
+	('b4', 'b6', '7', 'b2') [('F', 'Ab', 'B', 'D')].
+	The corresponding score segment has 0 within-label and 7 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 136, '3/4', 'V65') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'V65' in m. 132, onset 3/4 (MC 136, onset 3/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.#III, it expresses the scale degrees
+	('7', '2', '4', '5') [('F##', 'A#', 'C#', 'D#')].
+	The corresponding score segment has 0 within-label and 22 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 137, '0', 'I(6)') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'I(6)' in m. 133, onset 0 (MC 137, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.#III, it expresses the scale degrees
+	('1', '3', '6') [('G#', 'B#', 'E#')].
+	The corresponding score segment has 0 within-label and 8 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 137, '1/8', 'I') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'I' in m. 133, onset 1/8 (MC 137, onset 1/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.#III, it expresses the scale degrees
+	('1', '3', '5') [('G#', 'B#', 'D#')].
+	The corresponding score segment has 0 within-label and 11 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 137, '3/8', 'I64') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'I64' in m. 133, onset 3/8 (MC 137, onset 3/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.#III, it expresses the scale degrees
+	('5', '1', '3') [('D#', 'G#', 'B#')].
+	The corresponding score segment has 0 within-label and 2 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 137, '1/2', 'vii%7') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'vii%7' in m. 133, onset 1/2 (MC 137, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.#III, it expresses the scale degrees
+	('7', '2', '4', '6') [('F##', 'A#', 'C#', 'E#')].
+	The corresponding score segment has 0 within-label and 8 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 137, '5/8', 'V65') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'V65' in m. 133, onset 5/8 (MC 137, onset 5/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.#III, it expresses the scale degrees
+	('7', '2', '4', '5') [('F##', 'A#', 'C#', 'D#')].
+	The corresponding score segment has 0 within-label and 7 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 137, '3/4', 'V') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'V' in m. 133, onset 3/4 (MC 137, onset 3/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.#III, it expresses the scale degrees
+	('5', '7', '2') [('D#', 'F##', 'A#')].
+	The corresponding score segment has 0 within-label and 6 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 138, '0', '#viio7/ii') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label '#viio7/ii' in m. 134, onset 0 (MC 138, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.#III, it expresses the scale degrees
+	('#1', '3', '5', 'b7') [('G##', 'B#', 'D#', 'F#')].
+	The corresponding score segment has 6 within-label and 24 out-of-label note onsets,
+	a ratio of 0.8 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 217, '5/8', 'V2') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
+	The label 'V2' in m. 213, onset 5/8 (MC 217, onset 5/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of e.I, it expresses the scale degrees
+	('4', '5', '7', '2') [('A', 'B', 'D#', 'F#')].
+	The corresponding score segment has 3 within-label and 8 out-of-label note onsets,
+	a ratio of 0.7272727272727273 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.

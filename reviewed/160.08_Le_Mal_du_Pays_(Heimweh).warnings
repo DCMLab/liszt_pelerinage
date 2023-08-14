@@ -1,0 +1,23 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.liszt_pelerinage.16008_Le_Mal_du_Pays_(Heimweh)
+	No metronome mark found in the first measure nor anywhere else in the score.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16008_Le_Mal_du_Pays_(Heimweh)
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             5a         }
+	            6a         {             7a         }
+	            8a         {            14a         }
+	           19a         {            23a         }
+	           23a         {            25a         }
+	           26a         {            27a         }
+	           28a         {            32a         }
+	           33a         {            34a         }
+	           35a         {            41a         }
+	           46a         {            50a         }
+	           50a         {            52a         }
+	           52a         {            54a         }
+	           55a         {            56a         }
+	           57a         {            64a         }
+	           NaN       NaN            66a         }

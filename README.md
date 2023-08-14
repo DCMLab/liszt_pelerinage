@@ -221,4 +221,4 @@ The file names listed in the [Overview](#overview) below refer to:
 |162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana|     479|   716|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-76 & 200-220 & 300-320 & 447-479)|
 
 
-*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*
+*Overview table automatically updated using [ms3](https://ms3.readthedocs.io/).*

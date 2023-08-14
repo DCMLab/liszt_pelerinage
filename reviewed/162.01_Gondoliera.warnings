@@ -1,0 +1,33 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+MCS_NOT_EXCLUDED_FROM_BARCOUNT_WARNING (1, 17, 34, 54) ms3.Parse.liszt_pelerinage.16201_Gondoliera
+	MCs 17, 34, 54 seem to be offset from the MN's beginning but have not been excluded from barcount. Context:
+	    mc  mn act_dur mc_offset  dont_count  numbering_offset
+	15  16  16     3/8         0        <NA>              <NA>
+	16  17  17     3/8       3/8        <NA>              <NA>
+	17  18  18     3/4         0        <NA>              <NA>
+	32  33  33   11/16         0        <NA>              <NA>
+	33  34  34    1/16     11/16        <NA>              <NA>
+	34  35  35     3/4         0        <NA>              <NA>
+	52  53  53   11/16         0        <NA>              <NA>
+	53  54  54    1/16     11/16        <NA>              <NA>
+	54  55  55     3/4         0        <NA>              <NA>
+DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.liszt_pelerinage.16201_Gondoliera
+	propagate_pedal() failed with
+	5 organ points started, 3 ended:
+	   mc pedal    mc pedalend
+	0  18     I    33        ]
+	1  34     V    37        ]
+	2  46     I    57        ]
+	3  54     V  <NA>      NaN
+	4  71     I  <NA>      NaN
+DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.liszt_pelerinage.16201_Gondoliera
+	propagate_pedal() failed with
+	5 organ points started, 3 ended:
+	   mc pedal    mc pedalend
+	0  18     I    33        ]
+	1  34     V    37        ]
+	2  46     I    57        ]
+	3  54     V  <NA>      NaN
+	4  71     I  <NA>      NaN
