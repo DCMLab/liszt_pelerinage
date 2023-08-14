@@ -207,7 +207,7 @@ The file names listed in the [Overview](#overview) below refer to:
 |160.05_Orage                                                             |     160|   307|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-50)                              |
 |160.06_Vallee_dObermann                                                  |     216|   631|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|Johannes Hentschel (1-55 & 75-100 & 175-200), AB, AN   |
 |160.07_Eglogue                                                           |     117|   214|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-57 & 100-117)                    |
-|160.08_Le_Mal_du_Pays_(Heimweh)                                          |      70|   200|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-34 & 61-70)                      |
+|160.08_Le_Mal_du_Pays_(Heimweh)                                          |      70|   200|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-34 & 61-70), AB, AN              |
 |160.09_Les_Cloches_de_Geneve_(Nocturne)                                  |     188|   205|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-76 & 140-188)                    |
 |161.01_Sposalizio                                                        |     133|   237|2.1.1   |Adrian Nagel                             |Johannes Hentschel                                     |
 |161.02_Il_Pensieroso                                                     |      48|    88|2.3.0   |Adrian Nagel                             |AB                                                     |

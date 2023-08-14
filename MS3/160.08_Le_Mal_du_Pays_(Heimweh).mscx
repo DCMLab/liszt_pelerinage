@@ -188,7 +188,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">Johannes Hentschel (1-34 &amp; 61-70)</metaTag>
+    <metaTag name="reviewers">Johannes Hentschel (1-34 &amp; 61-70), AB, AN</metaTag>
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
@@ -270,10 +270,6 @@
         <Text>
           <style>Title</style>
           <text>Années de Pèlerinage, Première année: Suisse, S.160</text>
-          </Text>
-        <Text>
-          <style>Lyricist</style>
-          <text></text>
           </Text>
         </VBox>
       <Measure>
@@ -458,7 +454,7 @@
             <offset x="0.777968" y="4.08585"/>
             </Dynamic>
           <StaffText>
-            <text><font size="12"/>accel.</text>
+            <text><font size="12"></font>accel.</text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -1658,7 +1654,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"/>dolce</text>
+            <text><font size="12"></font>dolce</text>
             </StaffText>
           <StaffText>
             <style>Tempo</style>
@@ -1981,7 +1977,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"/>rinforz.</text>
+            <text><font size="12"></font>rinforz.</text>
             </StaffText>
           <Chord>
             <durationType>eighth</durationType>
@@ -2222,7 +2218,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"/>dim.</text>
+            <text><font size="12"></font>dim.</text>
             </StaffText>
           <Spanner type="HairPin">
             <prev>
@@ -2563,7 +2559,7 @@
             <sigD>8</sigD>
             </TimeSig>
           <StaffText>
-            <text><font size="12"/>espressivo assai</text>
+            <text><font size="12"></font>espressivo assai</text>
             </StaffText>
           <StaffText>
             <style>Tempo</style>
@@ -3111,7 +3107,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"/>dolciss.</text>
+            <text><font size="12"></font>dolciss.</text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4051,7 +4047,7 @@
           </LayoutBreak>
         <voice>
           <StaffText>
-            <text><font size="12"/>accel.</text>
+            <text><font size="12"></font>accel.</text>
             </StaffText>
           <Dynamic>
             <subtype>p</subtype>
@@ -5568,7 +5564,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"/>rinforz.</text>
+            <text><font size="12"></font>rinforz.</text>
             </StaffText>
           <Chord>
             <durationType>eighth</durationType>
@@ -5816,7 +5812,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"/><i>dim.</i></text>
+            <text><font size="12"></font><i>dim.</i></text>
             </StaffText>
           <Chord>
             <durationType>half</durationType>
@@ -6687,7 +6683,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"/>dolcissimo</text>
+            <text><font size="12"></font>dolcissimo</text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -7105,7 +7101,7 @@
       <Measure>
         <voice>
           <StaffText>
-            <text><font size="12"/>agitato</text>
+            <text><font size="12"></font>agitato</text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -7876,7 +7872,7 @@
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="2.68182"/>
-            <text><font size="12"/>rinforzando e più appassionato</text>
+            <text><font size="12"></font>rinforzando e più appassionato</text>
             </StaffText>
           <Spanner type="HairPin">
             <prev>
@@ -13628,7 +13624,7 @@
             <offset x="0.388985" y="-1.7702"/>
             </Dynamic>
           <StaffText>
-            <text><font size="12"/>il</text>
+            <text><font size="12"></font>il</text>
             </StaffText>
           <Chord>
             <durationType>eighth</durationType>
@@ -13673,7 +13669,7 @@
             <sigD>8</sigD>
             </TimeSig>
           <StaffText>
-            <text><font size="12"/>canto espr. assai</text>
+            <text><font size="12"></font>canto espr. assai</text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
