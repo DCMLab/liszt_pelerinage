@@ -3,8 +3,19 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/liszt_pelerinage)
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf) 
 
+This is a README file for a data repository originating from the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora)
+and serves as welcome page for both 
+
+* the GitHub repo [https://github.com/DCMLab/liszt_pelerinage](https://github.com/DCMLab/liszt_pelerinage) and the corresponding
+* documentation page [https://dcmlab.github.io/liszt_pelerinage](https://dcmlab.github.io/liszt_pelerinage)
+
+For information on how to obtain and use the dataset, please refer to [this documentation page](https://dcmlab.github.io/liszt_pelerinage/introduction).
+
+
+
 <!-- TOC -->
-* [Franz Liszt - Années de Pèlerinage (A corpus of annotated scores)](#franz-liszt---années-de-pèlerinage--a-corpus-of-annotated-scores-)
+* [Franz Liszt - Années de Pèlerinage (A corpus of annotated scores)](#franz-liszt---années-de-pèlerinage-a-corpus-of-annotated-scores)
+  * [Version history](#version-history)
   * [Getting the data](#getting-the-data)
     * [With full version history](#with-full-version-history)
     * [Without full version history](#without-full-version-history)
@@ -21,7 +32,7 @@
   * [Questions, Suggestions, Corrections, Bug Reports](#questions-suggestions-corrections-bug-reports)
   * [License](#license)
   * [Naming convention](#naming-convention)
-* [Overview](#overview)
+  * [Overview](#overview)
 <!-- TOC -->
 
 # Franz Liszt - Années de Pèlerinage (A corpus of annotated scores)
@@ -30,21 +41,12 @@ This corpus of annotated [MuseScore](https://musescore.org) files has been creat
 the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora) and employs
 the [DCML harmony annotation standard](https://github.com/DCMLab/standards). It is one out of nine similar corpora that
 have been grouped together
-to [An Annotated Corpus of Tonal Piano Music from the Long 19th Century](https://github.com/DCMLab/romantic_piano_corpus)
-which comes with a data report that is currently under review.
+to [An Annotated Corpus of Tonal Piano Music from the Long 19th Century](https://doi.org/10.5281/zenodo.7483349)
+which comes with a data report that is currently in press at Empirical Musicology Review.
 
-**Version 1** has been released for submitting it as part of the data
-report `Hentschel, J., Rammos, Y., Neuwirth, M., Rohrmeier, M. (forthcoming). An Annotated Corpus of Tonal Piano Music from the Long 19th Century`
-that accompanies nine corpora grouped under the DOI [10.5281/zenodo.7483349](https://doi.org/10.5281/zenodo.7483349).
+## Version history
 
-**Version 1.1** corrects a mistake in the `metadata.tsv` file and extracts the data with ms3 1.0.4.
-
-**Version 1.2** comes with a complete set of metadata and score headers. Among more accurate composition dates, the
-metadata now include URIs that identify the compositions in terms of
-the [Virtual International Authority File (VIAF)](https://viaf.org/), [Wikidata](https://www.wikidata.org), [IMSLP](https://imslp.org/)
-and [MusicBrainz](https://musicbrainz.org/). The data has been re-extracted from the scores
-using [ms3 1.1.1](https://pypi.org/project/ms3/).
-
+See the [GitHub releases](https://github.com/DCMLab/liszt_pelerinage/releases).
 
 ## Getting the data
 
@@ -197,7 +199,7 @@ The file names listed in the [Overview](#overview) below refer to:
 * S. 162: Venezia e Napoli: Supplément aux Années de pèlerinage seconde volume
 
 
-# Overview
+## Overview
 |                                file_name                                |measures|labels|standard|               annotators                |                       reviewers                       |
 |-------------------------------------------------------------------------|-------:|-----:|--------|-----------------------------------------|-------------------------------------------------------|
 |160.01_Chapelle_de_Guillaume_Tell                                        |      97|   174|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|Johannes Hentschel (1-33 & 82-97), AB, AN              |
@@ -207,7 +209,7 @@ The file names listed in the [Overview](#overview) below refer to:
 |160.05_Orage                                                             |     160|   307|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-50)                              |
 |160.06_Vallee_dObermann                                                  |     216|   631|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)|Johannes Hentschel (1-55 & 75-100 & 175-200), AB, AN   |
 |160.07_Eglogue                                                           |     117|   214|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-57 & 100-117)                    |
-|160.08_Le_Mal_du_Pays_(Heimweh)                                          |      70|   200|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-34 & 61-70)                      |
+|160.08_Le_Mal_du_Pays_(Heimweh)                                          |      70|   200|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-34 & 61-70), AB, AN              |
 |160.09_Les_Cloches_de_Geneve_(Nocturne)                                  |     188|   205|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-76 & 140-188)                    |
 |161.01_Sposalizio                                                        |     133|   237|2.1.1   |Adrian Nagel                             |Johannes Hentschel                                     |
 |161.02_Il_Pensieroso                                                     |      48|    88|2.3.0   |Adrian Nagel                             |AB                                                     |
@@ -221,4 +223,4 @@ The file names listed in the [Overview](#overview) below refer to:
 |162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana|     479|   716|2.1.1   |Adrian Nagel                             |Johannes Hentschel (1-76 & 200-220 & 300-320 & 447-479)|
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.1.1.*
+*Overview table automatically updated using [ms3](https://ms3.readthedocs.io/).*
