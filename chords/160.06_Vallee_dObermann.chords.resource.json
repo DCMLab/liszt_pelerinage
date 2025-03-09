@@ -148,6 +148,26 @@
         "type": "string"
       },
       {
+        "name": "diminuendo_line",
+        "type": "string"
+      },
+      {
+        "name": "crescendo_line",
+        "type": "string"
+      },
+      {
+        "name": "decrescendo_hairpin",
+        "type": "string"
+      },
+      {
+        "name": "crescendo_hairpin",
+        "type": "string"
+      },
+      {
+        "name": "Ottava:8va",
+        "type": "string"
+      },
+      {
         "name": "TextLine",
         "type": "string"
       },
@@ -158,31 +178,11 @@
       {
         "name": "TextLine_stringendo",
         "type": "string"
-      },
-      {
-        "name": "Ottava:8va",
-        "type": "string"
-      },
-      {
-        "name": "diminuendo_line",
-        "type": "string"
-      },
-      {
-        "name": "decrescendo_hairpin",
-        "type": "string"
-      },
-      {
-        "name": "crescendo_line",
-        "type": "string"
-      },
-      {
-        "name": "crescendo_hairpin",
-        "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "WGXK5Zm4JRtBHA",
-    "filepath": "chords/WGXK5Zm4JRtBHA.schema.yaml",
+    "identifier": "twYRLrwWKiyXuw",
+    "filepath": "chords/twYRLrwWKiyXuw.schema.yaml",
     "used_in": "160.06_Vallee_dObermann"
   },
   "creator": {
@@ -197,6 +197,6 @@
     },
     "softwareVersion": "2.5.3"
   },
-  "git_revision": "4e03acab35f4351b94e8757872abed6d4df5ea27",
-  "git_tag": "v2.1-2-g4e03aca"
+  "git_revision": "7383eb3a2d6ab2b8ace1dcc4d3026c6d501fcf70",
+  "git_tag": "v2.1-6-g7383eb3"
 }
