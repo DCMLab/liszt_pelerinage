@@ -160,6 +160,7 @@
     <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/177125</metaTag>
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="compared_against">LATEST_VERSION</metaTag>
     <metaTag name="composed_end">1858</metaTag>
     <metaTag name="composed_source">OxfordMusicOnline</metaTag>
     <metaTag name="composed_start">1838</metaTag>
