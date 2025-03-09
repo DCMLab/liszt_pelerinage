@@ -1,21 +1,6 @@
 Warnings encountered during the last execution of ms3 review
 ============================================================
 
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16104_Sonetto_47_del_Petrarca
-	Phrase beginning and endings don't match:
-	mn_playthrough phraseend mn_playthrough phraseend
-	            1a         {             4a         }
-	            6a         {            10a         }
-	           12a         {            23a         }
-	           24a         {            27a         }
-	           28a         {            36a        }{
-	           36a        }{            52a         }
-	           53a         {            61a         }
-	           62a         {            68a         }
-	           75a         {            74a         }
-	           85a         {            83a         }
-	           90a         {            89a         }
-	           NaN       NaN            95a         }
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 1, '1/4', 'Db.bVI.I{') ms3.Parse.liszt_pelerinage.16104_Sonetto_47_del_Petrarca
 	The label 'Db.bVI.I{' in m. 1, onset 1/4 (MC 1, onset 1/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of Db.bVI, it expresses the scale degrees
