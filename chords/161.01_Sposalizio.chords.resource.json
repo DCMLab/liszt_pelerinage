@@ -30,7 +30,7 @@
       },
       {
         "name": "quarterbeats",
-        "title": "Offset from Beginning (leaving out alternative endings)",
+        "title": "Offset from Beginning",
         "description": "Distance of an event from the piece's beginning. By default, only second endings are taken into account to reflect the proportions of a simply playthrough without repeats.",
         "type": "string",
         "constraints": {
@@ -39,7 +39,7 @@
       },
       {
         "name": "quarterbeats_all_endings",
-        "title": "Offset from Beginning (counting through alternative endings as if they were adjacent bars)",
+        "title": "Offset from Beginning (Including Endings)",
         "description": "Distance from the piece's beginning, taking all endings into account for addressability purposes.",
         "type": "string",
         "constraints": {
@@ -144,22 +144,6 @@
         "type": "string"
       },
       {
-        "name": "decrescendo_hairpin",
-        "type": "string"
-      },
-      {
-        "name": "crescendo_line",
-        "type": "string"
-      },
-      {
-        "name": "HairPin:2_poco a poco cresc.",
-        "type": "string"
-      },
-      {
-        "name": "crescendo_hairpin",
-        "type": "string"
-      },
-      {
         "name": "Ottava:8va",
         "type": "string"
       },
@@ -172,11 +156,27 @@
       {
         "name": "Pedal_<sym>keyboardPedalPed</sym>",
         "type": "string"
+      },
+      {
+        "name": "crescendo_hairpin",
+        "type": "string"
+      },
+      {
+        "name": "decrescendo_hairpin",
+        "type": "string"
+      },
+      {
+        "name": "crescendo_line",
+        "type": "string"
+      },
+      {
+        "name": "HairPin:2_poco a poco cresc.",
+        "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "7xVx6tujZCTYBw",
-    "filepath": "chords/7xVx6tujZCTYBw.schema.yaml",
+    "identifier": "9fcYsXkCS7c4qQ",
+    "filepath": "chords/9fcYsXkCS7c4qQ.schema.yaml",
     "used_in": "161.01_Sposalizio"
   },
   "creator": {
@@ -189,8 +189,6 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.5.4"
-  },
-  "git_revision": "b7139d0652331d5995c859cc65bce95da88e56e3",
-  "git_tag": "v2.1"
+    "softwareVersion": "2.5.3"
+  }
 }
