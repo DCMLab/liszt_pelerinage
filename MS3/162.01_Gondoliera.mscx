@@ -225,7 +225,7 @@
           <style>Title</style>
           <size>24</size>
           <text><b>Venezia e Napoli
-</b><font size="20"/>Supplément aux Années de Pelèrinage, Italie (S. 162)</text>
+</b><font size="20"></font>Supplément aux Années de Pelèrinage, Italie (S. 162)</text>
           </Text>
         <Text>
           <style>Composer</style>
@@ -236,7 +236,7 @@
           <style>Subtitle</style>
           <size>14</size>
           <offset x="0" y="14.0833"/>
-          <text><font size="16"/>1. Gondoliera</text>
+          <text><font size="16"></font>1. Gondoliera</text>
           </Text>
         </VBox>
       <VBox>
@@ -255,10 +255,6 @@
           <style>Composer</style>
           <text>Franz Liszt</text>
           </Text>
-        <Text>
-          <style>Lyricist</style>
-          <text></text>
-          </Text>
         </VBox>
       <Measure>
         <voice>
@@ -272,7 +268,7 @@
           <Tempo>
             <tempo>1.8333299999999999</tempo>
             <offset x="-3.34375" y="-2.59"/>
-            <text><font size="16"/>Quasi Allegretto</text>
+            <text><font size="16"></font>Quasi Allegretto</text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -6099,7 +6095,7 @@
           <StaffText>
             <visible>0</visible>
             <offset x="0" y="-8.5"/>
-            <text><i/><font size="10"/>(La Biondina in Gondoletta)   CANZONE del Cavaliere PERUCHINI</text>
+            <text><i></i><font size="10"></font>(La Biondina in Gondoletta)   CANZONE del Cavaliere PERUCHINI</text>
             </StaffText>
           <Rest>
             <durationType>eighth</durationType>
@@ -29956,7 +29952,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I|IAC}</name>
+            <name>I]|IAC}</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
