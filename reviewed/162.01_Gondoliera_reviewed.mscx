@@ -109,6 +109,7 @@
     <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/177126</metaTag>
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="compared_against">LATEST_VERSION</metaTag>
     <metaTag name="composed_end">1861</metaTag>
     <metaTag name="composed_source">OxfordMusicOnline</metaTag>
     <metaTag name="composed_start">1859</metaTag>
@@ -254,10 +255,6 @@
         <Text>
           <style>Composer</style>
           <text>Franz Liszt</text>
-          </Text>
-        <Text>
-          <style>Lyricist</style>
-          <text></text>
           </Text>
         </VBox>
       <Measure>
@@ -30551,6 +30548,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I|IAC}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I]|IAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -33045,6 +33048,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I|IAC}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I]|IAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <small>1</small>

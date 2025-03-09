@@ -258,10 +258,6 @@
           <style>Subtitle</style>
           <text>3. Tarantella da Guillaume Louis Cottrau</text>
           </Text>
-        <Text>
-          <style>Lyricist</style>
-          <text></text>
-          </Text>
         </VBox>
       <Measure>
         <voice>
@@ -14267,7 +14263,7 @@ scherzando
         <voice>
           <StaffText>
             <offset x="-4.87883" y="-8.27275"/>
-            <text><font size="10"/><b>Canzone Napolitana</b></text>
+            <text><font size="10"></font><b>Canzone Napolitana</b></text>
             </StaffText>
           <StaffText>
             <placement>below</placement>
@@ -14956,7 +14952,7 @@ scherzando
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="3.96297"/>
-            <text><font size="10"/><i>leggierissimo</i></text>
+            <text><font size="10"></font><i>leggierissimo</i></text>
             </StaffText>
           <Tuplet>
             <normalNotes>4</normalNotes>
@@ -15505,7 +15501,7 @@ scherzando
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="3.96297"/>
-            <text><font size="10"/><i>dolce</i></text>
+            <text><font size="10"></font><i>dolce</i></text>
             </StaffText>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -16055,7 +16051,7 @@ scherzando
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="3.96297"/>
-            <text><font size="10"/><i>smorzando</i></text>
+            <text><font size="10"></font><i>smorzando</i></text>
             </StaffText>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -17250,7 +17246,7 @@ scherzando
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="3.96297"/>
-            <text><font size="10"/><i>dolcissimo</i></text>
+            <text><font size="10"></font><i>dolcissimo</i></text>
             </StaffText>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -18136,7 +18132,7 @@ scherzando
             <offset x="2.29167" y="5.49073"/>
             </Dynamic>
           <StaffText>
-            <text><font size="10"/><i>leggierissimo</i></text>
+            <text><font size="10"></font><i>leggierissimo</i></text>
             </StaffText>
           <Spanner type="Ottava">
             <Ottava>
@@ -19260,7 +19256,7 @@ scherzando
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="3.96297"/>
-            <text><font size="10"/><i>dolcissimo</i></text>
+            <text><font size="10"></font><i>dolcissimo</i></text>
             </StaffText>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -20260,7 +20256,7 @@ scherzando
       <Measure>
         <voice>
           <StaffText>
-            <text><font size="10"/><i>leggieriss.</i></text>
+            <text><font size="10"></font><i>leggieriss.</i></text>
             </StaffText>
           <Tuplet>
             <normalNotes>4</normalNotes>
@@ -25595,7 +25591,7 @@ scherzando
             </Rest>
           <StaffText>
             <offset x="-2.24852" y="18.3047"/>
-            <text><font size="10"/><i>accelerando</i></text>
+            <text><font size="10"></font><i>accelerando</i></text>
             </StaffText>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -27150,7 +27146,7 @@ scherzando
             <durationType>32nd</durationType>
             </Rest>
           <StaffText>
-            <text><font size="10"/><i>accelerando</i></text>
+            <text><font size="10"></font><i>accelerando</i></text>
             </StaffText>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -45694,7 +45690,7 @@ scherzando
             <velocity>112</velocity>
             <family>FreeSerif</family>
             <offset x="0.59026" y="5.49073"/>
-            <text><i/><font face="ScoreText"/><i><font face="FreeSerif"/> rinforz.</i></text>
+            <text><i></i><font face="ScoreText"></font><i><font face="FreeSerif"></font> rinforz.</i></text>
             </Dynamic>
           <StaffText>
             <text>quasi cadenza</text>
@@ -70539,7 +70535,7 @@ scherzando
       <Measure>
         <voice>
           <StaffText>
-            <text><font size="10"/><i>con grazia</i></text>
+            <text><font size="10"></font><i>con grazia</i></text>
             </StaffText>
           <Spanner type="Pedal">
             <prev>
@@ -74700,7 +74696,7 @@ scherzando
           <StaffText>
             <placement>below</placement>
             <offset x="0" y="3.96297"/>
-            <text><font size="10"/><i>poco rall. e smorz.</i></text>
+            <text><font size="10"></font><i>poco rall. e smorz.</i></text>
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -84609,7 +84605,7 @@ scherzando
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio65/IV]</name>
+            <name>viio65/IV</name>
             </Harmony>
           <Chord>
             <small>1</small>
@@ -84897,7 +84893,7 @@ scherzando
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio7/V</name>
+            <name>viio7/V]</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -90186,7 +90182,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I[I{</name>
+            <name>I[I</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -91046,7 +91042,7 @@ scherzando
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6]</name>
+            <name>iio6</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -91190,7 +91186,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I|PAC}{</name>
+            <name>I]|PAC}{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -91866,7 +91862,7 @@ scherzando
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I]</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -91878,7 +91874,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V]</name>
+            <name>V</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -92278,7 +92274,7 @@ scherzando
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6]</name>
+            <name>iio6</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -92414,7 +92410,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I|PAC}</name>
+            <name>I]|PAC}</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -94286,7 +94282,7 @@ scherzando
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i[V</name>
+            <name>V</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>

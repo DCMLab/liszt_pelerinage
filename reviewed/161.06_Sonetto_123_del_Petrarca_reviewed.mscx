@@ -111,6 +111,7 @@
     <metaTag name="PDF">https://imslp.org/wiki/Special:ReverseLookup/177125</metaTag>
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="compared_against">LATEST_VERSION</metaTag>
     <metaTag name="composed_end">1858</metaTag>
     <metaTag name="composed_source">OxfordMusicOnline</metaTag>
     <metaTag name="composed_start">1838</metaTag>
@@ -212,10 +213,6 @@
         <Text>
           <style>Title</style>
           <text>Années de Pèlerinage, Deuxième année: Italie, S.161</text>
-          </Text>
-        <Text>
-          <style>Lyricist</style>
-          <text></text>
           </Text>
         </VBox>
       <Measure>
@@ -20968,6 +20965,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>viio2(#2)/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio2(#2)/V{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Tuplet>
             <normalNotes>4</normalNotes>
@@ -21931,6 +21934,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7]</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -24892,6 +24901,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I]</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>

@@ -30,7 +30,7 @@
       },
       {
         "name": "quarterbeats",
-        "title": "Offset from Beginning",
+        "title": "Offset from Beginning (leaving out alternative endings)",
         "description": "Distance of an event from the piece's beginning. By default, only second endings are taken into account to reflect the proportions of a simply playthrough without repeats.",
         "type": "string",
         "constraints": {
@@ -39,7 +39,7 @@
       },
       {
         "name": "quarterbeats_all_endings",
-        "title": "Offset from Beginning (Including Endings)",
+        "title": "Offset from Beginning (counting through alternative endings as if they were adjacent bars)",
         "description": "Distance from the piece's beginning, taking all endings into account for addressability purposes.",
         "type": "string",
         "constraints": {
@@ -144,6 +144,14 @@
         "type": "string"
       },
       {
+        "name": "TextLine",
+        "type": "string"
+      },
+      {
+        "name": "TextLine_rall.",
+        "type": "string"
+      },
+      {
         "name": "pedal",
         "title": "Pedal Point",
         "description": "Specified as Roman numeral.",
@@ -154,11 +162,7 @@
         "type": "string"
       },
       {
-        "name": "TextLine",
-        "type": "string"
-      },
-      {
-        "name": "TextLine_rall.",
+        "name": "crescendo_hairpin",
         "type": "string"
       },
       {
@@ -170,17 +174,13 @@
         "type": "string"
       },
       {
-        "name": "crescendo_hairpin",
-        "type": "string"
-      },
-      {
         "name": "Ottava:8va",
         "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "Xbq6bjpS6RmSaA",
-    "filepath": "chords/Xbq6bjpS6RmSaA.schema.yaml",
+    "identifier": "xoAZTFy4AC1v2g",
+    "filepath": "chords/xoAZTFy4AC1v2g.schema.yaml",
     "used_in": "160.05_Orage"
   },
   "creator": {
@@ -193,8 +193,8 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.4.1"
+    "softwareVersion": "2.5.4"
   },
-  "git_revision": "50754900d5906c94848c8036d925a2505a417cb5",
-  "git_tag": "v2.0"
+  "git_revision": "ccc44f774676a15ea428bf10858218e4c19d70f1",
+  "git_tag": "v2.1-29-gccc44f7"
 }

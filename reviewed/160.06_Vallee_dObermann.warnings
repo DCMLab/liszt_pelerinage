@@ -9,44 +9,6 @@ INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 9) ms3.Parse.liszt_pelerinage.16006_
 	10                1               1                   0  (11,)
 FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
 	No metronome mark found in the first measure nor anywhere else in the score.
-DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
-	propagate_pedal() failed with
-	3 organ points started, 2 ended:
-	   mc pedal    mc pedalend
-	0  18     i    18        ]
-	1  70     i    88        ]
-	2  88     V  <NA>      NaN
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
-	Phrase beginning and endings don't match:
-	mn_playthrough phraseend mn_playthrough phraseend
-	            1a         {             4a         }
-	            5a         {             8a         }
-	            9a         {            24a         }
-	           25a         {            33a         }
-	           34a         {            37a         }
-	           38a         {            41a         }
-	           42a         {            58a         }
-	           75a         {            73a         }
-	           85a        }{            85a        }{
-	           94a         {            94a         }
-	          119a         {           117a         }
-	          122a         {           121a         }
-	          124a         {           123a         }
-	          128a         {           128a         }
-	          170a         {           169a         }
-	          175a        }{           175a        }{
-	          180a         {           179a         }
-	          188a         {           187a         }
-	          192a        }{           192a        }{
-	          196a         {           195a         }
-	           NaN       NaN           212a         }
-DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
-	propagate_pedal() failed with
-	3 organ points started, 2 ended:
-	   mc pedal    mc pedalend
-	0  18     i    18        ]
-	1  70     i    88        ]
-	2  88     V  <NA>      NaN
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 48, '3/4', '#viio65') ms3.Parse.liszt_pelerinage.16006_Vallee_dObermann
 	The label '#viio65' in m. 45, onset 3/4 (MC 48, onset 3/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of e.bv, it expresses the scale degrees

@@ -31,7 +31,7 @@
       {
         "name": "quarterbeats",
         "type": "string",
-        "title": "Offset from Beginning",
+        "title": "Offset from Beginning (leaving out alternative endings)",
         "description": "Distance of an event from the piece's beginning. By default, only second endings are taken into account to reflect the proportions of a simply playthrough without repeats.",
         "constraints": {
           "pattern": "\\d+(?:\\/\\d+)?"
@@ -40,7 +40,7 @@
       {
         "name": "quarterbeats_all_endings",
         "type": "string",
-        "title": "Offset from Beginning (Including Endings)",
+        "title": "Offset from Beginning (counting through alternative endings as if they were adjacent bars)",
         "description": "Distance from the piece's beginning, taking all endings into account for addressability purposes.",
         "constraints": {
           "pattern": "\\d+(?:\\/\\d+)?"
@@ -176,11 +176,11 @@
         "description": "Specified as Roman numeral."
       },
       {
-        "name": "decrescendo_hairpin",
+        "name": "crescendo_hairpin",
         "type": "string"
       },
       {
-        "name": "crescendo_hairpin",
+        "name": "decrescendo_hairpin",
         "type": "string"
       },
       {
@@ -189,8 +189,8 @@
       }
     ],
     "facet": "chords",
-    "identifier": "07APq8szPvLezA",
-    "filepath": "chords/07APq8szPvLezA.schema.yaml",
+    "identifier": "VD5hFKH2LBJWJA",
+    "filepath": "chords/VD5hFKH2LBJWJA.schema.yaml",
     "used_in": "161.04_Sonetto_47_del_Petrarca"
   },
   "creator": {
@@ -203,8 +203,8 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.4.1"
+    "softwareVersion": "2.5.4"
   },
-  "git_revision": "50754900d5906c94848c8036d925a2505a417cb5",
-  "git_tag": "v2.0"
+  "git_revision": "ccc44f774676a15ea428bf10858218e4c19d70f1",
+  "git_tag": "v2.1-29-gccc44f7"
 }

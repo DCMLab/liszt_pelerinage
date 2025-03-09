@@ -259,10 +259,6 @@
           <style>Subtitle</style>
           <text>1. Sposalizio</text>
           </Text>
-        <Text>
-          <style>Lyricist</style>
-          <text></text>
-          </Text>
         </VBox>
       <Measure>
         <voice>
@@ -26320,7 +26316,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
