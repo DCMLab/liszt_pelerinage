@@ -36,7 +36,7 @@
         }
     ],
     "upload_type": "dataset",
-    "version": "v2.1",
+    "version": "v2.2",
     "communities": [
         {
             "identifier": "dcml"
@@ -72,7 +72,7 @@
     "related_identifiers": [
         {
             "scheme": "url",
-            "identifier": "https://github.com/DCMLab/liszt_pelerinage/tree/v2.1",
+            "identifier": "https://github.com/DCMLab/liszt_pelerinage/tree/v2.2",
             "relation": "references"
         },
         {
