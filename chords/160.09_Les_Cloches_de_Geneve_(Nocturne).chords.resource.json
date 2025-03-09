@@ -158,7 +158,7 @@
         "type": "string"
       },
       {
-        "name": "decrescendo_hairpin",
+        "name": "crescendo_hairpin",
         "type": "string"
       },
       {
@@ -166,7 +166,7 @@
         "type": "string"
       },
       {
-        "name": "crescendo_hairpin",
+        "name": "decrescendo_hairpin",
         "type": "string"
       },
       {
@@ -175,8 +175,8 @@
       }
     ],
     "facet": "chords",
-    "identifier": "V1cWcYn5q6cmSA",
-    "filepath": "chords/V1cWcYn5q6cmSA.schema.yaml",
+    "identifier": "C22BLhOTZ7R6dg",
+    "filepath": "chords/C22BLhOTZ7R6dg.schema.yaml",
     "used_in": "160.09_Les_Cloches_de_Geneve_(Nocturne)"
   },
   "creator": {
@@ -191,6 +191,6 @@
     },
     "softwareVersion": "2.5.4"
   },
-  "git_revision": "b7139d0652331d5995c859cc65bce95da88e56e3",
-  "git_tag": "v2.1"
+  "git_revision": "ccc44f774676a15ea428bf10858218e4c19d70f1",
+  "git_tag": "v2.1-29-gccc44f7"
 }

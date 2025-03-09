@@ -174,11 +174,11 @@
         "type": "string"
       },
       {
-        "name": "decrescendo_hairpin",
+        "name": "crescendo_hairpin",
         "type": "string"
       },
       {
-        "name": "crescendo_hairpin",
+        "name": "decrescendo_hairpin",
         "type": "string"
       },
       {
@@ -187,8 +187,8 @@
       }
     ],
     "facet": "chords",
-    "identifier": "2fAMH2Hteepe1Q",
-    "filepath": "chords/2fAMH2Hteepe1Q.schema.yaml",
+    "identifier": "PrIYwKkV-3FHEA",
+    "filepath": "chords/PrIYwKkV-3FHEA.schema.yaml",
     "used_in": "162.02_Canzone"
   },
   "creator": {
@@ -203,6 +203,6 @@
     },
     "softwareVersion": "2.5.4"
   },
-  "git_revision": "b7139d0652331d5995c859cc65bce95da88e56e3",
-  "git_tag": "v2.1"
+  "git_revision": "ccc44f774676a15ea428bf10858218e4c19d70f1",
+  "git_tag": "v2.1-29-gccc44f7"
 }

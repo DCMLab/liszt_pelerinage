@@ -170,27 +170,27 @@
         "description": "IDs of active slurs that a chord falls under, as a tuple of integers."
       },
       {
-        "name": "decrescendo_hairpin",
-        "type": "string"
+        "name": "pedal",
+        "type": "string",
+        "title": "Pedal Point",
+        "description": "Specified as Roman numeral."
       },
       {
         "name": "crescendo_hairpin",
         "type": "string"
       },
       {
-        "name": "Ottava:8va",
+        "name": "decrescendo_hairpin",
         "type": "string"
       },
       {
-        "name": "pedal",
-        "type": "string",
-        "title": "Pedal Point",
-        "description": "Specified as Roman numeral."
+        "name": "Ottava:8va",
+        "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "xadWMAOtUd10yw",
-    "filepath": "chords/xadWMAOtUd10yw.schema.yaml",
+    "identifier": "VD5hFKH2LBJWJA",
+    "filepath": "chords/VD5hFKH2LBJWJA.schema.yaml",
     "used_in": "161.04_Sonetto_47_del_Petrarca"
   },
   "creator": {
@@ -205,6 +205,6 @@
     },
     "softwareVersion": "2.5.4"
   },
-  "git_revision": "b7139d0652331d5995c859cc65bce95da88e56e3",
-  "git_tag": "v2.1"
+  "git_revision": "ccc44f774676a15ea428bf10858218e4c19d70f1",
+  "git_tag": "v2.1-29-gccc44f7"
 }

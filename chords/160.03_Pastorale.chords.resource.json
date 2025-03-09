@@ -144,17 +144,17 @@
         "type": "string"
       },
       {
-        "name": "decrescendo_hairpin",
+        "name": "diminuendo_line",
         "type": "string"
       },
       {
-        "name": "diminuendo_line",
+        "name": "decrescendo_hairpin",
         "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "QwM7wOjdmL7uPA",
-    "filepath": "chords/QwM7wOjdmL7uPA.schema.yaml",
+    "identifier": "TylyiUecSdDWSw",
+    "filepath": "chords/TylyiUecSdDWSw.schema.yaml",
     "used_in": "160.03_Pastorale"
   },
   "creator": {
@@ -169,6 +169,6 @@
     },
     "softwareVersion": "2.5.4"
   },
-  "git_revision": "b7139d0652331d5995c859cc65bce95da88e56e3",
-  "git_tag": "v2.1"
+  "git_revision": "ccc44f774676a15ea428bf10858218e4c19d70f1",
+  "git_tag": "v2.1-29-gccc44f7"
 }

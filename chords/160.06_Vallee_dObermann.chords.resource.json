@@ -30,7 +30,7 @@
       },
       {
         "name": "quarterbeats",
-        "title": "Offset from Beginning",
+        "title": "Offset from Beginning (leaving out alternative endings)",
         "description": "Distance of an event from the piece's beginning. By default, only second endings are taken into account to reflect the proportions of a simply playthrough without repeats.",
         "type": "string",
         "constraints": {
@@ -39,7 +39,7 @@
       },
       {
         "name": "quarterbeats_all_endings",
-        "title": "Offset from Beginning (Including Endings)",
+        "title": "Offset from Beginning (counting through alternative endings as if they were adjacent bars)",
         "description": "Distance from the piece's beginning, taking all endings into account for addressability purposes.",
         "type": "string",
         "constraints": {
@@ -148,7 +148,19 @@
         "type": "string"
       },
       {
-        "name": "diminuendo_line",
+        "name": "TextLine",
+        "type": "string"
+      },
+      {
+        "name": "TextLine_ritard.",
+        "type": "string"
+      },
+      {
+        "name": "TextLine_stringendo",
+        "type": "string"
+      },
+      {
+        "name": "crescendo_hairpin",
         "type": "string"
       },
       {
@@ -160,29 +172,17 @@
         "type": "string"
       },
       {
-        "name": "crescendo_hairpin",
+        "name": "diminuendo_line",
         "type": "string"
       },
       {
         "name": "Ottava:8va",
         "type": "string"
-      },
-      {
-        "name": "TextLine",
-        "type": "string"
-      },
-      {
-        "name": "TextLine_ritard.",
-        "type": "string"
-      },
-      {
-        "name": "TextLine_stringendo",
-        "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "twYRLrwWKiyXuw",
-    "filepath": "chords/twYRLrwWKiyXuw.schema.yaml",
+    "identifier": "guY8PwmYYCnJRw",
+    "filepath": "chords/guY8PwmYYCnJRw.schema.yaml",
     "used_in": "160.06_Vallee_dObermann"
   },
   "creator": {
@@ -195,8 +195,8 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.5.3"
+    "softwareVersion": "2.5.4"
   },
-  "git_revision": "7383eb3a2d6ab2b8ace1dcc4d3026c6d501fcf70",
-  "git_tag": "v2.1-6-g7383eb3"
+  "git_revision": "ccc44f774676a15ea428bf10858218e4c19d70f1",
+  "git_tag": "v2.1-29-gccc44f7"
 }

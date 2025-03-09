@@ -156,7 +156,7 @@
         "type": "string"
       },
       {
-        "name": "decrescendo_hairpin",
+        "name": "crescendo_hairpin",
         "type": "string"
       },
       {
@@ -164,7 +164,7 @@
         "type": "string"
       },
       {
-        "name": "crescendo_hairpin",
+        "name": "decrescendo_hairpin",
         "type": "string"
       },
       {
@@ -173,8 +173,8 @@
       }
     ],
     "facet": "chords",
-    "identifier": "j27jHP3yWx9eQw",
-    "filepath": "chords/j27jHP3yWx9eQw.schema.yaml",
+    "identifier": "_cuGE9bCqzi1Yw",
+    "filepath": "chords/_cuGE9bCqzi1Yw.schema.yaml",
     "used_in": "160.01_Chapelle_de_Guillaume_Tell"
   },
   "creator": {
@@ -189,6 +189,6 @@
     },
     "softwareVersion": "2.5.4"
   },
-  "git_revision": "b7139d0652331d5995c859cc65bce95da88e56e3",
-  "git_tag": "v2.1"
+  "git_revision": "ccc44f774676a15ea428bf10858218e4c19d70f1",
+  "git_tag": "v2.1-29-gccc44f7"
 }

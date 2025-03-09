@@ -158,11 +158,11 @@
         "type": "string"
       },
       {
-        "name": "decrescendo_hairpin",
+        "name": "crescendo_line",
         "type": "string"
       },
       {
-        "name": "crescendo_line",
+        "name": "decrescendo_hairpin",
         "type": "string"
       },
       {
@@ -171,8 +171,8 @@
       }
     ],
     "facet": "chords",
-    "identifier": "IizR5Ur0fChO2Q",
-    "filepath": "chords/IizR5Ur0fChO2Q.schema.yaml",
+    "identifier": "5UTKwo3xgYkEUw",
+    "filepath": "chords/5UTKwo3xgYkEUw.schema.yaml",
     "used_in": "160.07_Eglogue"
   },
   "creator": {
@@ -187,6 +187,6 @@
     },
     "softwareVersion": "2.5.4"
   },
-  "git_revision": "b7139d0652331d5995c859cc65bce95da88e56e3",
-  "git_tag": "v2.1"
+  "git_revision": "ccc44f774676a15ea428bf10858218e4c19d70f1",
+  "git_tag": "v2.1-29-gccc44f7"
 }
