@@ -91862,7 +91862,7 @@ scherzando
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I]</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -91874,7 +91874,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V]</name>
+            <name>V</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
