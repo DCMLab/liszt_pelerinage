@@ -44592,7 +44592,7 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI.V</name>
+            <name>VI.V{</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
