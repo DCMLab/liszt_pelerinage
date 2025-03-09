@@ -91042,7 +91042,7 @@ scherzando
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6]</name>
+            <name>iio6</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -91186,7 +91186,7 @@ scherzando
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I|PAC}{</name>
+            <name>I]|PAC}{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
